@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "51335af291e42335",
+    "type": "split",
+    "children": [
+      {
+        "id": "079f1c6f43c03ced",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c2324f26f11bc1a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a27acfe238a3a3d6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "732ecd0766a3ea37",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1d25410a9cdce85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "709660a78823c858",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2aae9a1936e7fc1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c5ef663a723b1c57",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7f379b4a02fc95f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "22cc4c1e2ed10a30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "800fd73219a3b1b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70f3205d04d31aad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "690c47e64f16949b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2f6a7a89c0237176",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "dc4ee1c40b880639",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a27acfe238a3a3d6",
+  "lastOpenFiles": [
+    "science/three-pass-approach.md",
+    "science/mestrado/CLIP/reunioes/reuniao-clip-10-10.md",
+    "science/mestrado/CLIP/papers/tai-dpt.md",
+    "science/mestrado/CLIP/papers/clip-paper.md",
+    "imgs.md",
+    "imgs/shared_space.jpg",
+    "frases.md",
+    "science",
+    "frases",
+    "science/mestrado/conceitos-gerais/softmax.md",
+    "science/mestrado/conceitos-gerais",
+    "science/mestrado/conceitos-gerais/feature-maps.md",
+    "science/mestrado/conceitos-gerais/gradcam.md",
+    "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/allonyms-gradCAM-evaluation.md",
+    "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/experimentos-iniciais.md",
+    "science/ica/under-sea/reunioes/reuniao-uts-10-10.md",
+    "science/mestrado/CLIP/reunioes/reuniao-clip-12-09.md",
+    "science/mestrado/CLIP/reunioes/reuniao-clip-26-09.md",
+    "science/ica/under-sea/reunioes",
+    "science/ica/under-sea",
+    "science/ica",
+    "science/mestrado/CLIP/experimentos/gradCAM-sinonimos",
+    "science/mestrado/CLIP/experimentos",
+    "science/mestrado/CLIP/papers/laion-400m.md",
+    "science/mestrado/CLIP/reunioes",
+    "imgs/softmax-formula.png",
+    "imgs",
+    "science/mestrado/fundamentos-visao-comp/index.md",
+    "science/mestrado/fundamentos-visao-comp/lista-5.md",
+    "science/mestrado/fundamentos-visao-comp/lista-4.md",
+    "science/mestrado/fundamentos-visao-comp/lista-2.md",
+    "science/mestrado/fundamentos-visao-comp/lista-3.md",
+    "science/mestrado/fundamentos-visao-comp/lista-1.md",
+    "science/mestrado/fundamentos-visao-comp/notas-prova-2.md",
+    "science/mestrado/fundamentos-visao-comp/notas-prova-1.md",
+    "science/mestrado/fundamentos-visao-comp/Coordenadas homogeneas.md",
+    "Computer Science.md",
+    "Home.md"
+  ]
+}
