@@ -4,29 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "079f1c6f43c03ced",
+        "id": "0f58e88f3c94d72e",
         "type": "tabs",
         "children": [
           {
-            "id": "1c2324f26f11bc1a",
+            "id": "f6fe55771e4822d1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a27acfe238a3a3d6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "science/mestrado/CLIP/papers/tai-dpt.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7f379b4a02fc95f0",
@@ -92,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "science/mestrado/CLIP/papers/tai-dpt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "science/mestrado/CLIP/papers/tai-dpt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "science/mestrado/CLIP/papers/tai-dpt.md"
+              }
             }
           },
           {
@@ -159,12 +157,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a27acfe238a3a3d6",
+  "active": "f6fe55771e4822d1",
   "lastOpenFiles": [
+    "science/mestrado/CLIP/papers/clip-paper.md",
+    "science/mestrado/CLIP/papers/tai-dpt.md",
     "science/three-pass-approach.md",
     "science/mestrado/CLIP/reunioes/reuniao-clip-10-10.md",
-    "science/mestrado/CLIP/papers/tai-dpt.md",
-    "science/mestrado/CLIP/papers/clip-paper.md",
     "imgs.md",
     "imgs/shared_space.jpg",
     "frases.md",

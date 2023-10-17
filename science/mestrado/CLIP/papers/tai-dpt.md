@@ -26,3 +26,8 @@ For me it is not well written, I know that I lack some background to understand 
 
 ![contrastive loss shared space](/imgs/shared_space.jpg)
 Using contrastive loss* to align image and text embeddings into a *shared space*.
+
+Assuming that text and image enbeddings are in a shared space, they can develop a prompt training by closing the cosine distance between the prompts and the target label text.
+
+By doing so, they can train using only text, and test by using only images against their learned prompts.
+
