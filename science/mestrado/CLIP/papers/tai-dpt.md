@@ -31,3 +31,17 @@ Assuming that text and image enbeddings are in a shared space, they can develop 
 
 By doing so, they can train using only text, and test by using only images against their learned prompts.
 
+## Snowballing
+
+- **Datasets**: MS-COCO, NUS-WIDE
+- **contrastive loss**: CLIP paper
+- **open images**: Openimages: A public dataset for large-scale multi-label and multi-class image classification.
+- **ranking loss**: Deep convolutional ranking for multilabel image annotation.
+- **prompt tuning** [13,17,34,39,41,42]:
+	- Domain adaptation via prompt learning.
+	- Visual prompt tuning
+	- Cpt: Colorful prompt tuning for pre-trained vision-language models
+	- Neural prompt search
+	- Learning to prompt for vision-language models
+	- Prompt-aligned gradient for prompt tuning
+	- 
