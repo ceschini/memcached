@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "756da4448258920d",
+        "id": "8c8cb242044d6fc3",
         "type": "tabs",
         "children": [
           {
-            "id": "af863453c8462193",
+            "id": "e46a058c30eba79b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "240948663825f133",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md"
+              }
             }
           }
         ],
@@ -141,13 +149,13 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "b270274844d0a685",
-  "lastOpenFiles": []
+  "active": "e46a058c30eba79b",
+  "lastOpenFiles": [
+    "science/ica/under-sea/papers/color-spaces-SR.md",
+    "science/ica/under-sea/papers/color-spaces-SR 1.md"
+  ]
 }
