@@ -1,4 +1,5 @@
 # How to Read a Paper
+
 S.Keshav
 
 The author developed a efficient approach to read and digest research papers. Giving a protocol to follow when running a survey or exploring papers: the **_Three-pass approach_**.
@@ -23,6 +24,14 @@ At the end of the first pass, you should be able to answer the _five Cs_:
 5. _Clarity_: Is the paper well written?
 
 This first pass is what most reviewers and readers will do in order to decide if your paper is relevant or not. So take extra care to deliver it in the best way possible.
+
+### My version of it
+
+To me, some Cs doesn't mean much. I like to think about the first pass as an initial way to briefly describe the paper to someone. So, in that sense, after the first pass, instead of answering the five Cs, we can write a single paragraph stating:
+
+- What is the paper main problem
+- What is the paper suggested solution
+- What is the paper main contribution
 
 ## The second pass
 
@@ -61,8 +70,8 @@ These papers represent the first version of the survey.
 ## Related works
 
 T. Roscoe, “Writing Reviews for Systems
-Conferences,” http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf.
+Conferences,” <http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf>.
 
-H. Schulzrinne, “Writing Technical Articles,” http://www.cs.columbia.edu/hgs/etc/writing-style.html.
+H. Schulzrinne, “Writing Technical Articles,” <http://www.cs.columbia.edu/hgs/etc/writing-style.html>.
 
-G.M. Whitesides, “Whitesides’ Group: Writing a Paper,” http://www.che.iitm.ac.in/misc/dd/writepaper.pdf.
+G.M. Whitesides, “Whitesides’ Group: Writing a Paper,” <http://www.che.iitm.ac.in/misc/dd/writepaper.pdf>.
