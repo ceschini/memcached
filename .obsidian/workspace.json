@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md",
+                "file": "science/mestrado/CLIP/papers/clip-paper.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "analyse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "240948663825f133",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md",
+                "file": "science/mestrado/CLIP/papers/clip-paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md",
+                "file": "science/mestrado/CLIP/papers/clip-paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "science/ica/under-sea/papers/color-spaces-SR 1.md"
+                "file": "science/mestrado/CLIP/papers/clip-paper.md"
               }
             }
           }
@@ -156,6 +155,6 @@
   "active": "e46a058c30eba79b",
   "lastOpenFiles": [
     "science/ica/under-sea/papers/color-spaces-SR.md",
-    "science/ica/under-sea/papers/color-spaces-SR 1.md"
+    "science/ica/under-sea/papers/color-spaces-SR.md"
   ]
 }
