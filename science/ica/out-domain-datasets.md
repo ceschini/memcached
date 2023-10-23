@@ -11,7 +11,7 @@ Here are an up-to-date list of datasets being explored, followed by a brief info
 
 ## About datasets
 
-The early look at the dataset's papers we can suppose that we will not be able to use every image on them, but in fact we'll have to filter them in some way to not completely disrupt training.
+In the early look at the dataset's papers we can suppose that we will not be able to use every image on them, but in fact we'll have to filter them in some way to not completely disrupt training.
 
 ### ICDAR 2019
 
@@ -28,3 +28,7 @@ This is a dataset containing labeled text classes on images, such as "Motel", "P
 ## Tabular info
 
 We should think about organizing info about the datasets in a tabular form, columns should include something like: Name, Size, task, resolution. And some qualitative columns as well.
+
+## Initial image set exploration
+
+Because of image text recognition, OCR, visual text comprehension and other related tasks, the authors do not worry about image resolution, but instead look for a large enough corpus to enable deep learning training. Because of that, we should filter images by resolution and look into more specific image datasets tasks, that provide **high resolution images**.

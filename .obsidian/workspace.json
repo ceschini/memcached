@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,10 +153,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a597f82d123e5968",
+  "active": "f5de114a2fabf6a8",
   "lastOpenFiles": [
-    "science/mestrado/CLIP/papers/clip-paper.md",
+    "Untitled.md",
     "science/ica/out-domain-datasets.md",
+    "science/mestrado/CLIP/papers/clip-paper.md",
     "science/ica/under-sea/papers/color-spaces-SR.md",
     "science/ica/under-sea/papers/color-spaces-SR.md"
   ]
