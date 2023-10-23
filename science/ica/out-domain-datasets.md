@@ -25,3 +25,6 @@ This is a dataset for image captioning with reading comprehension. They argue th
 
 This is a dataset containing labeled text classes on images, such as "Motel", "Police", "Restaurant". It is queried from Google image search and passed through an image text recognizer and manual labeling. It contains 10K images with 10–50 occurrences of each query word. The images are in a more standard and frontal view and could be useful to us.
 
+## Tabular info
+
+We should think about organizing info about the datasets in a tabular form, columns should include something like: Name, Size, task, resolution. And some qualitative columns as well.
