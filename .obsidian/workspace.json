@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e46a058c30eba79b",
+            "id": "f5de114a2fabf6a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "science/mestrado/CLIP/papers/clip-paper.md",
+                "file": "science/ica/out-domain-datasets.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "science/mestrado/CLIP/papers/clip-paper.md",
+                "file": "science/ica/out-domain-datasets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "science/mestrado/CLIP/papers/clip-paper.md",
+                "file": "science/ica/out-domain-datasets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "science/mestrado/CLIP/papers/clip-paper.md"
+                "file": "science/ica/out-domain-datasets.md"
               }
             }
           }
@@ -152,8 +153,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e46a058c30eba79b",
+  "active": "a597f82d123e5968",
   "lastOpenFiles": [
+    "science/mestrado/CLIP/papers/clip-paper.md",
+    "science/ica/out-domain-datasets.md",
     "science/ica/under-sea/papers/color-spaces-SR.md",
     "science/ica/under-sea/papers/color-spaces-SR.md"
   ]

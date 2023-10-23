@@ -1,4 +1,11 @@
 {
   "strictLineBreaks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheckDictionary": [
+    "ICDAR",
+    "TextCaps",
+    "ICDAR",
+    "ST-VQA",
+    "IIIT"
+  ]
 }

@@ -18,3 +18,4 @@ There are a lot of concepts and papers that I should look into before grasping w
 
 The key aspect that I should try to understand is the contrastive learning technique that allowed the image and text embeddings to share a common space.
 
+"A simplified version of ConVIRT trained from scratch, which we call CLIP, for **Contrastive Language-Image Pre-training**, is an efficient method of learning from natural language supervision."
