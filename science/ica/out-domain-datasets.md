@@ -32,3 +32,7 @@ We should think about organizing info about the datasets in a tabular form, colu
 ## Initial image set exploration
 
 Because of image text recognition, OCR, visual text comprehension and other related tasks, the authors do not worry about image resolution, but instead look for a large enough corpus to enable deep learning training. Because of that, we should filter images by resolution and look into more specific image datasets tasks, that provide **high resolution images**.
+
+## OCR on super res datasets
+
+Maybe we could download a lot of super resolution datasets and run OCR models in order to grab only images containing texts. This way we can make sure that all the images are of a high resolution while still containing text.

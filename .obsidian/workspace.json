@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -153,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5de114a2fabf6a8",
+  "active": "a597f82d123e5968",
   "lastOpenFiles": [
     "Untitled.md",
     "science/ica/out-domain-datasets.md",
