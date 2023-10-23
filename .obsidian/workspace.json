@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8c8cb242044d6fc3",
+        "id": "f6c63221442b6571",
         "type": "tabs",
         "children": [
           {
-            "id": "f5de114a2fabf6a8",
+            "id": "01bbc4528e433fa3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "science/ica/out-domain-datasets.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "240948663825f133",
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "science/ica/out-domain-datasets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "science/ica/out-domain-datasets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "science/ica/out-domain-datasets.md"
-              }
+              "state": {}
             }
           }
         ],

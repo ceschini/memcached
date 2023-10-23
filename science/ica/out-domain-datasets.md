@@ -36,3 +36,5 @@ Because of image text recognition, OCR, visual text comprehension and other rela
 ## OCR on super res datasets
 
 Maybe we could download a lot of super resolution datasets and run OCR models in order to grab only images containing texts. This way we can make sure that all the images are of a high resolution while still containing text.
+
+Jhjhjhj
