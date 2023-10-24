@@ -1,0 +1,3 @@
+# What does CLIP know about a red circle? Visual prompt engineering for VLMs
+
+They improved CLIP performance over specific tasks by exploring visual prompting. They added different markings over images in order to explore CLIP behavior. Likewise, they found that circles are better than arrows, squares or crosses, and that by simply circling regions of interest they could improve state-of-the-art performance on zero-shot referring expression comprehension tasks. Furthermore, they also found ethical concerns over the added red circles, like biases indicating that labels like murderer or missing person were more activated compared to person, man or woman.

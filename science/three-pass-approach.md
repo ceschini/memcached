@@ -31,7 +31,7 @@ To me, some Cs doesn't mean much. I like to think about the first pass as an ini
 
 - What is the paper main problem
 - What is the paper suggested solution
-- What is the paper main contribution
+- What is the paper main contributions
 
 ## The second pass
 
