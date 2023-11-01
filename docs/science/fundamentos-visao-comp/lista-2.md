@@ -28,15 +28,13 @@ Do ponto de vista computacional, a filtragem no domínio espacial é vantajosa n
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0b9314b-b51c-46ad-8178-eb5d657e6234/Untitled.png)
 
-[[mais aqui]](https://thewolfsound.com/mathematical-properties-of-convolution/)
-
 ### 7) [CMP 197] Mostre que se Hlp(w) é a transformada de Fourier de um filtro passa-baixas, então Hhp(w) = 1 - Hlp(w) é a transformada de Fourier de um filtro passa-altas.
 
 Se Hlp(w) é um filtro passa-baixa, isso quer dizer que os valores acima do limiar definido serão zerados, mantendo assim apenas os valores menores. Com isso, podemos concluir que um filtro passa-alta é justamente o contrário, isso é, ele mantém todos aqueles valores acima do limiar, podendo ser descrito como 1 - Hlp(w).
 
 ### 8) Queremos aplicar um filtro da média 5x5 para reduzir o ruído em uma imagem, e após um filtro ************unsharp mask************ para realçar os detalhes. Se trocarmos a ordem de aplicação desses filtros, a imagem resultante seria afetada? Justifique.
 
-Sim, pois os ruídos atuais da imagem seriam atenuados pelo unsharp, reduzindo assim a eficácia do filtro da média. [[ref]](https://masteryournikon.com/2018/09/25/should-i-sharpen-an-image-before-or-after-noise-reduction/)
+Sim, pois os ruídos atuais da imagem seriam atenuados pelo unsharp, reduzindo assim a eficácia do filtro da média.
 
 ### 9) Descreva um procedimento para achar um mapa de bordas binário em uma imagem monocromática usando máscaras de Sobel. Se a imagem for colorida, o que podemos fazer?
 
