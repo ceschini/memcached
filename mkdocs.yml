@@ -1,1 +1,43 @@
 site_name: My Weird-ass Brain
+site_url: https://groovy-lizard.gitlab.io/my-weirdass-brain
+site_dir: public
+docs_dir: ./docs
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<ceschini.lucas@gmail.com>
+    - icon: fontawesome/brands/mastodon
+      link: https://ursal.zone/@leftopath
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - footnotes
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - admonition
+
+plugins:
+  - search
+  - roamlinks
