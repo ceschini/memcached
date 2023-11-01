@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "e46dbfe166018aac",
+    "type": "split",
+    "children": [
+      {
+        "id": "509ba53c8d44c7fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f500c68af88f37f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ica/under-sea/temporal-compression/survey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0086191f88aa04c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "de87fee4f62f7794",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9261622db6d67bed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a802719b862a9934",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "analyse",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "573047711a6a03bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a597f82d123e5968",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5
+  },
+  "right": {
+    "id": "240948663825f133",
+    "type": "split",
+    "children": [
+      {
+        "id": "f744b00107c317a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ee67e6c647ee6d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/ica/under-sea/temporal-compression/survey.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73d7969f53fa1a72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/ica/under-sea/temporal-compression/survey.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7a556dc983fc8747",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b270274844d0a685",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/ica/under-sea/temporal-compression/survey.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "f500c68af88f37f5",
+  "lastOpenFiles": [
+    "docs/index.md",
+    "docs/ica/under-sea/temporal-compression/survey.md",
+    "docs/science/three-pass-approach.md",
+    "docs/ica/under-sea/out-domain-datasets.md",
+    "docs/ica/under-sea/temporal-compression",
+    "Untitled.md",
+    "docs/mestrado/CLIP/reunioes/reuniao-clip-31-10.md",
+    "docs/ica/palestra/resumo.md",
+    "docs/ica/palestra/mini-curriculo.md",
+    "docs/ica/palestra/estrutura.md",
+    "docs/mestrado/CLIP/papers/clip-paper.md",
+    "docs/ica/palestra",
+    "science/ica/out-domain-datasets.md",
+    "science/mestrado/CLIP/ideas.md",
+    "science/mestrado/CLIP/papers/learn-name-classes.md",
+    "science/mestrado/CLIP/papers/conceptual-captions.md",
+    "science/mestrado/CLIP/papers/clip-red-circle.md",
+    "science/three-pass-approach.md",
+    "science/mestrado/CLIP/papers/tai-dpt.md",
+    "science/mestrado/CLIP/papers/laion-400m.md",
+    "science/mestrado/CLIP/papers/clip-paper.md",
+    "science/mestrado/CLIP/reunioes/reuniao-clip-26-09.md",
+    "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/experimentos-iniciais.md",
+    "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/allonyms-gradCAM-evaluation.md",
+    "science/ica/under-sea/reunioes/reuniao-uts-24-10.md",
+    "science/ica/under-sea/reunioes/reuniao-uts-10-10.md",
+    "science/ica/under-sea/papers/color-spaces-SR.md",
+    "science/ica/under-sea/papers/color-spaces-SR.md"
+  ]
+}

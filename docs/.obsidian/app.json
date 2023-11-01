@@ -33,6 +33,26 @@
     "tasks",
     "batch",
     "size",
-    "Hypernymed"
-  ]
+    "Hypernymed",
+    "CLIP",
+    "Background",
+    "Contrastive",
+    "Language",
+    "Image",
+    "ConVIRT",
+    "NLP",
+    "NLP",
+    "IoHT",
+    "cities",
+    "smart",
+    "PixForce",
+    "Unisinos",
+    "Ceschini",
+    "Munoz",
+    "Procesamento",
+    "Deep",
+    "learning",
+    "Scinapse"
+  ],
+  "spellcheck": false
 }
