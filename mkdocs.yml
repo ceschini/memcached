@@ -12,9 +12,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
-    - navigation.tabs
     - navigation.sections
-    - navigation.top
 
 extra:
   social:
