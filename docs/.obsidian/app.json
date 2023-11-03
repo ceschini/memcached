@@ -69,9 +69,12 @@
     "Cynuit",
     " Uhtre",
     "Lothbrook",
-    "Cornwell"
+    "Cornwell",
+    "kth"
   ],
   "spellcheck": false,
   "showInlineTitle": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "img",
+  "alwaysUpdateLinks": true
 }

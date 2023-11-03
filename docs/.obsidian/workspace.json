@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dcbf8b1a6234878b",
+        "id": "e1772aa825bc6dfd",
         "type": "tabs",
         "children": [
           {
-            "id": "6594c159e71c1806",
+            "id": "09bd06c5057964b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31d84de7466374e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lore/cronicas-saxonicas/index.md",
+                "file": "science/general-concepts/rnns.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "analyse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 282.5,
+    "collapsed": true
   },
   "right": {
     "id": "240948663825f133",
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
+                "file": "science/general-concepts/rnns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
+                "file": "science/general-concepts/rnns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md"
+                "file": "science/general-concepts/rnns.md"
               }
             }
           }
@@ -166,25 +154,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6594c159e71c1806",
+  "active": "09bd06c5057964b6",
   "lastOpenFiles": [
-    "lore/cronicas-saxonicas/index.md",
+    "img/rnn-unfolding-loop.jpg",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
-    "mestrado/CLIP/bias.md",
-    "lore/cronicas-saxonicas/livro-1-reino-perdido.md",
-    "lore/Ruff Ghanor/livro-1-o-garoto-cabra.md",
-    "lore/Ruff Ghanor/livro-3-o-melhor-amigo-do-homem.md",
-    "lore/Ruff Ghanor",
-    "lore/cronicas-saxonicas/livro-2-cavaleiro-da-morte.md",
-    "Untitled.md",
-    "lore/cronicas-saxonicas",
-    "lore",
     "ica/under-sea/temporal-compression/survey.md",
+    "img/rnn-feedback-loop.jpg",
+    "science/general-concepts/rnns.md",
+    "lore/cronicas-saxonicas/index.md",
+    "index.md",
+    "lore/cronicas-saxonicas/livro-1-reino-perdido.md",
+    "mestrado/CLIP/bias.md",
+    "lore/cronicas-saxonicas/livro-2-cavaleiro-da-morte.md",
+    "lore/Ruff Ghanor/livro-3-o-melhor-amigo-do-homem.md",
+    "lore/Ruff Ghanor/livro-1-o-garoto-cabra.md",
+    "lore/cronicas-saxonicas",
+    "lore/Ruff Ghanor",
+    "lore",
     "docs/index.md",
     "docs/ica/under-sea/temporal-compression/survey.md",
     "docs/science/three-pass-approach.md",
     "docs/ica/under-sea/out-domain-datasets.md",
     "docs/ica/under-sea/temporal-compression",
+    "Untitled.md",
     "docs/mestrado/CLIP/reunioes/reuniao-clip-31-10.md",
     "docs/ica/palestra/resumo.md",
     "docs/ica/palestra/mini-curriculo.md",
@@ -195,9 +187,6 @@
     "science/mestrado/CLIP/ideas.md",
     "science/mestrado/CLIP/papers/learn-name-classes.md",
     "science/mestrado/CLIP/papers/conceptual-captions.md",
-    "science/mestrado/CLIP/papers/clip-red-circle.md",
-    "science/three-pass-approach.md",
-    "science/mestrado/CLIP/papers/tai-dpt.md",
-    "science/mestrado/CLIP/papers/laion-400m.md"
+    "science/mestrado/CLIP/papers/clip-red-circle.md"
   ]
 }
