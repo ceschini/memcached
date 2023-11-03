@@ -1,2 +1,3 @@
 # Learning for Video Compression With Recurrent Auto-Encoder and Recurrent Probability Model
 
+They explored the use of RNNs for video compression. By using a wide range of video frames, they could explore temporal correlation in order to improve compression. A framework was designed and is built upon a Recurrent Auto-Encoder (RAE) and a Recurrent Probability Model (RPM). The former can explore all frames in order to compress the current one, and the latter is able to achieve lower bit-rate to compress a frame by leveraging entropy coding. This approach exploited both pixel and latent domains for compressing upcoming frames.
