@@ -10,15 +10,15 @@
 
 ## Background
 
-1. NLP
-2. Treinamento com imagem e texto
-3. Supervisão com NLP
-4. O modelo ConVIRT
+6. NLP
+7. Treinamento com imagem e texto
+8. Supervisão com NLP
+9. O modelo ConVIRT
 
 ## CLIP
 
-1. Como funciona
-2. O que ele faz
-3. Limitações
-4. Vieses
-5. Conclusões
+10. Como funciona
+11. O que ele faz
+12. Limitações
+13. Vieses
+14. Conclusões
