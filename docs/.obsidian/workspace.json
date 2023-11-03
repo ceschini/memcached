@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lore/cronicas-saxonicas/index.md",
+                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lore/cronicas-saxonicas/index.md",
+                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lore/cronicas-saxonicas/index.md"
+                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md"
               }
             }
           }
@@ -166,10 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31d84de7466374e2",
+  "active": "6594c159e71c1806",
   "lastOpenFiles": [
-    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "lore/cronicas-saxonicas/index.md",
+    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "mestrado/CLIP/bias.md",
     "lore/cronicas-saxonicas/livro-1-reino-perdido.md",
     "lore/Ruff Ghanor/livro-1-o-garoto-cabra.md",
