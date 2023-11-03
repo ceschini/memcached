@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "science/general-concepts/rnns.md",
+                "file": "guides/docker-tips.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "240948663825f133",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "science/general-concepts/rnns.md",
+                "file": "guides/docker-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "science/general-concepts/rnns.md",
+                "file": "guides/docker-tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "science/general-concepts/rnns.md"
+                "file": "guides/docker-tips.md"
               }
             }
           }
@@ -156,13 +155,19 @@
   },
   "active": "09bd06c5057964b6",
   "lastOpenFiles": [
+    "guides/tmux-cs.md",
+    "guides/jupyter-nb.md",
+    "science/general-concepts/softmax.md",
+    "science/general-concepts/rnns.md",
+    "science/general-concepts/jpeg.md",
+    "guides/ssh-access.md",
+    "guides/docker-tips.md",
+    "index.md",
     "img/rnn-unfolding-loop.jpg",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "ica/under-sea/temporal-compression/survey.md",
     "img/rnn-feedback-loop.jpg",
-    "science/general-concepts/rnns.md",
     "lore/cronicas-saxonicas/index.md",
-    "index.md",
     "lore/cronicas-saxonicas/livro-1-reino-perdido.md",
     "mestrado/CLIP/bias.md",
     "lore/cronicas-saxonicas/livro-2-cavaleiro-da-morte.md",
@@ -182,11 +187,6 @@
     "docs/ica/palestra/mini-curriculo.md",
     "docs/ica/palestra/estrutura.md",
     "docs/mestrado/CLIP/papers/clip-paper.md",
-    "docs/ica/palestra",
-    "science/ica/out-domain-datasets.md",
-    "science/mestrado/CLIP/ideas.md",
-    "science/mestrado/CLIP/papers/learn-name-classes.md",
-    "science/mestrado/CLIP/papers/conceptual-captions.md",
-    "science/mestrado/CLIP/papers/clip-red-circle.md"
+    "docs/ica/palestra"
   ]
 }
