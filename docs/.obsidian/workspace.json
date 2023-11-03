@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "509ba53c8d44c7fa",
+        "id": "40749c92866593c8",
         "type": "tabs",
         "children": [
           {
-            "id": "f500c68af88f37f5",
+            "id": "3c68f586ce7b8250",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ica/under-sea/temporal-compression/survey.md",
+                "file": "ica/under-sea/temporal-compression/survey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9961b56d304bb5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ica/under-sea/temporal-compression/survey.md",
+                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ica/under-sea/temporal-compression/survey.md",
+                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ica/under-sea/temporal-compression/survey.md"
+                "file": "ica/under-sea/temporal-compression/learning-video-compression-rnn.md"
               }
             }
           }
@@ -153,8 +166,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f500c68af88f37f5",
+  "active": "a9961b56d304bb5e",
   "lastOpenFiles": [
+    "ica/under-sea/temporal-compression/survey.md",
+    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "docs/index.md",
     "docs/ica/under-sea/temporal-compression/survey.md",
     "docs/science/three-pass-approach.md",
@@ -180,8 +195,6 @@
     "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/experimentos-iniciais.md",
     "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/allonyms-gradCAM-evaluation.md",
     "science/ica/under-sea/reunioes/reuniao-uts-24-10.md",
-    "science/ica/under-sea/reunioes/reuniao-uts-10-10.md",
-    "science/ica/under-sea/papers/color-spaces-SR.md",
-    "science/ica/under-sea/papers/color-spaces-SR.md"
+    "science/ica/under-sea/reunioes/reuniao-uts-10-10.md"
   ]
 }
