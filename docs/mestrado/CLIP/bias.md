@@ -19,4 +19,3 @@ They just reported how adding red circles over man and women images excite the m
 ## Parisot's Learning to Name Classes for VLMs
 
 I will have to read the paper in order to understand how the authors suggest that we can use their work to interpret model biases.
-

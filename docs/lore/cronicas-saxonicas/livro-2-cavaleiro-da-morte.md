@@ -1,0 +1,5 @@
+# Livro 2: O Cavaleiro da Morte
+
+Depois da batalha em Cynuit, onde Uhtred matou Ubba, o guerreiro então decide ir para casa ver sua mulher e filho ao invés de reportar a Alfredo, como sugerido por Leofric, o rabugento amigo guerreiro de Uhtred. Com isso, o jovem Odda acaba dando a notícia e ficando com o crédito pela morte do chefe dinamarquês. 
+
+Como se era esperado, ao chegar em Exancaester onde o exército de Alfredo está sitiando Guthrum, Uhtred encontra Odda sendo agraciado por ter supostamente matado Ubba, entregado o grande estandarte e o machado de guerra aos pés do rei. Uhtred então se enfurece e faz um grande alvoroço durante uma das cerimônias cristãs de Alfredo, assim recebendo sua fúria. É deposto do seu cargo como chefe da frota e acaba sendo punido com humilhação por insultar a igreja. Assim, Uhtred se encontra sob os cuidados de Wulfhere, o primo do Rei, que também deve cuidar de Aethelwold, o primo do rei que só não ascendeu ao seu posto, pois não tinha idade suficiente, e agora anseia por realeza enquanto bebe e fornica com prostitutas, sempre reclamando de como seu primo não o deixa lutar e assim ganhar nome.

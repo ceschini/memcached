@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "40749c92866593c8",
+        "id": "dcbf8b1a6234878b",
         "type": "tabs",
         "children": [
           {
-            "id": "3c68f586ce7b8250",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9961b56d304bb5e",
+            "id": "6594c159e71c1806",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "analyse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,8 +153,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a9961b56d304bb5e",
+  "active": "6594c159e71c1806",
   "lastOpenFiles": [
+    "mestrado/CLIP/bias.md",
+    "lore/cronicas-saxonicas/livro-1-reino-perdido.md",
+    "lore/Ruff Ghanor/livro-1-o-garoto-cabra.md",
+    "lore/Ruff Ghanor/livro-3-o-melhor-amigo-do-homem.md",
+    "lore/Ruff Ghanor",
+    "lore/cronicas-saxonicas/livro-2-cavaleiro-da-morte.md",
+    "Untitled.md",
+    "lore/cronicas-saxonicas",
+    "lore",
     "ica/under-sea/temporal-compression/survey.md",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "docs/index.md",
@@ -175,7 +171,6 @@
     "docs/science/three-pass-approach.md",
     "docs/ica/under-sea/out-domain-datasets.md",
     "docs/ica/under-sea/temporal-compression",
-    "Untitled.md",
     "docs/mestrado/CLIP/reunioes/reuniao-clip-31-10.md",
     "docs/ica/palestra/resumo.md",
     "docs/ica/palestra/mini-curriculo.md",
@@ -190,11 +185,6 @@
     "science/three-pass-approach.md",
     "science/mestrado/CLIP/papers/tai-dpt.md",
     "science/mestrado/CLIP/papers/laion-400m.md",
-    "science/mestrado/CLIP/papers/clip-paper.md",
-    "science/mestrado/CLIP/reunioes/reuniao-clip-26-09.md",
-    "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/experimentos-iniciais.md",
-    "science/mestrado/CLIP/experimentos/gradCAM-sinonimos/allonyms-gradCAM-evaluation.md",
-    "science/ica/under-sea/reunioes/reuniao-uts-24-10.md",
-    "science/ica/under-sea/reunioes/reuniao-uts-10-10.md"
+    "science/mestrado/CLIP/papers/clip-paper.md"
   ]
 }
