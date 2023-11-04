@@ -70,7 +70,11 @@
     " Uhtre",
     "Lothbrook",
     "Cornwell",
-    "kth"
+    "kth",
+    "Debiasing",
+    "debiasing",
+    "FairFace",
+    "Parisot"
   ],
   "spellcheck": false,
   "showInlineTitle": false,

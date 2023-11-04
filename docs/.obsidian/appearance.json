@@ -1,6 +1,7 @@
 {
-  "accentColor": "#46288a",
+  "accentColor": "",
   "cssTheme": "Things",
   "showViewHeader": false,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "theme": "obsidian"
 }

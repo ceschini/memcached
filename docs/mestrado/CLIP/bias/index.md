@@ -19,3 +19,9 @@ They just reported how adding red circles over man and women images excite the m
 ## Parisot's Learning to Name Classes for VLMs
 
 I will have to read the paper in order to understand how the authors suggest that we can use their work to interpret model biases.
+
+## Snowballing
+
+- A Prompt Array Keeps the Bias Away: Debiasing Vision-Language Models with Adversarial Learning
+- Are Gender-Neutral Queries Really Gender-Neutral? Mitigating Gender Bias in Image Search
+- [[debiasing-vlms-via-bias | Debiasing Vision-Language Models via Biased Prompts]]

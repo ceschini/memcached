@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "dcbf8b1a6234878b",
+        "id": "e23dafd6550de2b9",
         "type": "tabs",
         "children": [
           {
-            "id": "6594c159e71c1806",
+            "id": "35030945010f6e95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "science/computer-vision/image-quality-assessment.md",
+                "file": "mestrado/CLIP/bias/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "31d84de7466374e2",
+            "id": "995fd5ed6e38cf27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lore/cronicas-saxonicas/index.md",
+                "file": "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "science/computer-vision/image-quality-assessment.md",
+                "file": "mestrado/CLIP/bias/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "science/computer-vision/image-quality-assessment.md",
+                "file": "mestrado/CLIP/bias/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "science/computer-vision/image-quality-assessment.md"
+                "file": "mestrado/CLIP/bias/index.md"
               }
             }
           }
@@ -165,8 +165,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6594c159e71c1806",
+  "active": "35030945010f6e95",
   "lastOpenFiles": [
+    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
+    "mestrado/CLIP/bias/index.md",
+    "Debiasing Vision-Language Models via Biased Prompts.md",
+    "mestrado/CLIP/bias",
+    "lore/cronicas-saxonicas/index.md",
+    "science/computer-vision/image-quality-assessment.md",
     "img/erqa-example.png",
     "ica/palestra/estrutura.md",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
@@ -186,7 +192,6 @@
     "science/computer-vision/fundamentos-visao-computacional/index.md",
     "science/computer-vision/fundamentos-visao-computacional/Coordenadas homogeneas.md",
     "science/computer-vision/jpeg.md",
-    "science/computer-vision/image-quality-assessment.md",
     "science/computer-vision/fundamentos-visao-computacional",
     "science/computer-vision",
     "img/rnn-unfolding-loop.jpg",
@@ -196,10 +201,7 @@
     "guides/jupyter-nb.md",
     "guides/docker-tips.md",
     "guides",
-    "lore/cronicas-saxonicas/index.md",
-    "mestrado/CLIP/bias.md",
     "lore/cronicas-saxonicas/livro-1-reino-perdido.md",
-    "lore/Ruff Ghanor/livro-1-o-garoto-cabra.md",
     "lore/Ruff Ghanor",
     "lore/cronicas-saxonicas",
     "lore",
