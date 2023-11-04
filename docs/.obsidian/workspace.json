@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb33f9c853277aee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mestrado/CLIP/bias/prompt-array-bias-away.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,11 +98,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 282.5,
+    "collapsed": true
   },
   "right": {
     "id": "240948663825f133",
@@ -105,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mestrado/CLIP/bias/index.md",
+                "file": "mestrado/CLIP/bias/prompt-array-bias-away.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mestrado/CLIP/bias/index.md",
+                "file": "mestrado/CLIP/bias/prompt-array-bias-away.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mestrado/CLIP/bias/index.md"
+                "file": "mestrado/CLIP/bias/prompt-array-bias-away.md"
               }
             }
           }
@@ -165,9 +180,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35030945010f6e95",
+  "active": "eb33f9c853277aee",
   "lastOpenFiles": [
     "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
+    "mestrado/CLIP/bias/prompt-array-bias-away.md",
     "mestrado/CLIP/bias/index.md",
     "Debiasing Vision-Language Models via Biased Prompts.md",
     "mestrado/CLIP/bias",
@@ -201,7 +217,6 @@
     "guides/jupyter-nb.md",
     "guides/docker-tips.md",
     "guides",
-    "lore/cronicas-saxonicas/livro-1-reino-perdido.md",
     "lore/Ruff Ghanor",
     "lore/cronicas-saxonicas",
     "lore",

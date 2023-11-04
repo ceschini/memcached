@@ -74,7 +74,9 @@
     "Debiasing",
     "debiasing",
     "FairFace",
-    "Parisot"
+    "Parisot",
+    "embedings",
+    "degradations"
   ],
   "spellcheck": false,
   "showInlineTitle": false,
