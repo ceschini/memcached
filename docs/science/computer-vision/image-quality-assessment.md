@@ -50,7 +50,7 @@ Assuming a basis hypothesis that edges are significant for detail preservation, 
 - **False Positive**: Number of pixels detected as edges only in distorted frame.
 - **False Negative**: Number of pixels detected as edges only in ground-truth frame.
 
-![ERQA example](../imgs/erqa-example.png)
+![[erqa-example.png]]
 
 ---
 
