@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lore/ruff-ghanor/livro-1-o-garoto-cabra.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lore/ruff-ghanor/livro-1-o-garoto-cabra.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lore/ruff-ghanor/livro-1-o-garoto-cabra.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lore/ruff-ghanor/livro-1-o-garoto-cabra.md"
+                "file": "index.md"
               }
             }
           }
@@ -154,6 +154,7 @@
   },
   "active": "2cdbb2813e7500e0",
   "lastOpenFiles": [
+    "lore/ruff-ghanor/livro-1-o-garoto-cabra.md",
     "index.md",
     "mestrado/index.md",
     "misc/index.md",
@@ -180,7 +181,6 @@
     "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
     "ica/under-sea/temporal-compression/index.md",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
-    "ica/under-sea/temporal-compression/survey.md",
     "mestrado/CLIP/bias",
     "img/erqa-example.png",
     "science/deep-learning",
