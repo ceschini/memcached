@@ -22,6 +22,5 @@ I will have to read the paper in order to understand how the authors suggest tha
 
 ## Snowballing
 
-- A Prompt Array Keeps the Bias Away: Debiasing Vision-Language Models with Adversarial Learning
-- Are Gender-Neutral Queries Really Gender-Neutral? Mitigating Gender Bias in Image Search
+- [[prompt-array-bias-away| A Prompt Array Keeps the Bias Away: Debiasing Vision-Language Models with Adversarial Learning]]
 - [[debiasing-vlms-via-bias | Debiasing Vision-Language Models via Biased Prompts]]

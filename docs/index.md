@@ -2,4 +2,13 @@
 
 ## Welcome, to my Weird-ass Brain
 
-Hello, this is the main page for my Second Brain Project, called My Weird-ass Brain.
+Hello, this is the main page for my Second Brain Project, called My Weird-ass Brain. Here you will find everything I've been reading, watching, studying and playing, that I found worth taking note.
+
+## Summary
+
+- [[science/index| Science]]
+- [[mestrado/index| Mestrado]]
+- [[ica/index| ICA]] 
+  [[guides/index| Guides]]
+- [[lore/index| Lore]]
+- [[misc/index| Miscellaneous]]
