@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "7a3877b56558dde8",
+        "id": "98bce19a298a0c1c",
         "type": "tabs",
         "children": [
           {
-            "id": "2cdbb2813e7500e0",
+            "id": "d4d93c45e07f0d32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "mestrado/CLIP/experimentos/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eedf77da59865a09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mestrado/CLIP/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "mestrado/CLIP/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "mestrado/CLIP/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "mestrado/CLIP/index.md"
               }
             }
           }
@@ -152,11 +165,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2cdbb2813e7500e0",
+  "active": "eedf77da59865a09",
   "lastOpenFiles": [
-    "lore/ruff-ghanor/livro-1-o-garoto-cabra.md",
-    "index.md",
     "mestrado/index.md",
+    "mestrado/CLIP/index.md",
+    "mestrado/CLIP/papers/index.md",
+    "mestrado/CLIP/experimentos/index.md",
+    "mestrado/CLIP/experimentos/gradCAM-sinonimos/index.md",
+    "mestrado/CLIP/experimentos/gradCAM-sinonimos/allonyms-gradCAM-evaluation.md",
+    "mestrado/CLIP/experimentos/gradCAM-sinonimos/experimentos-iniciais.md",
+    "mestrado/CLIP/reunioes/index.md",
+    "mestrado/CLIP/papers/clip-paper.md",
+    "mestrado/CLIP/papers/conceptual-captions.md",
+    "mestrado/CLIP/papers/clip-red-circle.md",
+    "mestrado/CLIP/bias/index.md",
+    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
+    "mestrado/CLIP/bias/prompt-array-bias-away.md",
+    "lore/ruff-ghanor/livro-2-herdeiro-leao.md",
+    "index.md",
+    "lore/ruff-ghanor/livro-1-o-garoto-cabra.md",
     "misc/index.md",
     "science/computer-vision/index.md",
     "science/computer-vision/image-quality-assessment.md",
@@ -164,23 +191,9 @@
     "science/deep-learning/index.md",
     "science/index.md",
     "science/deep-learning.md",
-    "mestrado/CLIP/index.md",
-    "mestrado/CLIP/reunioes/index.md",
-    "mestrado/CLIP/papers/index.md",
-    "mestrado/CLIP/experimentos/index.md",
     "experimentos/index.md",
     "experimentos",
-    "mestrado/CLIP/bias/index.md",
     "lore/index.md",
-    "ica/index.md",
-    "guides/index.md",
-    "mestrado/CLIP/papers/clip-paper.md",
-    "mestrado/CLIP/experimentos/gradCAM-sinonimos/allonyms-gradCAM-evaluation.md",
-    "mestrado/CLIP/experimentos/gradCAM-sinonimos/experimentos-iniciais.md",
-    "mestrado/CLIP/bias/prompt-array-bias-away.md",
-    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
-    "ica/under-sea/temporal-compression/index.md",
-    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "mestrado/CLIP/bias",
     "img/erqa-example.png",
     "science/deep-learning",

@@ -20,7 +20,7 @@ They just reported how adding red circles over man and women images excite the m
 
 I will have to read the paper in order to understand how the authors suggest that we can use their work to interpret model biases.
 
-## Snowballing
+## Summary
 
 - [[prompt-array-bias-away| A Prompt Array Keeps the Bias Away: Debiasing Vision-Language Models with Adversarial Learning]]
 - [[debiasing-vlms-via-bias | Debiasing Vision-Language Models via Biased Prompts]]
