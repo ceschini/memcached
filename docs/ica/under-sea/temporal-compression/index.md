@@ -1,8 +1,10 @@
-# Temporal Conversion Survey
+# Temporal Compression Survey
 
-This is the folder for the temporal conversion survey.
+This is the folder for the temporal compression survey.
 
 # Summary
 
 - [[survey]]
-- [[learning-video-compression-rnn]]
+- [[learning-video-compression-rnn| Learning for Video Compression With Recurrent Auto-Encoder and Recurrent Probability Model]]
+- [[spatial-temporal-corr-exploration | Learned Video Compression via Joint Spatial-Temporal Correlation Exploration]]
+- 

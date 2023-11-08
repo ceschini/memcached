@@ -7,3 +7,8 @@ Vou apresentar uma palestra para o pessoal do MBA BI, ciência de dados.
 - [[estrutura]]
 - [[mini-curriculo]]
 - [[resumo]]
+
+## Texto
+
+- [[introducao | Introdução]]
+- 
