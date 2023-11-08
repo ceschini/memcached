@@ -2,8 +2,14 @@
 
 ## Classificadores de imagens
 
-"Image classification is the process of categorizing and labeling groups of pixels or vectors within an image based on specific rules. The categorization law can be devised using one or more spectral or textural characteristics. Two general methods of classification are ‘supervised’ and ‘unsupervised’."
+>"Classificação de imagens é o processo de categorizar e rotular grupos de píxeis ou vetores numa imagem com base em regras específicas. A lei de categorização pode ser concebida usando uma ou mais características espectrais, ou textuais."
+>
+> -- *Synthetic aperture radar and remote sensing technologies for structural health monitoring of civil infrastructure systems*
 
-*Synthetic aperture radar and remote sensing technologies for structural health monitoring of civil infrastructure systems*
+É uma tarefa fundamental na área de visão computacional, cujo objetivo é entender e categorizar uma imagem sob um rótulo específico.
 
-[Elsevier definitions](https://www.sciencedirect.com/topics/engineering/image-classification#:~:text=Image%20classification%20is%20the%20process,supervised'%20and%20'unsupervised'.)
+## Principais tarefas
+
+Reconhecimento de dígitos, rotular imagens para internet, busca visual. Basicamente ensinar o computador a enxergar e reconhecer o que está vendo.
+## Como funciona
+[ref](https://levity.ai/blog/image-classification-in-ai-how-it-works)
