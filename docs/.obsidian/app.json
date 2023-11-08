@@ -106,7 +106,9 @@
     "itstream.",
     "bitstream",
     "bitstreams",
-    "VCEG"
+    "VCEG",
+    "Fairface",
+    "MaxSkew"
   ],
   "spellcheck": false,
   "showInlineTitle": false,

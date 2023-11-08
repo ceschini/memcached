@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ica/palestra/introducao.md",
+                "file": "mestrado/CLIP/bias/survey.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ica/palestra/introducao.md",
+                "file": "mestrado/CLIP/bias/survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ica/palestra/introducao.md",
+                "file": "mestrado/CLIP/bias/survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ica/palestra/introducao.md"
+                "file": "mestrado/CLIP/bias/survey.md"
               }
             }
           }
@@ -155,8 +155,13 @@
   },
   "active": "10d01260e0e0a08b",
   "lastOpenFiles": [
-    "ica/palestra/index.md",
+    "mestrado/CLIP/bias/index.md",
+    "mestrado/CLIP/bias/survey.md",
+    "mestrado/CLIP/bias/prompt-array-bias-away.md",
+    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
+    "ica/under-sea/temporal-compression/survey.md",
     "ica/palestra/introducao.md",
+    "ica/palestra/index.md",
     "science/mpeg-handbook/1-intro-to-compression.md",
     "science/deep-learning/rnns.md",
     "science/deep-learning/lstm.md",
@@ -172,19 +177,14 @@
     "ica/under-sea/temporal-compression/index.md",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
-    "ica/under-sea/temporal-compression/survey.md",
     "ica/under-sea/index.md",
     "ica/index.md",
     "index.md",
-    "mestrado/CLIP/bias/index.md",
-    "mestrado/CLIP/bias/prompt-array-bias-away.md",
-    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
     "science/index.md",
     "science/computer-vision/index.md",
     "misc/index.md",
     "mestrado/index.md",
     "mestrado/CLIP/reunioes/index.md",
-    "mestrado/CLIP/papers/index.md",
     "mestrado/CLIP/bias",
     "lore/ruff-ghanor",
     "img/erqa-example.png",
