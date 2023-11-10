@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11ae8510b893f4c6",
+        "id": "8aa9a48ecce9ff8d",
         "type": "tabs",
         "children": [
           {
-            "id": "b71d913050c43ce2",
+            "id": "f1eabf344178a516",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "analyse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,23 +54,15 @@
             }
           },
           {
-            "id": "573047711a6a03bf",
+            "id": "bc294ee459d4ee05",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "a597f82d123e5968",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,13 +119,10 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,53 +137,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a597f82d123e5968",
+  "active": "a802719b862a9934",
   "lastOpenFiles": [
-    "science/probability/index.md",
-    "science/probability/discrete-random-variables.md",
-    "science/probability",
-    "science/deep-learning/latent-representations.md",
-    "science/computer-vision/pyramid-optical-flow-net.md",
-    "science/computer-vision/motion-compensation.md",
-    "science/computer-vision/gaussian-pyramid.md",
-    "science/computer-vision/entropy-coding.md",
-    "science/arithmetic-coding.md",
-    "img/pmf-plot.png",
-    "img/latent-representation-example.png",
-    "img/img-pyramid.jpg",
-    "img/Pasted image 20231106150109.png",
-    "ica/under-sea/temporal-compression/index.md",
-    "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
-    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
+    "science/mpeg-handbook/index.md",
     "science/mpeg-handbook/1-intro-to-compression.md",
-    "ica/under-sea/temporal-compression/survey.md",
+    "science/mpeg-handbook",
     "mestrado/CLIP/bias/survey.md",
-    "mestrado/CLIP/bias/index.md",
-    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
-    "mestrado/CLIP/bias/prompt-array-bias-away.md",
-    "TTRPG/dungeons&dragons/magias/reparar.md",
-    "TTRPG/dungeons&dragons/chars/andurin.md",
-    "TTRPG/dungeons&dragons/magias/acudir-moribundos.md",
-    "TTRPG/dungeons&dragons/magias/chama-sagrada.md",
-    "TTRPG/dungeons&dragons/magias/index.md",
-    "TTRPG/dungeons&dragons/index.md",
-    "TTRPG/index.md",
-    "index.md",
-    "TTRPG/dungeons&dragons/magias",
-    "TTRPG/dungeons&dragons/chars/index.md",
-    "TTRPG/dungeons&dragons/chars",
-    "TTRPG/dungeons&dragons/races",
-    "TTRPG/dungeons&dragons/classes",
-    "classes",
-    "TTRPG/dungeons&dragons",
-    "TTRPG",
     "img/mpeg-3-compression.png",
     "img/mpeg-2-compression.png",
     "img/mpeg-1-compression.png",
-    "science/mpeg-handbook",
+    "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
+    "ica/palestra/introducao.md",
+    "TTRPG/dungeons&dragons/races/index.md",
+    "TTRPG/dungeons&dragons/races/anao.md",
+    "TTRPG/dungeons&dragons/magias/reparar.md",
+    "TTRPG/dungeons&dragons/magias/index.md",
+    "TTRPG/dungeons&dragons/magias/chama-sagrada.md",
+    "TTRPG/dungeons&dragons/magias/acudir-moribundos.md",
+    "TTRPG/dungeons&dragons/classes/index.md",
+    "TTRPG/dungeons&dragons/classes/clerigos.md",
+    "TTRPG/dungeons&dragons/chars/index.md",
+    "TTRPG/dungeons&dragons/chars/andurin.md",
+    "TTRPG/dungeons&dragons/races",
+    "TTRPG/dungeons&dragons/magias",
+    "TTRPG/dungeons&dragons/index.md",
+    "TTRPG/dungeons&dragons/dominios-divinos.md",
+    "TTRPG/dungeons&dragons/classes",
+    "TTRPG/dungeons&dragons/chars",
+    "TTRPG/index.md",
+    "TTRPG/dungeons&dragons",
+    "TTRPG",
+    "ica/palestra/estrutura.md",
+    "ica/palestra/resumo.md",
+    "ica/palestra/mini-curriculo.md",
+    "ica/palestra/index.md",
+    "index.md",
+    "ica/under-sea/temporal-compression/survey.md",
+    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
+    "img/Pasted image 20231106150109.png",
+    "science/arithmetic-coding.md",
+    "img/img-pyramid.jpg",
+    "img/pmf-plot.png",
+    "science/probability",
+    "img/latent-representation-example.png",
+    "experimentos",
     "mestrado/CLIP/bias",
     "img/erqa-example.png",
-    "img/lstm-anatomy.webp",
-    "img/rnn-unfolding-loop.jpg"
+    "img/rnn-unfolding-loop.jpg",
+    "img/rnn-feedback-loop.jpg"
   ]
 }
