@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1ed834429f963c54",
+        "id": "43ab06e4049c7106",
         "type": "tabs",
         "children": [
           {
-            "id": "10d01260e0e0a08b",
+            "id": "1a16771eca530df8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TTRPG/dungeons&dragons/classes/clerigos.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ce05f8cb8be6e77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTRPG/dungeons&dragons/races/index.md",
+                "file": "ica/under-sea/temporal-compression/survey.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "240948663825f133",
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TTRPG/dungeons&dragons/races/index.md",
+                "file": "ica/under-sea/temporal-compression/survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TTRPG/dungeons&dragons/races/index.md",
+                "file": "ica/under-sea/temporal-compression/survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TTRPG/dungeons&dragons/races/index.md"
+                "file": "ica/under-sea/temporal-compression/survey.md"
               }
             }
           }
@@ -169,50 +154,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ce05f8cb8be6e77",
+  "active": "1a16771eca530df8",
   "lastOpenFiles": [
+    "ica/under-sea/temporal-compression/index.md",
+    "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
+    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
+    "science/mpeg-handbook/1-intro-to-compression.md",
+    "ica/under-sea/temporal-compression/survey.md",
+    "mestrado/CLIP/bias/survey.md",
+    "mestrado/CLIP/bias/index.md",
+    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
+    "mestrado/CLIP/bias/prompt-array-bias-away.md",
+    "TTRPG/dungeons&dragons/magias/reparar.md",
+    "TTRPG/dungeons&dragons/chars/andurin.md",
+    "TTRPG/dungeons&dragons/magias/acudir-moribundos.md",
+    "TTRPG/dungeons&dragons/magias/chama-sagrada.md",
+    "TTRPG/dungeons&dragons/magias/index.md",
+    "TTRPG/dungeons&dragons/index.md",
+    "TTRPG/index.md",
+    "index.md",
+    "TTRPG/dungeons&dragons/magias",
+    "TTRPG/dungeons&dragons/chars/index.md",
+    "TTRPG/dungeons&dragons/chars",
     "TTRPG/dungeons&dragons/classes/clerigos.md",
+    "TTRPG/dungeons&dragons/dominios-divinos.md",
     "TTRPG/dungeons&dragons/races/index.md",
     "TTRPG/dungeons&dragons/classes/index.md",
-    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
-    "ica/under-sea/temporal-compression/survey.md",
     "TTRPG/dungeons&dragons/races/anao.md",
     "TTRPG/dungeons&dragons/races",
-    "TTRPG/dungeons&dragons/index.md",
     "TTRPG/dungeons&dragons/classes",
     "classes",
-    "mestrado/CLIP/bias/survey.md",
     "TTRPG/dungeons&dragons",
     "TTRPG",
-    "mestrado/CLIP/bias/index.md",
-    "mestrado/CLIP/bias/prompt-array-bias-away.md",
-    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
     "ica/palestra/introducao.md",
     "ica/palestra/index.md",
-    "science/mpeg-handbook/1-intro-to-compression.md",
     "science/deep-learning/rnns.md",
-    "science/deep-learning/lstm.md",
-    "science/deep-learning/index.md",
-    "science/deep-learning/gradcam.md",
-    "science/deep-learning/feature-maps.md",
-    "science/computer-vision/image-quality-assessment.md",
     "img/mpeg-3-compression.png",
     "img/mpeg-2-compression.png",
     "img/mpeg-1-compression.png",
-    "science/mpeg-handbook/index.md",
     "science/mpeg-handbook",
-    "ica/under-sea/temporal-compression/index.md",
-    "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
-    "ica/under-sea/index.md",
-    "ica/index.md",
-    "index.md",
     "mestrado/CLIP/bias",
     "lore/ruff-ghanor",
     "img/erqa-example.png",
     "img/lstm-anatomy.webp",
     "img/rnn-unfolding-loop.jpg",
-    "img/rnn-feedback-loop.jpg",
-    "lore/cronicas-saxonicas",
-    "lore/Ruff Ghanor"
+    "img/rnn-feedback-loop.jpg"
   ]
 }
