@@ -9,3 +9,4 @@ Notes about deep learning stuff.
 - [[lstm]]
 - [[softmax]]
 - [[rnns]]
+- [[latent-representations]]

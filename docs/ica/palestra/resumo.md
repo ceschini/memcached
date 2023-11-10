@@ -2,16 +2,6 @@
 
 Breve descrição - máximo 5 linhas e 150 palavras
 
-## Exemplo
-
-### Semi and self-supervised learning for Computer Vision
-
-Nos últimos anos, modelos de Machine Learning (ML) têm mostrado sua aplicabilidade na resolução de diversos problemas da área de visão computacional, como classificação de imagens, segmentação de objetos, entre outros.
-Tradicionalmente, tais soluções envolvem modelos da área conhecida de Supervised Learning, na qual o aprendizado se baseia na exposição a dados previamente rotulados.
-Contudo, a alta dependência de dados balanceados e rotulados pode comprometer a desempenho dos modelos em aplicações onde rótulos são escassos ou custosos.
-Nesse contexto, torna-se interessante a exploração de métodos que sejam capazes de aprender com uma menor quantidade de dados rotulados ou até sem rótulos, como os modelos da área de semi-supervised e self-supervised learning.
-Nessa palestra, será apresentada uma introdução a conceitos fundamentais dessas duas áreas adjacentes do conhecimento, mediante uma revisão dos principais avanços desenvolvidos nos últimos anos.
-
 ## Estrutura do resumo
 
 1. Tecnologia como solução
