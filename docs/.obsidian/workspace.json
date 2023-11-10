@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "43ab06e4049c7106",
+        "id": "11ae8510b893f4c6",
         "type": "tabs",
         "children": [
           {
-            "id": "1a16771eca530df8",
+            "id": "b71d913050c43ce2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -74,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -154,8 +150,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1a16771eca530df8",
+  "active": "a597f82d123e5968",
   "lastOpenFiles": [
+    "science/probability/index.md",
+    "science/probability/discrete-random-variables.md",
+    "science/probability",
+    "science/deep-learning/latent-representations.md",
+    "science/computer-vision/pyramid-optical-flow-net.md",
+    "science/computer-vision/motion-compensation.md",
+    "science/computer-vision/gaussian-pyramid.md",
+    "science/computer-vision/entropy-coding.md",
+    "science/arithmetic-coding.md",
+    "img/pmf-plot.png",
+    "img/latent-representation-example.png",
+    "img/img-pyramid.jpg",
+    "img/Pasted image 20231106150109.png",
     "ica/under-sea/temporal-compression/index.md",
     "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
@@ -176,28 +185,18 @@
     "TTRPG/dungeons&dragons/magias",
     "TTRPG/dungeons&dragons/chars/index.md",
     "TTRPG/dungeons&dragons/chars",
-    "TTRPG/dungeons&dragons/classes/clerigos.md",
-    "TTRPG/dungeons&dragons/dominios-divinos.md",
-    "TTRPG/dungeons&dragons/races/index.md",
-    "TTRPG/dungeons&dragons/classes/index.md",
-    "TTRPG/dungeons&dragons/races/anao.md",
     "TTRPG/dungeons&dragons/races",
     "TTRPG/dungeons&dragons/classes",
     "classes",
     "TTRPG/dungeons&dragons",
     "TTRPG",
-    "ica/palestra/introducao.md",
-    "ica/palestra/index.md",
-    "science/deep-learning/rnns.md",
     "img/mpeg-3-compression.png",
     "img/mpeg-2-compression.png",
     "img/mpeg-1-compression.png",
     "science/mpeg-handbook",
     "mestrado/CLIP/bias",
-    "lore/ruff-ghanor",
     "img/erqa-example.png",
     "img/lstm-anatomy.webp",
-    "img/rnn-unfolding-loop.jpg",
-    "img/rnn-feedback-loop.jpg"
+    "img/rnn-unfolding-loop.jpg"
   ]
 }
