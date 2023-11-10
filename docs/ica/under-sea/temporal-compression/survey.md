@@ -21,9 +21,9 @@ These papers represent the first version of the survey.
 
 **Time-span**: last five years.
 
-| Name                                                                                       | Author       | Year |
-| ------------------------------------------------------------------------------------------ | ------------ | ---- |
-| Learning for Video Compression With Recurrent Auto-Encoder and Recurrent Probability Model | Yang, et al. | 2021 |
-| Deep Non-Local Kalman Network for Video Compression Artifact Reduction                     | Liu, et al.  | 2020 |
-| Learned Video Compression via Joint Spatial-Temporal Correlation Exploration               | Liu, et al.  | 2020 |
-| Spatio-Temporal Deformable Convolution for Compressed Video Quality Enhancement            | Deng, et al. | 2020     |
+| Name                                                                                                                           | Author       | Year | Conference             |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------ | ---- | ---------------------- |
+| Learning for Video Compression With Recurrent Auto-Encoder and Recurrent Probability Model | Yang, et al. | 2021 | IEEE Signal Processing |
+| Deep Non-Local Kalman Network for Video Compression Artifact Reduction                                                         | Liu, et al.  | 2020 | IEEE Image Processing                       |
+| Learned Video Compression via Joint Spatial-Temporal Correlation Exploration                                                   | Liu, et al.  | 2020 | AAAI Conference on AI  |
+| Spatio-Temporal Deformable Convolution for Compressed Video Quality Enhancement                                                | Deng, et al. | 2020 | AAAI Conference on AI  |

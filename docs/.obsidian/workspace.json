@@ -4,35 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "98bce19a298a0c1c",
+        "id": "43ab06e4049c7106",
         "type": "tabs",
         "children": [
           {
-            "id": "d4d93c45e07f0d32",
+            "id": "1a16771eca530df8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mestrado/CLIP/experimentos/index.md",
+                "file": "ica/under-sea/temporal-compression/survey.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eedf77da59865a09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mestrado/CLIP/index.md",
-                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "analyse",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mestrado/CLIP/index.md",
+                "file": "ica/under-sea/temporal-compression/survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mestrado/CLIP/index.md",
+                "file": "ica/under-sea/temporal-compression/survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,11 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mestrado/CLIP/index.md"
+                "file": "ica/under-sea/temporal-compression/survey.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -165,47 +154,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eedf77da59865a09",
+  "active": "1a16771eca530df8",
   "lastOpenFiles": [
-    "mestrado/index.md",
-    "mestrado/CLIP/index.md",
-    "mestrado/CLIP/papers/index.md",
-    "mestrado/CLIP/experimentos/index.md",
-    "mestrado/CLIP/experimentos/gradCAM-sinonimos/index.md",
-    "mestrado/CLIP/experimentos/gradCAM-sinonimos/allonyms-gradCAM-evaluation.md",
-    "mestrado/CLIP/experimentos/gradCAM-sinonimos/experimentos-iniciais.md",
-    "mestrado/CLIP/reunioes/index.md",
-    "mestrado/CLIP/papers/clip-paper.md",
-    "mestrado/CLIP/papers/conceptual-captions.md",
-    "mestrado/CLIP/papers/clip-red-circle.md",
+    "ica/under-sea/temporal-compression/index.md",
+    "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
+    "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
+    "science/mpeg-handbook/1-intro-to-compression.md",
+    "ica/under-sea/temporal-compression/survey.md",
+    "mestrado/CLIP/bias/survey.md",
     "mestrado/CLIP/bias/index.md",
     "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
     "mestrado/CLIP/bias/prompt-array-bias-away.md",
-    "lore/ruff-ghanor/livro-2-herdeiro-leao.md",
+    "TTRPG/dungeons&dragons/magias/reparar.md",
+    "TTRPG/dungeons&dragons/chars/andurin.md",
+    "TTRPG/dungeons&dragons/magias/acudir-moribundos.md",
+    "TTRPG/dungeons&dragons/magias/chama-sagrada.md",
+    "TTRPG/dungeons&dragons/magias/index.md",
+    "TTRPG/dungeons&dragons/index.md",
+    "TTRPG/index.md",
     "index.md",
-    "lore/ruff-ghanor/livro-1-o-garoto-cabra.md",
-    "misc/index.md",
-    "science/computer-vision/index.md",
-    "science/computer-vision/image-quality-assessment.md",
-    "science/computer-vision/fundamentos-visao-computacional/index.md",
-    "science/deep-learning/index.md",
-    "science/index.md",
-    "science/deep-learning.md",
-    "experimentos/index.md",
-    "experimentos",
-    "lore/index.md",
+    "TTRPG/dungeons&dragons/magias",
+    "TTRPG/dungeons&dragons/chars/index.md",
+    "TTRPG/dungeons&dragons/chars",
+    "TTRPG/dungeons&dragons/classes/clerigos.md",
+    "TTRPG/dungeons&dragons/dominios-divinos.md",
+    "TTRPG/dungeons&dragons/races/index.md",
+    "TTRPG/dungeons&dragons/classes/index.md",
+    "TTRPG/dungeons&dragons/races/anao.md",
+    "TTRPG/dungeons&dragons/races",
+    "TTRPG/dungeons&dragons/classes",
+    "classes",
+    "TTRPG/dungeons&dragons",
+    "TTRPG",
+    "ica/palestra/introducao.md",
+    "ica/palestra/index.md",
+    "science/deep-learning/rnns.md",
+    "img/mpeg-3-compression.png",
+    "img/mpeg-2-compression.png",
+    "img/mpeg-1-compression.png",
+    "science/mpeg-handbook",
     "mestrado/CLIP/bias",
-    "img/erqa-example.png",
-    "science/deep-learning",
-    "science/computer-vision/fundamentos-visao-computacional",
-    "science/computer-vision",
-    "img/rnn-unfolding-loop.jpg",
-    "img/rnn-feedback-loop.jpg",
-    "img/lstm-anatomy.webp",
-    "guides",
     "lore/ruff-ghanor",
-    "lore/cronicas-saxonicas",
-    "lore",
-    "docs/ica/under-sea/temporal-compression"
+    "img/erqa-example.png",
+    "img/lstm-anatomy.webp",
+    "img/rnn-unfolding-loop.jpg",
+    "img/rnn-feedback-loop.jpg"
   ]
 }
