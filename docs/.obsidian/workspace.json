@@ -11,8 +11,13 @@
             "id": "b71d913050c43ce2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TTRPG/dungeons&dragons/classes/index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md",
+                "file": "TTRPG/dungeons&dragons/classes/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md",
+                "file": "TTRPG/dungeons&dragons/classes/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,17 +134,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ica/under-sea/temporal-compression/survey.md"
+                "file": "TTRPG/dungeons&dragons/classes/index.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,8 +152,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a597f82d123e5968",
+  "active": "b71d913050c43ce2",
   "lastOpenFiles": [
+    "TTRPG/dungeons&dragons/classes/clerigos.md",
     "science/probability/index.md",
     "science/probability/discrete-random-variables.md",
     "science/probability",
@@ -183,7 +186,6 @@
     "TTRPG/index.md",
     "index.md",
     "TTRPG/dungeons&dragons/magias",
-    "TTRPG/dungeons&dragons/chars/index.md",
     "TTRPG/dungeons&dragons/chars",
     "TTRPG/dungeons&dragons/races",
     "TTRPG/dungeons&dragons/classes",
