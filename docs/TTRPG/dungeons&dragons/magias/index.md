@@ -1,7 +1,5 @@
 # Magias
 
-Coisa de loko
-
 ## Clérigo
 ### Truques
 
@@ -12,3 +10,10 @@ Coisa de loko
 - [[reparar|Reparar]]
 - Resistência
 - Taumaturgia
+
+### Primeiro Círculo
+
+- [[favor-divino|Favor Divino]]
+- [[TTRPG/dungeons&dragons/magias/escudo-da-fe|Escudo da Fé]]
+- [[TTRPG/dungeons&dragons/magias/santuario|Santuário]]
+- [[palavra-curativa|Palavra Curativa]]

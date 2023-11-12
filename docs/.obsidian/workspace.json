@@ -32,9 +32,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "da71c63788a14b0f",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "docs/conflict-files-obsidian-git.md",
+                "staged": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +99,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -108,7 +120,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ica/under-sea/temporal-compression/kalman-net-artifact-reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +136,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ica/under-sea/temporal-compression/kalman-net-artifact-reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +157,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ica/under-sea/temporal-compression/kalman-net-artifact-reduction.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -167,8 +175,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6856bc24f17128f9",
+  "active": "da71c63788a14b0f",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "ica/under-sea/temporal-compression/kalman-net-artifact-reduction.md",
+    "TTRPG/dungeons&dragons/magias/santuario.md",
+    "TTRPG/dungeons&dragons/magias/palavra-curativa.md",
+    "TTRPG/dungeons&dragons/magias/favor-divino.md",
+    "TTRPG/dungeons&dragons/magias/escudo-da-fe.md",
     "science/computer-vision/image-quality-assessment.md",
     "science/computer-vision/pyramid-optical-flow-net.md",
     "science/computer-vision/optical-flow.md",
@@ -179,7 +193,6 @@
     "ica/under-sea/index.md",
     "ica/under-sea/out-domain-datasets.md",
     "ica/under-sea/temporal-compression/index.md",
-    "ica/under-sea/temporal-compression/kalman-net-artifact-reduction.md",
     "ica/under-sea/temporal-compression/spatial-temporal-corr-exploration.md",
     "ica/under-sea/temporal-compression/learning-video-compression-rnn.md",
     "science/computer-vision/entropy-coding.md",
@@ -192,16 +205,11 @@
     "science/arithmetic-coding.md",
     "TTRPG/dungeons&dragons/classes/index.md",
     "TTRPG/dungeons&dragons/classes/clerigos.md",
-    "science/probability/index.md",
     "science/probability",
     "img/pmf-plot.png",
     "img/latent-representation-example.png",
     "img/img-pyramid.jpg",
     "img/Pasted image 20231106150109.png",
-    "science/mpeg-handbook/1-intro-to-compression.md",
-    "mestrado/CLIP/bias/survey.md",
-    "mestrado/CLIP/bias/index.md",
-    "mestrado/CLIP/bias/debiasing-vlms-via-bias.md",
     "TTRPG/dungeons&dragons/magias",
     "TTRPG/dungeons&dragons/chars",
     "TTRPG/dungeons&dragons/races",

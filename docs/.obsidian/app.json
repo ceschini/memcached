@@ -112,11 +112,15 @@
     "lórica",
     "TTRPGs",
     "loko",
+<<<<<<< HEAD
     "RNNs",
     "convLSTM",
     "priors",
     "optical",
     "flow"
+=======
+    "Andurîn"
+>>>>>>> origin/main
   ],
   "spellcheck": false,
   "showInlineTitle": false,
