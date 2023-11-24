@@ -13,3 +13,4 @@ It is as if the model recalls seeing something similar, and then by studying som
 ![[meta-learning.png]]
 
 GPT-3 is basically a transformer language model trained with 175 billion parameters and then measured by its in-context learning abilities.
+

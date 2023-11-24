@@ -10,5 +10,6 @@ Vou apresentar uma palestra para o pessoal do MBA BI, ciência de dados.
 
 ## Texto
 
-- [[introducao | Introdução]]
+- [[introducao |Introdução]]
 - [[background|Background]]
+- 
