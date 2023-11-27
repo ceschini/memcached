@@ -27,4 +27,4 @@ Treinar classificadores de imagem requer normalmente exemplos muito bem anotados
 
 The blue and green shades represent the image and text encoding pipelines, respectively. **Our method relies on maximizing the agreement between the true image-text representation pairs with bidirectional losses $l(v-->u)$ and $l(u --> v)$.**
 
-Eles usam uma função de projeção que joga uma representação do encoding de texto e vídeo para o mesmo espaço d-dimensional, assim possibilitando o *contrastive learning*.
+Eles usam uma função de projeção que joga uma representação do encoding de texto e vídeo para o mesmo espaço d-dimensional, assim possibilitando o *contrastive learning* a partir de **losses bidirecionais**.

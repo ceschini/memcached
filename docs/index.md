@@ -11,4 +11,5 @@ Hello, this is the main page for my Second Brain Project, called My Weird-ass Br
 - [[ica/index| ICA]] 
 - [[guides/index| Guides]]
 - [[lore/index| Lore]]
+- [[TTRPG/index|TTRPGs]]
 - [[misc/index| Miscellaneous]]
