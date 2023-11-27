@@ -21,3 +21,6 @@ Os autores detalham a dificuldade de unir os classificadores de imagem e texto a
 — - **Contrastive multiview coding.** Tian, Y., Krishnan, D., and Isola, P.
 
 Dado um batch de $N$ pares de (imagem, texto), CLIP é treinado para predizer quais dos $N X N$ possíveis pares de (imagem, texto) ocorreram durante o batch. Para fazer isso, CLIP treina um encoder de imagem e de texto em um espaço compartilhado e multimodal, onde tenta maximizar a _cosine similarity_ entre os dois embeddings, o da imagem e o de texto, daqueles pares reais que ocorrem no batch, enquanto tentam minimizar a similaridade dos pares incorretos.
+
+## Destaques
+
