@@ -27,3 +27,15 @@ These papers represent the first version of the survey.
 | Deep Non-Local Kalman Network for Video Compression Artifact Reduction                                                         | Liu, et al.  | 2020 | IEEE Image Processing                       |
 | Learned Video Compression via Joint Spatial-Temporal Correlation Exploration                                                   | Liu, et al.  | 2020 | AAAI Conference on AI  |
 | Spatio-Temporal Deformable Convolution for Compressed Video Quality Enhancement                                                | Deng, et al. | 2020 | AAAI Conference on AI  |
+
+**Academic search engine**: Google Scholar
+
+**Keywords**: \[Temporal video compression]
+
+**Time-span**: last five years
+
+| Name                                                                   | Author      | Year | Conference          |
+| ---------------------------------------------------------------------- | ----------- | ---- | ------------------- |
+| Hybrid Spatial-Temporal Entropy Modelling for Neural Video Compression | Li, et. al. | 2022 | ACM Conf Multimidia |
+| Neural Video Compression with Diverse Contexts                         | Li, et. al. | 2023 | CVPR 2023                    |
+
