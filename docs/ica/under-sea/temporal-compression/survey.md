@@ -37,5 +37,6 @@ These papers represent the first version of the survey.
 | Name                                                                   | Author      | Year | Conference          |
 | ---------------------------------------------------------------------- | ----------- | ---- | ------------------- |
 | Hybrid Spatial-Temporal Entropy Modelling for Neural Video Compression | Li, et. al. | 2022 | ACM Conf Multimidia |
-| Neural Video Compression with Diverse Contexts                         | Li, et. al. | 2023 | CVPR 2023                    |
+| Neural Video Compression with Diverse Contexts                         | Li, et. al. | 2023 | CVPR 2023           |
+| Deep Contextual Video Compression                                      | Li, et. al. | 2021 | NeurIPS 2021                    |
 
