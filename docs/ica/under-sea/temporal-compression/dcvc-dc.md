@@ -7,6 +7,17 @@ Contexts here resembles the feature kernels or filter maps of convolutional netw
 The idea of the authors is to improve contexts of *Neural Video Compression (NVC)* algorithms while keeping computational cost at low. They propose improvements both in temporal space as in spatial space.
 
 ![[dcvc-dc-framework.png]]
+
+**Nomenclature**:
+
+- $xt$: input frame
+- $xt$ hat: reconstructed frame
+- $Ct$: learned motion aligned temporal context
+- $Ft$: propagated but unprocessed **feature map** containing many high-frequency details
+- $vt$ hat: decoded motion vector
+- $yt$ hat: quantized latent representation
+- warp: motion compensation with frame and motion vector
+- 
 ## Key aspects
 
 ### Hierarchical quality patterns
@@ -23,12 +34,23 @@ Encode different frames with different quantization parameters, saving it on dif
 
 The coding pipeline contains three core steps: $fmotion$, $fTcontext$, and $fframe$.
 
+### Fmotion
+
 $fmotion$ receives the *current frame* + the previous *reconstructed frame*. It uses **optical flow network** it to estimate the motion vector (MV) $v_t$, which is encoded and decoded as $v_t$ hat.
+
+### FTcontext
 
 $fTcontext$ receives the decoded $v_t$hat with the propagated feature $Ft-1$ from the previous frame. It then *extracts the motion-aligned temporal context feature* $Ct$.
 
-It uses hierarchical quality patterns to train weights and assign it to each quality reference frame on the hierarchy. By adjusting these weights, it then learns what is the best one to move up or down the stack.
+It uses hierarchical quality patterns to train weights and assign it to each quality reference frame on the hierarchy. Adjusting these weights, it then learns what is the best one to move up or down the stack.
 
 By referencing both the nearest frame and the farther high-quality frame, it can then achieve top performance.
 
+Using the motion vector and the feature map of previous frame, Ftcontext predicts different offsets of this motion in order to better determine where the next motion will be.
+
+*It stores the different motion from previous frames to better predict the current frame motion*
+### Fframe
+
 $fframe$ encodes $xt$ into quantized latent representation by using $Ct$ to generate $yt$ hat. Then, By using **Channel Partition**, it uses $Ct$ to decode $yt$ hat, feeding it to a frame generator to produce $xt$ hat and $Ft$.
+
+Quad-tree Based Channel Partition is responsible for splitting the encoded frame into patches. These patches are then used to estimate the probability mass function (PMF) for arithmetic coding. By coding PMF on multiple steps, each partition can be used to guide the coding on each step, and as such can represent more diverse and robust contexts for spatial compression.
