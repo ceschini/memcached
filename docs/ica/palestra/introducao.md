@@ -10,7 +10,7 @@
 
 ## Principais tarefas
 
-Reconhecimento de dígitos, rotular imagens para internet, busca visual. Basicamente ensinar o computador a enxergar e reconhecer o que está vendo.
+Reconhecimento de dígitos, rotular imagens automaticamente com texto alternativo, busca visual, reconhecimento facial, diagnóstico médico, etc.
 
 ## Como funciona
 

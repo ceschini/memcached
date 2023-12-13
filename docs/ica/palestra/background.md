@@ -1,8 +1,8 @@
 # Background
 
-## Treinamento do GPT-3
+## Meta-learning
 
-Para treinar grandes modelos de linguagem natural, como o GPT-3, é utilizado um conceito de treinamento não supervisionado, com aprendizado de contexto. Nesse caso, o modelo é alimentado com dados não rotulados dos mais variados tipos, e com o decorrer dos passos vai reconhecendo padrões e tarefas, que posteriormente se recorda ao ser abordado com alguma necessidade específica.
+Para treinar grandes modelos de linguagem natural, como o GPT-3, é utilizado um conceito de treinamento não supervisionado, com **aprendizado de contexto (meta-learning)**. Nesse caso, o modelo é alimentado com dados não rotulados dos mais variados tipos, e com o decorrer dos passos vai reconhecendo padrões e tarefas, que posteriormente se recorda ao ser abordado com alguma necessidade específica.
 
 ## Supervisão com Linguagem Natural
 
