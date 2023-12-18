@@ -4,7 +4,7 @@ The authors propose a paradigm shift for video compression. From the commonly us
 
 This learning aspect can result in higher quality compression ratios, when compared to the _very slow_ settings of the standard codecs of H.261 and H.265.
 
-They say that there is a mode where the entropy coding applies only the temporal compression module instead of spatial-temporal, and this could result in faster compression rates, which are important to us.
+They say that there is a mode where the entropy coding applies only the temporal compression module instead of spatial-temporal, and this could result in faster compression rates, _which are important to us_.
 
 The definition of a condition is anything useful to compress the current frame. This can be the predicted frame, as in the predictive compression, but not only it. In the proposed work, the authors show that the features learned by a deep learning network can be used at both the encoder, the decoder, and at the [[entropy-coding|entropy]] level.
 
@@ -13,4 +13,6 @@ In order to learn this condition, the authors employ Motion Estimation and Motio
 _Maybe this suggests that it can better learn series of movements, which in case are not very interesting to our videos._
 
 ![[dcvc-paradigm-shift.png]]
+
+> For entropy modeling, we design a model which utilizes spatial-temporal correlation for higher compression ratio or only utilizes temporal correlation for fast speed.
 
