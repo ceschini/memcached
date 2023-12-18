@@ -1,6 +1,6 @@
-# Under The Sea Project
+# Deep Sonar Codecs
 
-This is the Under the Sea project folder.
+This is the Deep Sonar Codecs project folder.
 
 ## Summary
 
