@@ -30,3 +30,7 @@ In residue coding, redundancy is subtracted between the predicted and the curren
 
 ## Entropy model
 
+In order to encode the bit stream, the authors apply both hierarchical, spatial and temporal priors to latent codes. First, they use the hyper prior model to learn the hierarchical prior and use autoregressive network to learn the spatial prior. Both are commonly-used in deep image compression. However, for video, the latent codes also have the temporal correlation. Thus, they propose using the context x⁻t to generate the temporal prior.
+
+This model utilizes spatial prior for higher compression ratio, but the instructions of this module are non-parallel, and as such can drastically reduce efficiency. On the other hand, temporal priors are fully parallel, and so a distinct accelerated mode with only this module is also proposed.
+

@@ -76,7 +76,3 @@ A entrada no castelo se mostrou algo simples, pois o que fez essa terra prósper
 Cerca de quinze anos se passaram desde que essa crítica decisão alterou o rumo do nosso destino. Muitos argumentaram pelo fechamento do portal, enquanto outros lutavam para convencê-los de que poderíamos vencer com outra investida contra os Humanos, se reuníssemos todo o nosso poderio. No meio dessa discussão um Orc se destacou pela sua acuidade e esperteza, e aos poucos o seu poder político cresceu a ponto de ninguém mais conseguir se opôr aos seus planos. Após oponentes chave serem silenciados e negociações serem cautelosamente manipuladas, o reinado do grande Orc Chefe Guerreiro Blackhand estava sobre o nosso povo.
 
 Sua crueldade e dominância em batalha são apenas ofuscadas pela sua sede de poder. Ao estudar os modos com que os exércitos Humanos conseguiram derrotar os números superiores dos Orcs a partir de estratégia, ele aprendeu a trazer organização para as nossas pilhagens. Buscando auxílio de ambas as casas das artes arcanas, ele conseguiu unir todos os clãs órquicos - os Exércitos, os Bruxos e os Necromantes. Para assim trazer a eventual destruição da raça Humana. A Era do Caos agora está ao nosso alcance.
-
-## Epílogo
-
-Durante o jogo, o jogador descobre que Griselda, a filha de Blackhand foge com os ogros de Thurok, e o jogador deve assassiná-los. O cavaleiro do reino, Sir Lothar é capturado e resgatado em Dead Mines. 

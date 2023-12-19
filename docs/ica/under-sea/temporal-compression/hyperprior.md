@@ -1,0 +1,5 @@
+# Variational Image Compression With a Scale Hyperprior
+
+## Introduction
+
+Like all lossy compression methods, they operate on a simple principle: an image, typically modeled as a vector of pixel intensities $x$, is **quantized**, reducing the amount of information required to store or transmit it, but introducing error at the same time. Tipically, it is not the pixel intensities that are quantized directly. Rather, an **alternative (latent)** representation of the image is found, a vector in some other space $y$, and quantization takes place in this representation, yielding a discrete-valued vector $yhat$. Because it is discrete, it can be losslessly compressed using _entropy coding_ methods, such as arithmetic coding, to create a bitstream which is sent over the channel. Entropy coding relies on a prior probability model of the quantized representation, which is known to both encoder and decoder (the _entropy model_).
