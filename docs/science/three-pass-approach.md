@@ -2,7 +2,7 @@
 
 S.Keshav
 
-The author developed a efficient approach to read and digest research papers. Giving a protocol to follow when running a survey or exploring papers: the **_Three-pass approach_**.
+The author developed an efficient approach to read and digest research papers. Giving a protocol to follow when running a survey or exploring papers: the **_Three-pass approach_**.
 
 Each pass accomplishes specific goals and builds upon the previous pass: The _first_ pass gives you a general idea about the paper. The _second_ pass lets you grasp the paper's content, but not its details. The _third_ pass helps you understand the paper in depth.
 

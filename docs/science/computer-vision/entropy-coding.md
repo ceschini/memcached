@@ -1,4 +1,8 @@
-# Entropy Coding
+# Introduction to Information Entropy
+
+
+
+## Entropy Coding
 
 Entropy coding is any lossless data compression algorithms that attempt to reach the lower threshold defined by Shannon's source coding theorem, that says that any lossless data compression method will expect code length greater or equal to the entropy of the source.
 
