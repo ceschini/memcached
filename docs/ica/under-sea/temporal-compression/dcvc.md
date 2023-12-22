@@ -28,9 +28,18 @@ Instead of using the previous predicted frame to encode the current one, they tr
 
 In residue coding, redundancy is subtracted between the predicted and the current frame, and is tied to entropy gains by the level of motion and pixel shifts between frames. Instead of using this approach, the authors propose leveraging a neural network to learn the correlation between the current and the predicted frame, removing redundancy in the process. This approach leverages the learning adaptability of the network to solve this new motions and contexts.
 
+![[dcvc-framework.png]]
+
 ## Entropy model
 
-In order to encode the bit stream, the authors apply both hierarchical, spatial and temporal priors to latent codes. First, they use the hyper prior model to learn the hierarchical prior and use autoregressive network to learn the spatial prior. Both are commonly-used in deep image compression. However, for video, the latent codes also have the temporal correlation. Thus, they propose using the context x⁻t to generate the temporal prior.
+In order to encode the bit stream, the authors apply both hierarchical, spatial and temporal priors to latent codes. First, they use the [[hyperprior|hyperprior]] model to learn the hierarchical prior and use the autoregressive network to learn the spatial prior. Both are commonly-used in deep image compression. However, for video, the latent codes also have the temporal correlation. Thus, they propose using the context x⁻t to generate the temporal prior.
 
 This model utilizes spatial prior for higher compression ratio, but the instructions of this module are non-parallel, and as such can drastically reduce efficiency. On the other hand, temporal priors are fully parallel, and so a distinct accelerated mode with only this module is also proposed.
 
+![[entropy-model.png]]
+
+## Context learning
+
+One simple way to learn the context is to train a plain CNN to predict the features. But this is complex due to motion differences between the frames. Because of that, the authors chose to apply MEMC. This way, the motion vector is encoded and warped together with the previous frame features. While the common use of MEMC is in the RGB pixel domain, the authors propose to apply MEMC over the feature domain. 
+
+They train a network to learn how to convert the reference frame from pixel to feature domain. At the same time, an optical flow estimation network will learn the motion vector (MV) between the reference frame and the current frame. This encoded motion vector ($mhat$ $t$) will help guide the model on where to extract the content through warping operation.
