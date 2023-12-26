@@ -4,8 +4,8 @@ Here are all the notes on characters, lore and everything related to the table-t
 
 ## Summary
 
-- [[TTRPG/dungeons&dragons/classes/index| Classes]]
-- [[TTRPG/dungeons&dragons/races/index| Raças]]
+- [[docs/TTRPG/dungeons-dragons/classes/index| Classes]]
+- [[docs/TTRPG/dungeons-dragons/races/index| Raças]]
 - [[dominios-divinos | Domínios Divinos]]
-- [[TTRPG/dungeons&dragons/magias/index|Magias]]
+- [[docs/TTRPG/dungeons-dragons/magias/index|Magias]]
 - 

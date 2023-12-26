@@ -14,6 +14,6 @@
 ### Primeiro Círculo
 
 - [[favor-divino|Favor Divino]]
-- [[TTRPG/dungeons&dragons/magias/escudo-da-fe|Escudo da Fé]]
-- [[TTRPG/dungeons&dragons/magias/santuario|Santuário]]
+- [[escudo-da-fe|Escudo da Fé]]
+- [[santuario|Santuário]]
 - [[palavra-curativa|Palavra Curativa]]
