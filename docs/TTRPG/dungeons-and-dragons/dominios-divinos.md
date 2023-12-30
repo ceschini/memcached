@@ -25,4 +25,3 @@ No 1.º nível, você ganha proficiência com armas marciais e armaduras pesadas
 A partir do primeiro nível, seu deus lhe envia ondas de inspiração enquanto durar o seu engajamento no combate. Ao usar a ação Atacar, você pode realizar um ataque armado como sua ação bônus.
 
 Você pode usar essa característica uma quantidade de vezes igual ao seu modificador de Sabedoria, recuperando os usos gastos após um descanso longo.
-
