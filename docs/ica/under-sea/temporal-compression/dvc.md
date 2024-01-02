@@ -1,4 +1,58 @@
 # DVC: An End-to-end Deep Video Compression Framework
 
-The authors developed a fully end-to-end video compression based on neural networks. They employed a single loss function to train their models based on the trade-off between image quality and compression ratio. They mapped the traditional pipeline into deep learning functions, and following a plug-and-play approach, they invite the academic community to improve their framework. Reported results claim that this deep learning model achieves better compression ratings than that of H.264.
+The authors developed a fully end-to-end video compression based on neural networks. They employed a single loss function to train their models based on the trade-off between image quality and compression ratio (RDO). They mapped the traditional pipeline into deep learning functions, and following a plug-and-play approach, they invite the academic community to improve their framework. Reported results claim that this deep learning model achieves better compression ratings than that of H.264.
 
+_This one-to-one relation between classic modules and deep learning could be interesting if we could explore plugging-and-playing with different combinations, in order to figure out the best combo and rate-distortion optimization for our use case._
+
+They follow by describing the classic framework of video compression, and how it is one-mapped to their proposed deep learning approach.
+
+## Classic vs DN Framework
+
+### Step 1: Motion estimation
+
+Estimate the motion between the current frame $x_t$ and the previous reconstructed frame $\hat{x}_t-1$. The corresponding motion vector $v_t$ for each block is obtained. 
+
+For the DN framework, the authors used a CNN model to estimate the optical flow [1]. This network outputs motion information $v_t$ which is passed to an MV encoder-decoder network responsible for compressing and decoding the optical flow values, further quantized as motion representation $\hat{m}_t$.
+
+### Step 2: Motion compensation
+
+The predicted frame $\vec{x}_t$ is obtained by copying the corresponding pixels in the previous reconstructed frame to the current frame based on the motion vector $v_t$ defined in Step 1. The residual $r_t$ between the original frame $x_t$ and the predicted frame $\vec{x}_t$ is obtained as $r_t = x_t - \vec{x}_t$.
+
+A motion compensation network is designed for the DN framework, it obtains the predicted frame $\vec{x}_t$ based on the optical flow obtained in Step 1.
+
+### Step 3: Transform and quantization
+
+The residual $r_t$ from Step 2 is quantized to $\hat{y}_t$. A linear transform (such as [[docs/science/image-processing/dct|DCT]]) is used before quantization for better compression performance. 
+
+This linear transform of the classic framework is replaced by a highly non-linear residual encoder-decoder network, and the residual $r_t$ is non-linearly mapped to the representation $y_t$. Then it is quantized into $\hat{y}_t$. "In order to build an end-to-end training scheme, we use the quantization method in [2]."
+
+### Step 4: Inverse transform
+
+The quantized result $\hat{y}_t$ in Step 3 is used by inverse transform for obtaining the reconstructed residual $\hat{r}_t$. On the proposed method, the quantized representation is fed into the residual decoder network to obtain the reconstructed residual.
+
+### Step 5: Entropy coding
+
+Both the motion vector $v_t$ in Step 1 and the quantized result $\hat{y}_t$ in Step 3 are encoded into bits by the entropy coding method and sent to the decoder.
+
+Here, for the DN framework, training and testing stages perform different actions. 
+
+At the testing stage, the quantized motion representation $\hat{m}_t$ from Step 1 and the residual representation $\hat{y}_t$ from Step 3 are coded into bits and sent to the decoder. At the training stage, to estimate the number of bits cost in our proposed approach, we use the CNNs (Bit rate estimation net) to obtain the probability distribution of each symbol in $\hat{m}_t$ and $\hat{y}_t$.
+
+### Step 6: Frame reconstruction
+
+The reconstructed frame $\hat{x}_t$ is obtained by adding $\vec{x}_t$ in Step 2 and $\hat{r}_t$ in Step 4, i.e. $\hat{x}_t = \hat{r}_t + \vec{x}_t$. This reconstructed frame will be used by the ($t + 1$)th frame at Step 1 for motion estimation.
+
+![[traditional-vs-DN-framework.png]]
+
+Over at the experiments, they examine running time and model complexity. Even though their model is much slower than the commercial x264 and x265, they assure that there is something called "**_deep model compression approaches_**, which are off-the-shelf for making the deep model much faster."
+
+
+
+
+## References & Snowballing
+
+[a] Overview of the h.264/avc video coding standard.
+[b] Overview of the high efficiency video coding (hevc) standard.
+
+[1] Optical flow estimation using a spatial pyramid network.
+[2] End-to-end optimized image compression.
