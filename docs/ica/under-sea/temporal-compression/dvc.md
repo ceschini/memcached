@@ -22,7 +22,7 @@ A motion compensation network is designed for the DN framework, it obtains the p
 
 ### Step 3: Transform and quantization
 
-The residual $r_t$ from Step 2 is quantized to $\hat{y}_t$. A linear transform (such as [[docs/science/image-processing/dct|DCT]]) is used before quantization for better compression performance. 
+The residual $r_t$ from Step 2 is quantized to $\hat{y}_t$. A linear transform (such as [[dct|DCT]]) is used before quantization for better compression performance. 
 
 This linear transform of the classic framework is replaced by a highly non-linear residual encoder-decoder network, and the residual $r_t$ is non-linearly mapped to the representation $y_t$. Then it is quantized into $\hat{y}_t$. "In order to build an end-to-end training scheme, we use the quantization method in [2]."
 

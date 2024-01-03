@@ -37,3 +37,14 @@ Tudo.
 
 ## O Proletariado
 
+O jogador assume o papel de proletariados lutadores da liberdade, vindos de diferentes origens, e lutam juntos para derrubar o regime Criptocrático de Drácula. Eles vêm de todas as caminhadas da classe trabalhadora: apostadores, artesãos, fazendeiros, donos de casa, filósofos, trabalhadores, escritores e os destituídos. Esperam-se deles que sejam engrenagens obedientes para construírem riqueza e conforto para os burgueses e a aristocracia. O povo da classe trabalhadora é completamente descartável nos olhos da elite.
+
+O seu personagem se recusa a ser consumido pelas forças da corrupção - seja ela vampiros ou o seu governo.
+
+A ameaça é bem real; A mágica de Drácula é poderosa. As forças de segurança do estado sob seu comando são invasivas e não possuem nenhum senso de moralidade. Dado tempo e magias arcanas, o seu povo irá literalmente perder suas identidades e se tornarem lumpemproletariados - servos estúpidos, abatidos e degenerados do regime.
+
+... Sucesso pode trazer um novo perigo. Seus revolucionários devem resistir ao canto da sereia proveniente da burguesia. Os capitalistas sabem muito bem como corromper os corações e mentes da população. Eles e seus ocultistas sombrios reconhecem as pessoas como ameaças legítimas, e que o melhor modo de destruir o movimento é pela deslegitimação e dúvida.
+
+## A Revolução Carpatiana
+
+A Fronte da Revolução Carpatiana é a 
