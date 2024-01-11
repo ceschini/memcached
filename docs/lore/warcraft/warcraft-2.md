@@ -20,6 +20,5 @@ Assim, Medhiv abre o primeiro portal entre o mundo vermelho de Draenor e a verde
 
 Uma patrulha de bravos Azerotianos invade a sua torre e o mata, antes que ele pudesse ver seu plano concluído. Não muito depois disso, o líder da horda dos orcs, Blackhand, é assassinado pelo seu servo Orgrim Doomhammer.
 
-
 Os orcs conseguem invadir a fortaleza de Stormwind Keep, e matam o Rei Llane, com o seu povo sendo salvo apenas pela astúcia do Sir Anduin Lothar, um cavaleiro errante da Ordem do Cavalo. Ele leva os sobreviventes pelo mar até Lordaeron, onde é recebido pelo Rei Terenas.
 

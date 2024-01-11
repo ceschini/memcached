@@ -20,7 +20,7 @@ Os autores detalham a dificuldade de unir os classificadores de imagem e texto a
 
 — - **Contrastive multiview coding.** Tian, Y., Krishnan, D., and Isola, P.
 
-Dado um batch de $N$ pares de (imagem, texto), CLIP é treinado para predizer quais dos $N X N$ possíveis pares de (imagem, texto) ocorreram durante o batch. Para fazer isso, CLIP treina um encoder de imagem e de texto em um espaço compartilhado e multimodal, onde tenta maximizar a _cosine similarity_ entre os dois embeddings, o da imagem e o de texto, daqueles pares reais que ocorrem no batch, enquanto tentam minimizar a similaridade dos pares incorretos.
+Dado um batch de $N$ pares de (imagem, texto), CLIP é treinado para predizer quais dos $N X N$ possíveis pares de (imagem, texto) ocorreram durante o batch. Para fazer isso, CLIP treina um encoder de imagem e de texto em um espaço compartilhado e multimodal, onde tenta maximizar a _cosine similarity_ entre os dois embeddings, o da imagem e o de texto, daqueles pares reais que ocorrem no batch.
 
 ## Destaques
 
@@ -35,6 +35,8 @@ Durante seu treinamento, CLIP aprende a discernir diferentes tarefas e conceitos
 ### Representações melhores e mais eficientes que ImageNet
 
 Por muito tempo, modelos foram pre treinados a partir do conjunto de dados ImageNet, sendo posteriormente aplicado algum conceito mais específico da tarefa ou problema a ser resolvido. Porém, os autores comprovaram a capacidade do CLIP de ultrapassar os modelos pré-treinados com ImageNet em uma variedade de tarefas, consistindo assim em um novo padrão de pré-treino.
+
+_"We speculate this is due to natural language providing wider supervision for visual concepts involving verbs, compared to the noun-centric object supervision in ImageNet."_
 
 ## Limitações
 
