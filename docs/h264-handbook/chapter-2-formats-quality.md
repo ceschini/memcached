@@ -139,4 +139,34 @@ Several test procedures for subjective quality evaluation are defined in ITU-R R
 
 In this method, an assessor is presented with a pair of images or short video sequences A and B, one after the other, and is asked to give A and B a 'quality score' by marking one of five intervals ranging from 'Excellent' to 'Bad'. In a typical test session, the assessor is shown a series of pairs of sequences and is asked to grade each pair. Within each pair of sequences, one is the original 'reference' sequence and the other is the modified sequence made by some system or process under test. On each iteration, sequence A and B are randomized between the reference and the modified sequence. Similarly, the order of the two sequences is also randomized during the test session so that the assessor does not know which is the original and which is the impaired sequence. At the end of the session, the scores are converted to a normalized range and the end result is a score, sometimes described as a 'mean opinion score' (MOS) that indicates the **relative** quality of the impaired and reference sequences.
 
-Tests such as DSCQS are accepted as realistic measures of subjective visual quality. However, this type of test suffers from practical problems that make it expensive and time-consuming to carry out thoroughly. Some of these problems are that the results can vary significantly depending on the assessor and also on the video sequence under test. Even though this can be mitigated by repeating the test with several video sequences and assessors, it must also pay attention to the level of expertise of these personel. An expert assessor can understand the common distortion or 'artefacts' present in compression and give biased results. Even non-expert assessors can quickly learn these patterns and become an expert, resulting in similar problems.
+Tests such as DSCQS are accepted as realistic measures of subjective visual quality. However, this type of test suffers from practical problems that make it expensive and time-consuming to carry out thoroughly. Some of these problems are that the results can vary significantly depending on the assessor and also on the video sequence under test. Even though this can be mitigated by repeating the test with several video sequences and assessors, it must also pay attention to the level of expertise of these personnel. An expert assessor can understand the common distortion or 'artifacts' present in compression and give biased results. Even non-expert assessors can quickly learn these patterns and become an expert, resulting in similar problems.
+
+#### 2.6.2 Objective quality measurement
+
+The complexity of subjective quality measurement has led many to easy to use and develop quality measurement algorithms. They proved feasible, yet weakly related to the perceptual visual quality.
+
+##### 2.6.2.1 PSNR
+
+Peak Signal to Noise Ratio (PSNR) is the most used quality metric by developers of video compression algorithms. It is measured on a logarithmic scale and depends on the mean squared error (MSE) between an original and an impaired image or video frame.
+
+It can be calculated quickly and easily, proving to be the standard quality measurement in compression algorithms. And yet, it proved to have significant drawbacks that urge the developers to come with better suited metrics. For one, it requires the original image that is not always available, and it also does not provide similarities with the subjective measurements above.
+
+##### 2.6.2.1 Other objective quality metrics
+
+Due to the inherent flaws of PSNR, recent years have been a lot of research around the development of better metrics for video quality. Some of those included Just Noticeable Difference (JND), Digital Video Quality (DVQ), Structural SIMilarty index (SSIM), PSNRplus and Predicted Mean Opinion Score (MOSp).
+
+The ITU-T Video Quality Experts Group (VQEG) aims to develop industry standards related to video and multimedia quality assessment. VQEG has developed Recommendation J.247, which covers 'full reference' video quality measurement, i.e. quality metrics that require access to an original, uncompressed version of a video signal. The Recommendation lists four objective quality metrics that 'can be recommended by ITU-T at this time':
+
+- A: NTT Full Reference Method.
+- B: OPTICOM Perceptual Video Quality Method.
+- C: Psytechnics Full Reference Method.
+- D: Yonsei Full Reference Method.
+
+The general approach of these methods involve the alignment of the original and the test video sequences by both spatially and temporally, followed by the calculation of a series of degradation parameters such as blurring, edges introduced by compression, blockiness, etc. Finally, these parameters are combined to produce a single number estimating the subjective quality.
+
+Even more challenging is to measure or estimate quality when a full reference, an unimpaired copy of the original video, is not available. In these situations, No Reference (NR) or Reduced Reference (RR) quality estimation is required.
+
+No Reference metrics attempt to estimate subjective quality based only on characteristics of the decoded video clip. This is a difficult task but some success has been reported using methods such as modelling typical image/video compression artifacts.
+
+Reduced Reference metrics calculate a quality 'signature', typically a low-bitrate side signal, which is passed along to the decoder. The quality estimate is formed by processing the decoded video clip together with the side information.
+
