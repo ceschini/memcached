@@ -152,3 +152,60 @@ The transform matrix $A$ for a 4 x 4 DCT is:
 
 ![[dct-A-4x4-matrix.png]]
 
+The cosine function is symmetrical and repeats after 2$\pi$ radians, and hence $A$ can be simplified to:
+
+![[simplified-dct-a-matrix.png]]
+
+**The output of a 2-dimensional FDCT is a set of N x N coefficients representing the image block data in the DCT domain, which can be considered as 'weights' of a set of standard _basis patterns_.**
+
+Any image block may be reconstructed by combining all N x N basis patterns, with each basis multiplied by the appropriate weighting factor (coefficient).
+
+**_Example 1 Calculating the DCT of a 4 x 4 block_**
+
+Let $X$ be a 4 x 4 block of samples from an image:
+
+![[dct-example-x-block.png]]
+
+The Forward DCT of $X$ is given by: $Y = AXA^T$. The first matrix multiplication, $Y'=AX$, corresponds to calculating the 1-dimensional DCT of each **column** of $X$. For example, $Y'00$ is calculated as follows:
+
+![[dct-y00-calc.png]]
+
+The complete result of the column calculations is:
+
+![[dct-column-clac.png]]
+
+Carrying out the second matrix multiplication, $Y = Y'A^T$, is equivalent to carrying out a 1-D DCT on each **row** of $Y'$.
+
+![[dct-row-calc.png]]
+
+Note that the order of the row and column calculations does not affect the final result.
+
+**_Example 2 Image block and DCT coefficients_**
+
+Figure 3.30 shows an image with a 4 x 4 block selected, and Figure 3.31 shows the block in close-up, together with the DCT coefficients. The advantage of representing the block in the DCT domain is not immediately obvious, since there is no reduction in the amount of data; instead of 16 pixels values, we need to store 16 DCT coefficients. The usefulness of the DCT becomes clear when the block is reconstructed from a subset of the coefficients.
+
+![[image-with-4x4-block.png]]
+
+![[img-block-dct-close-up.png]]
+
+Setting all the coefficients to zero except the most significant, coefficient (0,0) described as the 'DC' coefficient, and performing the IDCT gives the output block shown in Figure 3.32 (a) below, and it is the mean of the original pixel values. Calculating the IDCT of the two most significant coefficients gives the block shown in Figure 3.32 (b).
+
+Adding more coefficients before calculating the IDCT produces a progressively more accurate reconstruction of the original block, and by the time five coefficients are included (Figure 3.32 (d)), the reconstructed block is a reasonably close match to the original. _Hence, it is possible to reconstruct an approximate copy of the block from a subset of the 16 DCT coefficients. Removing the coefficients with insignificant magnitudes, for example by **quantization**, enables image data to be represented with a reduced number of coefficient values at the expense of some loss of quality_.
+
+#### 3.4.2.3 Wavelet
+
+The 'wavelet transform' that is popular in image compression is based on sets of filters with coefficients that are equivalent to discrete wavelet functions. The basic operation of the transform is as follows: A pair of filters is applied to the signal to decompose it into a low frequency band (L) and a high frequency band (H). Each band is subsampled by a factor of two, so that the two frequency bands each contain N/2 samples. With the correct choice of filters, this operation is reversible.
+
+This process can be applied to a 2-D signal such as an intensity image (grayscale). First, the image is filtered on the x dimension by a low-pass and a high-pass filter. The resulting images are then downsampled by a factor of two, followed by another low and high pass filtering, but now on the y dimension. A final downsampling is applied in order to produce four sub-band images: LL, HL, LH, HH.
+
+![[wavelets-process.png]]
+
+These four 'sub-band' images can be combined to create an output image with the same number of samples as the original. 
+
+LL is the original image, low-pass filtered in horizontal and vertical direction and subsampled by a factor of two. HL is high-pass filtered in the vertical direction and contains residual vertical frequencies, LH is high-pass filtered in the horizontal direction and contains residual horizontal frequencies and HH is high-pass filtered in both horizontal and vertical directions.
+
+Between them, the four sub-band images contain all the information present in the original image, but the sparse nature of them makes it amenable to compression.
+
+![[wavelet-sub-bands.png]]
+
+In an image compression algorithm, the LL sub-image can be filtered again in order to produce another level of decomposition, and repeated a set number of times. The high-pass filtered images contain information of low impact for the image and can then be dropped in order to further compress the image.
