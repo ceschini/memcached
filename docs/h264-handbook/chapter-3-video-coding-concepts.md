@@ -77,3 +77,78 @@ Motion estimation of a macroblock involves finding a 16 x 16 sample region in a 
 The lume and chroma samples of the selected 'best' matching region in the reference frame are subtracted from the current macroblock to produce a residual macroblock that is encoded and transmitted together with a _motion vector describing the position of the best matching region relative to the current macroblock position_.
 
 ![[motion-estimation.png]]
+
+There are a lot of variations of the motion estimation and motion compensation (MEMC) explained above. For example, future frames might be more meaningful to the prediction of a macroblock, and then should be encoded before the current one, giving an out-of-order transmission. Sometimes there is a significant change in motion between two frames, and as such there is no gain in using motion compensation, in such cases the CODEC might use intra coding instead. Not every moving object will be encompassed in a 16 x 16 pixel size block, and dynamic sizes might be applied to better envelop objects on different scenes. 
+
+#### 3.3.1.5 Motion compensation block size
+
+Smaller motion compensation block sizes can produce better motion compensation results. However, a smaller block size leads to increased complexity, with more search operations to be carried out, and an increase in the number of motion vectors that need to be transmitted. Sending more vectors means sending more bits of information, and this overhead might not be beneficial compared to the residual size gains. Because of that, the best approach is to adapt the block size to the image characteristics. In large homogeneous regions, a big macroblock can capture all the information contained within, on the other hand, in small edgy and complex regions a small macroblock size might be necessary in order to attend to the complex shapes and as such reduce the residual energy while not overheading it too much.
+
+#### 3.3.1.6 Sub-pixel motion compensation
+
+Objects might not always move by integer valued pixels. And as such, sometimes it is better to explore regions with _sub-pixel_ values, by interpolating half-pixel positions. Sub-pixel motion estimation and compensation involves searching sub-pixel interpolated positions as well as integer-pixel positions and choosing the position that gives the best match and minimizes the residual energy.
+
+On the example below, the first stage of the motion estimation is to find the best match on the integer pixel grid (circles). The encoder searches the half-pixel positions immediately next to this best match (squares) to see whether the match can be improved and, if required, the quarter-pixel positions next to the best half-pixel position (triangles) are then search. The final match, at an integer, half-pixel or quarter-pixel position, is subtracted from the current block or macroblock.
+
+![[sub-pixel-motion-estim.png]]
+
+In general, 'finer' interpolation provides better motion compensation performance, producing a smaller residual at the expense of increased complexity. The performance gain tends to diminish as the interpolation steps increase.
+
+There is a trade-off in compression efficiency associated with more complex motion compensation schemes.
+
+### 3.3.2 Spatial model: intra prediction
+
+In the intra prediction mode, macroblocks of the current frame are predicted based on the already encoded macroblocks within the same frame. By doing so, it guarantees that only information already available for the decoder is used. This approach leverages the assumption that neighboring pixels are commonly correlated, and as such it will use this neighboring blocks of pixels in order to perform the prediction. Once the prediction has been generated, it is subtracted from the current block, similarly of that of inter prediction. The residual is transformed and encoded, together with an indication of how the intra coding was performed.
+
+![[intra-preds-available-samples.png]]
+
+![[intra-preds-process.png]]
+
+## 3.4 Image model
+
+Natural images are often difficult to compress in their original form because of the high correlation between neighboring image samples. Efficient motion compensation or intra prediction reduces local correlation in the residual, making it easier to compress than the original video frame. The function of the **image model** is to further decorrelate image or residual data and to convert it into a form that can be efficiently compressed using an entropy coder.
+
+Practical image models typically have three main components, _transformation_ to decorrelate and compact the data, _quantization_ to reduce the precision of the transformed data and _reordering_ to arrange the data to group together significant values.
+
+### 3.4.1 Predictive image coding
+
+Predictive image coding such as motion compensation is a method that combines previous or neighboring frames/regions in such a way that an approximation of the current frame or region is predicted. This predicted sample is then subtracted from the current region in order to create a residual.
+
+If the prediction is successful, the energy in the residual is lower than in the original frame and the residual can be represented with fewer bits.
+
+In order to further reduce the residual, lossy process such as quantization are employed. This means that the decoded pixels may not be identical to the original ones due to losses during encoding. This could lead to a cumulative mismatch or 'drift' between the encoder and decoder. _To avoid this, the encoder should itself decode the residual and reconstruct each pixel_. In this way, both encoder and decoder use the same prediction P(X) and drift is avoided.
+
+### 3.4.2 Transform coding
+
+The purpose of the transform stage in an image or video CODEC is to convert image or motion-compensated residual data into another domain, _the transform domain_. The choice of transform depends on a number of criteria:
+
+1. Data in the transform domain should be decorrelated, i.e. separated into components with minimal inter-dependence, and compact, i.e. most of the energy in the transformed data should be concentrated on a small number of values.
+2. The transform should be reversible.
+3. The transform should be computationally tractable, e.g. low memory requirement, achievable using limited-precision arithmetic, low number of arithmetic operations, etc.
+
+Transforms tend to fall into two categories, block-based and image-based. Block-based transforms operates on blocks of N x N image or residual samples, they have low memory requirements and are well suited to compression of block-based motion compensation residuals, but tend to suffer from artifacts at block edges ('blockiness'). Examples of block-based transforms include the Karhunen-Loeve Transform (KLT), Singular Value Decomposition (SVD) and the ever-popular Discrete Cosine Transform (DCT) and its approximations.  Image-based transforms are employed over the hole image or over a large portion of it, called a 'tile'. They have a better compression rate at the cost of higher memory requirements. The most famous one is the Discrete Wavelet Transform, DWT, or just 'wavelet'.
+
+#### 3.4.2.2 DCT
+
+The idea of using the DCT is to transform pixels into coefficients. These coefficients can be dropped by a defined threshold using quantization. Even with a lower number of coefficients,, there is still the ability to recover the original image with only some loss of data, hopefully just the insignificant parts of it.
+
+The Discrete Cosine Transform (DCT) operates on **X**, a block of N x N samples, typically image samples or residual values after prediction, to create **Y**, an N x N block of coefficients. The action of the DCT and its inverse, the IDCT can be described in terms of a transform matrix **A**.
+
+The forward DCT (FDCT) of an N x N sample block is given by:
+
+$Y = AXA^T$
+
+and the inverse DCT (IDCT) by:
+
+$X = A^TYA$
+
+Where $X$ is a matrix of samples, $Y$ is a matrix of coefficients and $A$ is an N x N transform matrix. The elements of $A$ are:
+
+![[dct-A-matrix.png]]
+
+**_Example: N = 4_**
+
+The transform matrix $A$ for a 4 x 4 DCT is:
+
+![[dct-A-4x4-matrix.png]]
+
