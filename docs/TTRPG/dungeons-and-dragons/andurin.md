@@ -1,6 +1,6 @@
 # Andurîn, O Martelo da Justiça
 
-Andurîn é um anão da montanha, clérigo e devoto a Tyr, o Deus da Justiça. Ele se aliou a ordem depois que o seu clã foi absolvido de um julgamento contraditório, onde apenas um sumo-sacerdote de Tyr foi capaz de salvar o seu clã da perdição completa.
+Andurîn Buscapedra é um anão da montanha, clérigo e devoto a Tyr, o Deus da Justiça. Ele se aliou a ordem depois que o seu clã foi absolvido de um julgamento contraditório, onde apenas um sumo-sacerdote de Tyr foi capaz de salvar o seu clã da perdição completa.
 
 Seu pai, junto de seus irmãos, descobriram um vasto veio de obsidiana, dentro das profundezas da Montanha Mãe. Eles foram cuidadosos, seguiram todos os rituais e realizaram todos os procedimentos necessários para a mineração desse poderoso e valioso mineral. Ao começarem a enriquecer com o comércio da sua nova mina, os clãs rivais cresceram cobiçosos, ainda que generosidade não faltasse para Andurîn e a sua família.
 
