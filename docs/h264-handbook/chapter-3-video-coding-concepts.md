@@ -209,3 +209,145 @@ Between them, the four sub-band images contain all the information present in th
 ![[wavelet-sub-bands.png]]
 
 In an image compression algorithm, the LL sub-image can be filtered again in order to produce another level of decomposition, and repeated a set number of times. The high-pass filtered images contain information of low impact for the image and can then be dropped in order to further compress the image.
+
+### Quantization
+
+A quantizer maps a signal with a range of values X to a quantized signal with a reduced range of values Y. It should be possible to represent the data with fewer bits, since the range between them is smaller. There are **scalar quantizer** and **vector quantizer**. The first maps a single input from the original range into a single quantized output on the new scale. The second maps a group of inputs (vector) to a group of output on the quantized space.
+
+#### 3.4.3.1 Scalar quantization
+
+A simple example of scalar quantization is the process of rounding a fractional number to the nearest integer. The process is lossy (not reversible) since it is not possible to determine the exact value of the original fractional number from the rounded integer.
+
+A more general example of a uniform quantizer is:
+
+![[uniform-quantizer.png]]
+
+Where $QP$ is a quantization 'step size'. The quantized output levels are spaced at uniform intervals of $QP$.
+
+In the video compression pipeline, quantizer is usually split into a forward quantizer $FQ$ in the encoder, and an inverse quantizer or rescaler($IQ$) at the decoder. The most important parameter is the **step size** QP between successive re-scaled values. The bigger the step, the bigger the compression rate, but also the information and quality loss. The inverse is also true. And this is due to the range of inputs that will fall into the same levels of quantized outputs, and as such will both reduce the amount of bits and the fine-grained details contained in between.
+
+Quantization is usually applied to the transformed coefficients of DCT or wavelet. These coefficients contain several insignificant near-zero values, and can be zeroed down by the quantization in order to improve compression while still maintaining quality. The output of a forward quantizer is therefore typically a 'sparse' array of quantized coefficients, mainly containing zeros.
+
+#### 3.4.3.2 Vector quantization
+
+A vector quantizer maps a set of input data, such as a block of image samples, to a single value (codeword). At the decoder, each codeword maps to an approximation of the original set of input data, a 'vector'. The set of vectors is stored at the encoder and decoder in a _codebook_. A typical application of vector quantization to image compression is as follows:
+
+1. Partition the original image into regions such as N x N pixel blocks.
+2. Choose a vector from the codebook that matches the current region as closely as possible.
+3. Transmit an index that identifies the chosen vector to the decoder.
+4. At the decoder, reconstruct an approximate copy of the region using the selected vector.
+
+The quantization can be applied in the image or spatial domain, to motion compensated data and to transformed data. Key issues with this approach are the design of the codebook and the efficient search of the codebook for the optimal codeword.
+
+### 3.4.4 Reordering and zero encoding
+
+In a transform-based image or video encoder, the output of the quantizer is a sparse array containing a few non-zero coefficients and a large number of zero-valued coefficients. _Re-ordering to group together non-zero coefficients and efficient encoding of zero coefficients are applied prior to entropy coding._
+
+#### 3.4.4.1 DCT
+
+**_Coefficient distribution_**
+
+The significant DCT coefficients of a block of image or residual samples are typically the 'low frequency' positions around the DC (0, 0) coefficient.
+
+The figure below plots the probability of non-zero DCT coefficients at each position in an 8 x 8 block in a QCIF residual frame. The non-zero DCT coefficients are clustered around the top-left (DC) coefficient, and the distribution is roughly symmetrical in the horizontal and vertical directions.
+
+![[dct-coeff-dist.png]]
+
+**_Scan_**
+
+After quantization, the DCT coefficients for a block are reordered to group together non-zero coefficients, enabling efficient representation of the remaining zero-valued quantized coefficients. The optimum re-ordering path or scan order depends on the distribution of non-zero DCT coefficients. For a typical frame block with a distribution similar to Figure 3.39 above, a suitable scan order is a zigzag starting from the DC or top-left coefficient. Starting from the DC, the coefficients are stored in a 1-D array. Non-zero coefficients tend to be grouped together at the start of the re-ordered array, followed by long sequences of zeros.
+
+**_Run-Level Encoding_**
+
+It is expected that non-zero coefficients are grouped together at the start of the array. In order to efficiently compress the large amount of zeroes present between the non-zero values, a pair of (run-level) values are formed in order to represent how many zeroes there are (**runs**) between a non-zero value (**level**). 
+
+**_Example_**
+
+1. Input array: 16, 0, 0, -3, 5, 6, 0, 0, 0, 0, -7, ...
+2. Output values: (0, 16), (2, -3), (0, 5), (0, 6), (4, -7)...
+3. Each of these output values (a run-level pair) is encoded as a separate symbol by the entropy encoder.
+
+To signal the end of non-zero values, a special symbol is used. This is required because the re-ordered non-zero coefficients are probably contained in the first positions of the array, and there is no need to keep reading it after the last one. In a 2-D run-level encoding, another output is required in order to contain the **last** flag. If a 3-D run-level-last encoding is used, each output value will have the flag information signaling if it is the last one or not, such as (0, 16, 0), ..., (4, -7, 1) on the example above.
+
+#### 3.4.4.2 Wavelet
+
+**_Coefficient distribution_**
+
+Many coefficients, in higher sub-bands, are near zero and may be quantized to zero without significant loss of image quality. Non-zero coefficients tend to be related to structures in the image. When a coefficient in a lower-frequency sub-band is non-zero, there is a strong probability that coefficients in the corresponding position in higher-frequency sub-bands will also be non-zero. 
+
+We may consider a 'tree' of non-zero coefficients, starting with a 'root' in a low-frequency sub-band. A single coefficient in the LL band of layer 1 has one corresponding coefficient in each of the other bands of layer 1, meaning that these four coefficients correspond to the same region in the original image. The layer 1 coefficient maps to four corresponding child coefficients in each sub-band at layer 2, because layer 2 have twice the resolution of layer 1.
+
+![[wavelet-coef-children.png]]
+
+**_Zerotree encoding_**
+
+It is desirable to encode the non-zero wavelet coefficients as compactly as possible prior to entropy coding. An efficient way of achieving this is to encode each tree of non-zero coefficients starting from the lowest or root level of the decomposition. 
+
+Starting by the coefficient at the lowest layer, encode it and follow to its child coefficients at the next layer up. Keep doing this until a zero-valued coefficient is reached. Considering that children of a zero coefficient are also zero, we can represent the remaining children as a single code symbol, identifying a tree of zeros (**zerotree**). Over at the decoder side, the processing of non-zero coefficients is performed until a zerotree is reached, by then the decoder can just fill the remaining children as zeroes. This is the basis of the **embedded zero tree** (EZW) method of encoding wavelet coefficients.
+
+## 3.5 Entropy coder
+
+The entropy encoder converts a series of symbols representing elements of the video sequence into a compressed bitstream suitable for transmission or storage. Input symbols may include quantized transform coefficients run-level or zerotree encoded, motion vectors with integer or sub-pixel resolution, marker codes that indicate a resynchronization point in the sequence, macroblock headers, picture headers, sequence headers and supplementary information, 'side' information that is not essential for correct decoding.
+
+### 3.5.1 Predictive coding
+
+Certain symbols are highly correlated in local regions of the picture. For example, the average or DC value of neighboring intra-coded blocks of pixels may be very similar, neighboring motion vectors may have similar x and y displacements and so on. _Coding efficiency can be improved by predicting **elements** of the current block or macroblock from previously-encoded data and encoding the difference between the prediction and the actual value_.
+
+The motion vector for a block or macroblock indicates the offset to a prediction reference in a previously encoded frame. Vectors for neighboring blocks or macroblocks are often correlated because object motion may extend across large regions of a frame. As such, compression of the motion vector field may be improved by predicting each motion vector from previously encoded vectors. For example, in the figure below, a simple prediction for the vector of the current macroblock $X$ is the horizontally adjacent macroblock $A$. Alternatively, three or more previously-coded vectors may be used to predict the current vector. The difference between the predicted and actual motion vector, the Motion Vector Difference or MVD, is encoded and transmitted.
+
+### 3.5.2 Variable-length coding
+
+A variable-length encoder maps input symbols to a series of codewords, variable length codes or VLCs. Each symbol maps to a codeword and codewords may have varying length but must each contain an integral number of bits. Frequently-occurring symbols are represented with short VLCs, whilst less common symbols are represented with long VLCs. Over a sufficiently large number of encoded symbols, this leads to compression of the data.
+
+#### 3.5.2.1 Huffman coding
+
+Huffman coding assigns a VLC to each symbol based on the probability of occurrence of different symbols. According to the original scheme proposed by Huffman in 1952, it is necessary to calculate the probability of occurrence of each symbol and to construct a set of variable length codewords.
+
+**_Example 1: Huffman coding, Sequence 1 motion vectors_**
+
+The motion vector difference (MVD) for video sequence 1 must be encoded. The table below lists the probability of the most commonly-occurring motion vectors and their **information content**, $log_2(1/p)$. To achieve optimum compression, _each value should be represented with exactly $log_2(1/p)$ bits_. '0' is the most common value, and the probability drops for larger motion vectors. This distribution is representative of a sequence containing **moderate motion**.
+
+![[probs-mvds-huffman.png]]
+
+_1. Generating the Huffman code tree_
+
+To generate a Huffman code table for this set of data, the following iterative procedure is carried out:
+
+1. Order the list of data in increasing order of probability.
+2. Combine the two lowest-probability data items into a 'node' and assign the joint probability of the data items to this node.
+3. Re-order the remaining data items and node(s) in increasing order of probability, and repeat step 2.
+
+The procedure is repeated until there is a single 'root' node that contains all other nodes and data items listed 'beneath' it. This procedure is illustrated in the figure below.
+
+![[huffman-tree-ex1.png]]
+
+_2. Encoding_
+
+Each 'leaf' of the binary tree is mapped to a variable-length code. To find this code, the tree is traversed from the root node, D in this case, to the leaf or data item. For every branch, a 0 or 1 is appended to the code.
+
+Encoding is achieved by transmitting the appropriate code for each data item. Once the tree is generated, the codes may be stored in a look-up table.
+
+High probability data items are assigned short codes, e.g. 1 bit for the most common vector '0'. The lengths of the Huffman codes, each an _integral_ number of bits, do not match the ideal lengths given by $log_2(1/p)$. No code contains any other code as a prefix, which means that, reading from the left-hand bit, each code is uniquely decodable.
+
+![[huff-codes-seq1.png]]
+
+_3. Decoding_
+
+In order to decode the data, the decoder must have the look-up table of symbols, or the probabilities of motion vectors prior to transmission. Each uniquely-decodeable code is converted back to the original data, for example, sending 0111000 can be decoded as:
+
+1. 011 is decoded as (1)
+2. 1 is decoded as (0)
+3. 000 is decoded as (-2).
+
+If the probability distributions are accurate, Huffman coding provides a relatively compact representation of the original data. However, to achieve optimum compression, a separate code table is required for each sequence due to different probability distributions. 
+
+#### 3.5.2.2 Pre-calculated Huffman
+
+There are two main disadvantages with Huffman coding. The first one is that the code tree must be known to both encoder and decoder, and as such must be transmitted prior to the data. The second one is that in order to generate the tree, the probability distribution of the hole encoded video sequence must be calculated, and this could generate unacceptable delays. For these reasons, _image and video coding standards define sets of codewords based on the probability distributions of 'generic' video material_. 
+
+As an example, MPEG-4 Visual (Simple Profile) have pre-calculated VLC tables for Transform Coefficients (TCOEF) and Motion Vector Difference (MVD). For TCOEF, MPEG-4 Visual uses 3-D coding of quantized coefficients in which each codeword represents a combination of (run, level, last). A total of 102 specific combinations of (run, level, last) have VLCs assigned to them. And as for MVD, differentially coded motion vectors are each encoded as a pair of VLCs, one for the x-component and one for the y-component.
+
+These code tables are clearly similar to 'true' Huffman codes since each symbol is assigned a unique codeword, common symbols are assigned shorted codewords and, within a table, no codeword is the prefix of any other codeword. The main difference from 'true' Huffman coding is that codewords are pre-calculated based on 'generic' probability distributions.
+
+### 3.5.3 Arithmetic coding
+
