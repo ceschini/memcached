@@ -351,3 +351,119 @@ These code tables are clearly similar to 'true' Huffman codes since each symbol 
 
 ### 3.5.3 Arithmetic coding
 
+The variable length coding schemes described in the section above share the fundamental disadvantage that assigning a codeword containing an integral number of bits to each symbol is sub-optimal, since the optimal number of bits for a symbol depends on the information content and is usually a fractional number.
+
+Arithmetic coding provides a practical alternative to Huffman coding that can more closely approach theoretical maximum compression ratios. An arithmetic encoder converts a sequence of data symbols into a single fractional number and can approach the optimal fractional number of bits required to represent each symbol.
+
+For each symbol present in a sequence, a slice of the range of fractional numbers between 0 and 1 is assigned, based on the probability of that symbol to occur. Following the same example above, when we try to encode the motion vector values (-2, -1, 0, 1, 2) we will assign each vector a **sub-range** within the range 0.0 to 1.0, depending on its probability of occurrence. In this example, -2 has the probability of 0.1 and is given the subrange 0-0.1, meaning that the first 10 percent of the total range will be reserved to this symbol. -1 has a probability of 0.2 and is given the next 20 percent of the total range, that is the subrange 0.1-0.3.
+
+After assigning a sub-range to each vector, the total range 0-1.0 has been divided amongst the data symbols (the vectors) according to their probabilities.
+
+![[mv-probs-subrange.png]]
+
+![[sub-range-example.png]]
+
+_Encoding procedure_ for vector sequence (0, -1, 0, 2).
+
+1. Set the initial range: 0 → 1.0
+2. Find the sub-range of the first symbol (0): 0.3 → 0.7
+3. Set this sub-range as the new range
+4. Find the sub-range of the next symbol (-1): 0.1 → 0.3
+5. Set the new range as the sub-range of the actual range: 
+	1. Actual range: 0.3 → 0.7
+	2. New range: 0.34 → 0.42
+6. Find the sub-range of the next symbol (0): 0.3 → 0.7
+7. Set the new range as the sub-range of the actual range:
+	1. Actual range: 0.34 → 0.42
+	2. New range: 0.364 -> 0.396
+8. Find the sub-range of the next symbol (2): 0.9 -> 1.0
+9. Set the new range as the sub-range of the actual range:
+	1. Actual range: 0364 -> 0.396
+	2. New range: 0.3928 → 0.396
+10. Define a number that falls between the final range as the chosen encoding number.
+	1. Choose 0.394
+
+After finding the final sub-range, any number that falls between it can be chosen as the final symbol transmitted. It can be represented as a fixed-point fractional number using 9 bits, so our data sequence (0, -1, 0, 2) is compressed to a 9-bit quantity.
+
+![[arith-coding-sub-range-example.png]]
+
+_Decoding procedure_
+
+1. Set the initial range: 0 → 1.0
+2. Find the sub-range in which the received number falls. This indicates the first data symbol.
+	1. Received number: 0.394
+	2. Current range: 0 → 1.0
+	3. Number is inside the 0.3 → 0.7 sub-range
+	4. Decoded symbol is 0
+3. Set the new range to this sub range
+	1. Current range: 0 → 1.0
+	2. New range: 0.3 → 0.7
+4. Find the sub-range **of the new range** in which the received number falls. This indicates the second data symbol.
+	1. Received number: 0.394
+	2. Current range: 0.3 → 0.7
+	3. **_If 0.3 is 0% and 0.7 is 100%, then 0.394 is inside the 10 to 30%_**
+	4. Decoded symbol is -1
+5. ***New range is 10 to 30% of the last range***:
+	1. Current range: 0.3 → 0.7
+	2. New range: 0.34 → 0.42
+6. Find the sub-range of the new range in which the received number falls. This indicates the third data symbol.
+	1. Received number: 0.394
+	2. Current range: 0.34 → 0.42
+	3. **_If 0.34 is 0% and 0.42 is 100%, then 0.394 is inside the 30 to 70%_**
+	4. Decoded symbol is 0
+7. ***New range is 30 to 70% of the last range***:
+	1. Current range: 0.34 → 0.42
+	2. New range: 0.364 → 0.396
+8. Find the sub-range of the new range in which the received number falls. This indicates the fourth data symbol.
+	1. Received number: 0.394
+	2. Current range: 0.364 -> 0.396
+	3. ***If 0.364 is 0% and 0.396 is 100%, then 0.394 is inside the 90 to 100%***
+	4. Decoded symbol is 2
+
+The principal advantage of arithmetic coding is that the transmitted number, 0.394 in this case, is not constrained to an integral number of bits for each transmitted data symbol. The optimal compression for this video sequence is 8.28bits, arithmetic coding achieved 9 bits, a value that a scheme using an integral number of bits for each data symbol such as Huffman coding could not achieve.
+
+#### 3.5.3.1 Context-based Arithmetic Coding
+
+Successful entropy coding depends on accurate models of symbol probability. Context-based Arithmetic Encoding (CAE) uses local spatial and/or temporal characteristics to estimate the probability of a symbol to be encoded.
+
+## 3.6 The hybrid DPCM/DCT video CODEC model
+
+The major video coding standards released since the early 1990s have been based on the same generic design or model of a video CODEC that incorporates a motion estimation and compensation first stage, sometimes described as DPCM, a transform stage and an entropy encoder. The model is often described as a hybrid DPCM/DCT CODEC. Any CODEC that is compatible with H.261, H.263, MPEG-1, MPEG-2, MPEG-4 Visual, H.264/AVC or VC-1 has to implement a similar set of basic coding and decoding functions.
+
+The figure below shows the basic DPCM/DCT hybrid encoder and decoder. In the encoder, the video frame n ($F_n$) is processed to produce a coded or compressed bitstream. In the decoder, the compressed bitstream is decoded to produce a reconstructed video frame $F'_n$. The reconstructed output frame is not usually identical to the source frame. Most of the functions of the decoder are actually contained within the encoder, the reason for which will be explained later.
+
+![[dpcm-dct-encoder.png]]
+
+***Encoder data flow***
+
+There are two main data flow paths in the encoder, left to right (encoding) and right to left (reconstruction). 
+
+The encoding flow is as follows:
+
+1. An input video frame $F_n$ is presented for encoding and is processed in units of a macroblock, corresponding to a 16 x 16 pixel region of the video image.
+2. $F_n$ is compared with a **reference** frame, for example the previous encoded frame ($F'_n-1$). A motion estimation function finds a 16 x 16 region in $F'_n-1$ that 'matches' the current macroblock in $F_n$. The offset between the current macroblock position and the chosen reference region is a motion vector MV.
+3. Based on the chosen motion vector MV, a motion compensated prediction P is generated, the 16 x 16 region selected by the motion estimator. P may consist of interpolated sub-pixel data.
+4. P is subtracted from the current macroblock to produce a residual or difference macroblock D.
+5. D is transformed using the DCT. Typically, D is split into 8 x 8 or 4 x 4 sub-blocks and each sub-block is transformed separately.
+6. Each sub-block is quantized (X).
+7. The DCT coefficients of each sub-block are reordered and run-level coded.
+8. Finally, the coefficients, motion vector and associated header information for each macroblock are entropy encoded to produce the compressed bitstream.
+
+The reconstruction data flow is as follows:
+
+1. Each quantized macroblock X is rescaled and inverse transformed to produce a decoded residual D'. Note that the non-reversible quantization process means that D' is not identical to D, because distortion has been introduced.
+2. The motion compensated prediction P is added to the residual D' to produce a reconstructed macroblock. The reconstructed macroblocks are combined to produce reconstructed frame $F'_n$.
+
+After encoding a complete frame, the reconstructed frame $F'_n$ may be used as a reference frame for the next encoded frame $F_n+1$.
+
+***Decoder data flow***
+
+1. A compressed bitstream is entropy decoded to extract coefficients, motion vector and header for each macroblock.
+2. Run-level coding and reordering are reversed to produce a quantized, transformed macroblock X.
+3. X is rescaled and inverse transformed to produce a decoded residual D'.
+4. The decoded motion vector is used to locate a 16 x 16 region in the decoder's copy of the previous (reference) frame $F'_n-1$. This region becomes the motion compensated prediction P.
+5. P is added to D' to produce a reconstructed macroblock. The reconstructed macroblocks are saved to produce decoded frame $F'_n$.
+
+After a complete frame is decoded, $F'_n$ is ready to be displayed and may also be stored as a reference frame for the next decoded frame $F'_n+1$.
+
+It is clear that the encoder includes a decoding path: rescale, IDCT, reconstruct. **This is necessary to ensure that the encoder and decoder uses identical reference frames $F'_n-1$ for motion compensated prediction.
