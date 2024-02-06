@@ -8,7 +8,6 @@
 
 ## Marxismo
 
-- Leitura introdutória
 - LENIN, Vladímir I. As três fontes e as três partes constitutivas do marxismo (1913)
 
 ## Filosofia de Marx

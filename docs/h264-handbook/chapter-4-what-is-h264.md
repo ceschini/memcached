@@ -26,11 +26,13 @@ H.264/AVC defines a set of tools for video compression that specifies how video 
 
 The encoder carries out prediction, transforming and encoding processes to produce a compressed H.264 bitstream. The decoder carries out complementary processes of decoding, inverse transform and reconstruction to produce a decoded video sequence. The resulting video is not identical to the source due to H.264 being a lossy compression format.
 
-Based on the original video frame, the decoder will process the compressed bitstream and send it to the other end. Beyond that, it will also reconstruct the frame and save it in a coded picture buffer, CPB, in order to compress the following frames based on the reconstruction. A similar process is done at the decoder with a decoded picture buffer, DPB.
+Based on the original video frame, the encoder will process the compressed bitstream and send it to the other end. Beyond that, it will also reconstruct the frame and save it in a coded picture buffer, CPB, in order to compress the following frames based on the reconstruction. A similar process is done at the decoder with a decoded picture buffer, DPB.
 
-Data is processed in units of a **Macroblock**, 16 x 16 squared region of displayed pixels. In the encoder, a prediction macroblock is generated and subtracted, producing a residual that is transformed, quantized and bitstream encoded, ready to be sent to the decoder. Another process is followed along, where the quantized data are re-scaled and inverse transformed and added to the prediction macroblock to reconstruct a coded version of the original frame, which is stored for later predictions. Over at the decoder, the received bitstream is decoded, re-scaled and inverse transformed in order to form a decoded residual macroblock. The decoder generates the same prediction and adds the residual to form the final reconstructed macroblock.
+Data is processed in units of a **Macroblock**, 16 x 16 squared region of displayed pixels. In the encoder, a prediction macroblock is generated and subtracted, producing a residual that is transformed, quantized and bitstream encoded, ready to be sent to the decoder. Another process is followed along, where the quantized data are re-scaled and inverse transformed and added to the prediction macroblock to reconstruct a coded version of the original frame, which is stored for later predictions. 
 
 ![[typical-h264-encoder.png]]
+
+Over at the decoder, the received bitstream is decoded, re-scaled and inverse transformed in order to form a decoded residual macroblock. The decoder generates the same prediction and adds the residual to form the final reconstructed macroblock.
 
 ![[typical-h264-decoder.png]]
 
