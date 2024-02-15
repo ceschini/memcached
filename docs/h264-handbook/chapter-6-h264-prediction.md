@@ -229,3 +229,17 @@ H.264 offers many different options for choosing reference pictures for inter pr
 
 #### 6.4.7.1 Low delay, minimal storage
 
+This mode is suited for videoconferencing by providing a low delay and minimal storage requirements. It employs only I and P frames, being the first frame an I frame and the following ones only P frames, with some sparse I frames for error control. By using only P frames, the decoder can display the decoded frames immediately, and also needs only to store the previous frame, reducing storage usage.
+
+![[low-delay-struct.png]]
+
+#### 6.4.7.2 'Classic' Group of Pictures structure
+
+This structure is the classical one used by MPEG-1 and MPEG-2. The Group of Pictures (GOP) starts with an I slice. P slices are inserted at intervals, with B slices between the I and P slices. I and P are used for reference. This structure provides a higher compression efficiency at the cost of higher delay and storage requirements.
+
+![[gop-structure.png]]
+
+#### 6.4.7.3 Multiple reference frames
+
+In this structure all the previously coded slices can be used for the current prediction. Also called IPPP..., this prediction can chose N reference frames for a current predicted frame and improves compression efficiency at the expense of increased computational expense at the encoder and storage at encoder and decoder.
+
