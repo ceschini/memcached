@@ -243,3 +243,16 @@ This structure is the classical one used by MPEG-1 and MPEG-2. The Group of Pict
 
 In this structure all the previously coded slices can be used for the current prediction. Also called IPPP..., this prediction can chose N reference frames for a current predicted frame and improves compression efficiency at the expense of increased computational expense at the encoder and storage at encoder and decoder.
 
+![[ippp-structure.png]]
+
+#### 6.4.7.4 Hierarchical prediction structures
+
+The hierarchical GOP structure is based on a layered view of the frames. This structure is hierarchical and can be seen as a pyramid, providing improved compression performance if aligned correctly with the quantization parameters of the layers. In the figure below, it begins with the coding of the initial and final frames as I0 and I12 frames, followed by the middle frame of the GOP being a B6 frame. Then the frame between the initial B6 and I0 frame is coded as B3, along with the frame between the initial middle B6 and the final I12 frame as B9.
+
+![[hierarchical-pyramid-gop.png]]
+
+
+## 6.5 Loop filter
+
+A filter is applied to every decoded macroblock to reduce blocking distortion (sharp edges). This filter smooths out edges to improve visual quality and motion-compensated prediction when used as reference frames.
+
