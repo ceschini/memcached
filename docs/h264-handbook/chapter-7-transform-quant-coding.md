@@ -93,3 +93,4 @@ CABAC is an optional entropy coding mode available in Main and High profiles. CA
 - using arithmetic coding rather than variable-length coding.
 
 The definition of the decoding process is designed to facilitate low-complexity implementations of arithmetic encoding and decoding. Overall, CABAC can provide improved coding efficiency compared with CAVLC at the expense of greater computational complexity on some processing platforms.
+
