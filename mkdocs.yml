@@ -1,41 +1,10 @@
-site_name: My Weird-ass Brain
-site_url: https://groovy-lizard.gitlab.io/my-weirdass-brain
+site_name: Memory Cached by LucasMC
+site_url: https://memcached.neocities.org
 site_dir: public
 docs_dir: ./docs
 
 theme:
-  name: material
-  palette:
-    scheme: slate
-    primary: black
-    accent: deep purple
-  features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.sections
-    - navigation.indexes
-
-extra:
-  social:
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:<ceschini.lucas@gmail.com>
-    - icon: fontawesome/brands/mastodon
-      link: https://ursal.zone/@leftopath
-
-# Extensions
-markdown_extensions:
-  - toc:
-      permalink: true
-  - footnotes
-  - attr_list
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.magiclink
-  - pymdownx.tasklist
-  - pymdownx.emoji
-  - admonition
+  name: gitbook
 
 plugins:
-  - search
-  - roamlinks
+    - roamlinks

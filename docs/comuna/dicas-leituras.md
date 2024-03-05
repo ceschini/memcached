@@ -44,3 +44,11 @@
 - MARX, Karl. Crítica do programa de Gotha (1875)
 - MARX, Karl. Sobre a questão judaica (1843)
 - MARX, Karl. 18 de brumário de Luís Bonaparte (1852)
+
+## Achados
+
+- "Liberalismo e sindicato no Brasil" - Luiz Werneck Vianna
+- "A revolução burguesa no Brasil" - Florestan Fernandes
+- "Capitalismo autoritário e campesinato" - Otávio Velho
+- "A revolução passiva: iberismo e americanismo no Brasil" - Luiz W. Vianna
+- 
