@@ -1,6 +1,6 @@
 site_name: Memory Cached by LucasMC
 site_url: https://memcached.neocities.org
-site_dir: public
+site_dir: site
 docs_dir: ./docs
 
 theme:
