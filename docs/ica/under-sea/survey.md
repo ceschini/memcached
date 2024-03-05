@@ -1,6 +1,6 @@
 # Survey on Temporal Compression
 
-We will use the [three-pass approach](three-pass-approach) to filter some papers on the subject. This is intended to be a brief survey and not a fully systematic review.
+We will use the [three-pass-approach](docs/science/three-pass-approach) to filter some papers on the subject. This is intended to be a brief survey and not a fully systematic review.
 
 ## Three-pass approach survey pipeline
 
