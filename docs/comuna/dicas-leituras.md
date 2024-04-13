@@ -51,4 +51,5 @@
 - "A revolução burguesa no Brasil" - Florestan Fernandes
 - "Capitalismo autoritário e campesinato" - Otávio Velho
 - "A revolução passiva: iberismo e americanismo no Brasil" - Luiz W. Vianna
-- 
+- "Dimitrov e a Luta Sindical" - https://www.marxists.org/portugues/dimitrov/livros/luta.htm
+- "Marx e os Sindicatos, A. Losovski" -  https://www.marxists.org/portugues/lozovski/ano/marx/index.htm

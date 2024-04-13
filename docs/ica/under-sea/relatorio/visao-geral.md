@@ -1,0 +1,8 @@
+# Visão Geral
+
+Tendo em mente o objetivo do projeto, foi proposto um protocolo de pesquisa e desenvolvimento que será realizado em etapas, sendo cada uma delas uma atividade comumente presente em algoritmos de compressão de vídeo. O fluxo de processamento proposto segue o estudo de diferentes técnicas e modalidades de manipulação de imagens, que podem ser categorizados em domínios espacial e temporal.
+
+Para cada um dessas modalidades está previsto uma revisão da literatura, seguindo os moldes de revisão sistemática proposto por REF_KITCHENHAM, adaptados para as necessidades de pesquisa e desenvolvimento necessários para o projeto. Com isso, o protocolo final ficou composto pelas etapas: 1) Definição de uma *string* de busca; 2) Aplicação da *string* nas bibliotecas virtuais adequadas; 3) Coleta de artigos; 4) Filtragem dos artigos; 5) Implementação dos artigos e 6) Avaliação qualitativa e quantitativa dos algoritmos implementados.
+
+A pesquisa, mesmo dividida em etapas e abordando diferentes modalidades e técnicas, está sendo continuamente construída com base no objetivo final do projeto, com isso, além de estudar algoritmos de compressão de vídeo, também está sendo feito uma ampla pesquisa sobre as diferentes métricas comumente utilizadas para avaliar esses algoritmos, quais os padrões estipulados e os principais atores comerciais hoje em prática. Com isso, está sendo criado uma base para a avaliação precisa dos métodos estudados, tendo como base aqueles algoritmos amplamente utilizados no dia-a-dia das operações audio-visuais, seja na comunicação online, na gravação offline ou nas aplicações híbridas dentre elas.
+
