@@ -52,3 +52,22 @@ The list of similarities is then evaluated based on two functions, an average su
 The prediction for each image is saved as a new column in the original dataset csv file. This allows us to compare between both columns in order to measure the accuracy of the predictions, while also extracting some insights about the classification performance.
 
 General accuracy is measured comparing the ground truth "gender" column with the predictions over at "gender_preds" column. Based on this general approach, we are able to measure the performance over more specific samples of the data, such as accuracy by gender, age and race.
+
+## About balanced accuracy
+
+There is no discrepancy between genders, we should check other metrics but they will make more sense when we predict races and ages.
+
+### Gender distribution
+
+- Male:      5792
+- Female:    5162
+
+#### Example
+
+**backbone**: laion2b_s32b_b82k 
+
+**best method**: Top 11
+
+**accuracy**: 0.9682
+
+**balanced_accuracy**: 0.9688

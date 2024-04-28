@@ -73,9 +73,33 @@ def predict_age_gender_race(...):
 	gender_score = np.exp(gender_outputs) / np.sum(np.exp(gender_outputs))
 	age_score = np.exp(age_outputs) / np.sum(np.exp(age_outputs))
 
-	race_pred = np.argmax(race_score)
+	race_pred = np.argmax(race_score)  # Top k=1
 	gender_pred = np.argmax(gender_score)
 	age_pred = np.argmax(age_score)
 ```
 
 They trained a model with all FairFace's categories of races, and another model with only 4 categories (male, female and white, non-white) for compatibility with the baseline datasets.
+
+## Reported metrics
+
+The original CLIP paper report gender classification accuracy by race category at *Table 5*.
+
+| Male | Female | Black | White | Indian | Latino | Mid_Eastern | South_asian | East_asian | Average |
+| ---- | ------ | ----- | ----- | ------ | ------ | ----------- | ----------- | ---------- | ------- |
+| 96.9 | 97.0   | 96.7  | 95.9  | 98.0   | 97.5   | 98.0        | 96.3        | 96.6       | 97.0    |
+
+This should correspond to our Top K = 1 method, and below is the ViT-L-14 results for the CLIP model and openCLIP model.
+
+**CLIP model ViT-L-14**
+
+| Male | Female | Black | White | Indian | Latino | Mid_Eastern | South_asian | East_asian | Average |
+| ---- | ------ | ----- | ----- | ------ | ------ | ----------- | ----------- | ---------- | ------- |
+| 95.2 | 95.0   | 93.2  | 94.4  | 96.9   | 95.0   | 97.1        | 95.3        | 94.8       | 95.1    |
+
+**openCLIP model ViT-L-14**
+
+| Male | Female | Black | White | Indian | Latino | Mid_Eastern | South_asian | East_asian | Average |
+| ---- | ------ | ----- | ----- | ------ | ------ | ----------- | ----------- | ---------- | ------- |
+| 95.2 | 95     | 93.1  | 94.4  | 96.9   | 94.9   | 97.1        | 95.3        | 94.9       | 95.1    |
+
+
