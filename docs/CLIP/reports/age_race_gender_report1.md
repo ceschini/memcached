@@ -1,5 +1,5 @@
 # Age, Race and Gender Prompt Ensemble
-## Report 1
+## General Process
 
 In order to improve CLIP classification of genders "Male" or "Female" in the FairFace dataset, we are trying to combine age, race and gender in a single prompt, later grouping it by the original gender labels. This process involves saving both image and text embeddings, later applying the softmax as classification and selecting the most prominent result. The steps required for this outcome are as follows:
 
@@ -35,9 +35,9 @@ Examples of the final prompts are:
 
 Based on the prompts created above, and a list of image filepaths, the embeddings for the CLIP model were generated and saved. 
 
-Images were loaded using python Pillow library, later sent to target device (cuda if available) and processed by calling the `clip_model.encode_image()` function, while inside a `with torch.nograd()` statement. The resulting embedding was passed along with its corresponding filename to a pandas DataFrame structure, later saved to a pickle file to preserve the embeddings in numpy arrays.
+Images were loaded using python Pillow library, later sent to target device (cuda if available) and processed by calling the `clip_model.encode_image()` function, while inside a `with torch.nograd()` statement. The resulting embedding was passed along with its corresponding filename to a pandas DataFrame structure, later saved to a *pickle* file to preserve the embeddings in numpy arrays.
 
-For the text prompts, a JSON file was read and later tokenized by `torch.cat()` and `clip.tokenize()` functions. The tokenized inputs were encoded using `clip_model.encode_text()` and normalized while keeping its dimensions, the same process was also applied to the images.
+For the text prompts, a JSON file was read and later tokenized by `torch.cat()` and `clip.tokenize()` functions. The tokenized inputs were encoded using `clip_model.encode_text()` and normalized while keeping its dimensions (the same process was also applied to the images).
 
 ### 3. Evaluate similarities between prompts
 
@@ -45,7 +45,7 @@ With images and text embeddings saved to disc, we were able to compare similarit
 
 ### 4. Predict the final gender label
 
-The list of similarities is then evaluated based on two functions, an average sum function and a sotmax top\[k] function. The average function sums up all the Male prompts similarities vs all the Female prompts similarities in order to choose the bigger. The top\[k] function simply grabs the maximal value between all prompts. The output of both functions is considered the final classification label for the current image.
+The list of similarities is then evaluated based on two functions, an average sum function and a sotmax top\[k] function. The average function sums up all the Male prompts similarities vs all the Female prompts similarities in order to choose the bigger. The top\[k] selects the k-th highest scores of each class and sum them up into the final score. The output of both functions is considered the final classification label for the current image.
 
 ### 5.  Measure results
 
