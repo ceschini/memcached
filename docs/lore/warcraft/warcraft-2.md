@@ -22,3 +22,13 @@ Uma patrulha de bravos Azerotianos invade a sua torre e o mata, antes que ele pu
 
 Os orcs conseguem invadir a fortaleza de Stormwind Keep, e matam o Rei Llane, com o seu povo sendo salvo apenas pela astúcia do Sir Anduin Lothar, um cavaleiro errante da Ordem do Cavalo. Ele leva os sobreviventes pelo mar até Lordaeron, onde é recebido pelo Rei Terenas.
 
+Enquanto isso, Gul'dan junta uma força avassaladora para encontrar a Tumba de Sargeras. Os filhos do antigo chefe guerreiro Blackhand, Rend e Maim, estão juntando seus aliados para se vingarem do traidor Doomhammer.
+
+## A Aliança de Lordaeron
+
+Com a chegada dos refugiados azerothianos, o Rei Therenas convoca um conselho com os representantes dos setes reinos sob sua tutela. Lá eles escutam os relatos de Sir Anduin Lothar, que comove a todos e os convence a se unirem contra a ameaça órquica. Sendo amigo de Anduin, e já ter sido assolado anteriormente por invasores orques, o general Daelin Prodmoore logo concorda em juntar forças, assim como Thoras Trollbane, de Stromgarde, que sente que batalhas épicas estão chegando.
+
+Em Lordaeron, o bispo do agora destruído Northshire Abbey, Alonsus Faol, conclama os padres a pegarem em armas contra os demônios.
+
+Os estóicos anões das profundezas anciãs de Khaz Modan reportam que já tem orcs no seu reino montanhoso, e proporciona guerreiros e suas ferramentas de engenharia, com a promessa de que os orcs serão varridos de suas terras.
+

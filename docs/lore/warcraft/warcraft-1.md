@@ -47,7 +47,7 @@ Ela diz que ambos sairam exauridos do combate, mas ele conseguiu bani-la da sua 
 
 ### O Destino das Hordas Órquicas
 
-A história e lendas sobre a invasão e o domínio das terras dos Homens, *escrito por* Garona do Concelho Sombrio (Shadow Council).
+A história e lendas sobre a invasão e o domínio das terras dos Homens, *escrito por* Garona do Conselho Sombrio (Shadow Council).
 
 As estórias de batalhas e vitórias sempre foram contadas, e no passado, era responsabilidade dos líderes de cada assalto documentar o passado. Ainda que bons líderes na guerra, esses chefes não tinham habilidade para colocar os escritos em palavras escritas. Eu apresento um exemplo:
 
