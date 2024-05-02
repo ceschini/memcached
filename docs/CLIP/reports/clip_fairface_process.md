@@ -82,24 +82,28 @@ They trained a model with all FairFace's categories of races, and another model 
 
 ## Reported metrics
 
-The original CLIP paper report gender classification accuracy by race category at *Table 5*.
+The original CLIP paper report gender classification accuracy by race category at *Table 5*.  To better visualize some races have been abbreviated:
 
-| Male | Female | Black | White | Indian | Latino | Mid_Eastern | South_asian | East_asian | Average |
-| ---- | ------ | ----- | ----- | ------ | ------ | ----------- | ----------- | ---------- | ------- |
-| 96.9 | 97.0   | 96.7  | 95.9  | 98.0   | 97.5   | 98.0        | 96.3        | 96.6       | 97.0    |
+- ME: Middle-Eastern
+- SA: South-Asian
+- EA: East-Asian
+
+**Original CLIP Paper**
+
+| Male | Female | Black | White | Indian | Latino | ME   | SA   | EA   | Average |
+| ---- | ------ | ----- | ----- | ------ | ------ | ---- | ---- | ---- | ------- |
+| 96.9 | 97.0   | 96.7  | 95.9  | 98.0   | 97.5   | 98.0 | 96.3 | 96.6 | 97.0    |
 
 This should correspond to our Top K = 1 method, and below is the ViT-L-14 results for the CLIP model and openCLIP model.
 
 **CLIP model ViT-L-14**
 
-| Male | Female | Black | White | Indian | Latino | Mid_Eastern | South_asian | East_asian | Average |
-| ---- | ------ | ----- | ----- | ------ | ------ | ----------- | ----------- | ---------- | ------- |
-| 95.2 | 95.0   | 93.2  | 94.4  | 96.9   | 95.0   | 97.1        | 95.3        | 94.8       | 95.1    |
+| Male | Female | Black | White | Indian | Latino | ME   | SA   | EA   | Average |
+| ---- | ------ | ----- | ----- | ------ | ------ | ---- | ---- | ---- | ------- |
+| 95.2 | 95.0   | 93.2  | 94.4  | 96.9   | 95.0   | 97.1 | 95.3 | 94.8 | 95.1    |
 
 **openCLIP model ViT-L-14**
 
-| Male | Female | Black | White | Indian | Latino | Mid_Eastern | South_asian | East_asian | Average |
-| ---- | ------ | ----- | ----- | ------ | ------ | ----------- | ----------- | ---------- | ------- |
-| 95.2 | 95     | 93.1  | 94.4  | 96.9   | 94.9   | 97.1        | 95.3        | 94.9       | 95.1    |
-
-
+| Male | Female | Black | White | Indian | Latino | ME   | SA   | EA   | Average |
+| ---- | ------ | ----- | ----- | ------ | ------ | ---- | ---- | ---- | ------- |
+| 95.2 | 95     | 93.1  | 94.4  | 96.9   | 94.9   | 97.1 | 95.3 | 94.9 | 95.1    |
