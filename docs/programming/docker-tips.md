@@ -40,6 +40,33 @@ Running a tensorflow container with gpu and jupyter support:
 docker run -u $(id -u):$(id -g) -w /my_home -v ~:/my_home -it --rm tensorflow/tensorflow:2.3.0-gpu-jupyter /bin/bash
 ```
 
+## Networking
+
+  
+To see what network(s) your container is on, assuming your container is called `c1`:
+
+```
+$ docker inspect c1 -f "{{json .NetworkSettings.Networks }}"
+```
+
+To disconnect your container from the first network (assuming your first network is called `test-net`):
+
+```
+$ docker network disconnect test-net c1
+```
+
+Then to reconnect it to another network (assuming it's called test-net-2):
+
+```
+$ docker network connect test-net-2 c1
+```
+
+To check if two containers (or more) are on a network together:
+
+```
+$ docker network inspect test-net -f "{{json .Containers }}"
+```
+
 ## Some tips and notes
 
 ### Image Name Structure
@@ -59,3 +86,4 @@ If you don't know your user info, run the command below or append it to your `do
 ```bash
 $(id -u):$(id -g)
 ```
+
