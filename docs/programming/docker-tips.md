@@ -42,7 +42,12 @@ docker run -u $(id -u):$(id -g) -w /my_home -v ~:/my_home -it --rm tensorflow/te
 
 ## Networking
 
-  
+To check the host IP address of you container, assuming your container is called `c1`:
+
+```bash
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' c1
+```
+
 To see what network(s) your container is on, assuming your container is called `c1`:
 
 ```
