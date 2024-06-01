@@ -12,7 +12,7 @@
 
 ## Subject
 
-"Improving gender classification and bias pruning using prompt tuning"
+"Improving CLIP's gender classification and bias pruning using prompt embedding"
 
 ## Systematic Review
 

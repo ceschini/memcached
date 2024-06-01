@@ -24,24 +24,22 @@ Based on [this github open issue](https://github.com/openai/CLIP/issues/157) and
 > Just like in the paper, we merge the FairFace labels for race and gender. For each combined label we define a prompt to use in the zero-shot classification. The exact prompts used for the CLIP paper experiments are unknown, so we choose them as simply as possible.
 
 ```python
-labels = {
-
-'White_Male': 'a photo of a white man',
-'White_Female': 'a photo of a white woman',
-'Black_Male': 'a photo of a black man',
-'Black_Female': 'a photo of a black woman',
-'Latino_Hispanic_Male': 'a photo of a latino man',
-'Latino_Hispanic_Female': 'a photo of a latino woman',
-'East Asian_Male': 'a photo of an east asian man',
-'East Asian_Female': 'a photo of an east asian woman',
-'Southeast Asian_Male': 'a photo of a southeast asian man',
-'Southeast Asian_Female': 'a photo of a southeast asian woman',
-'Indian_Male': 'a photo of an indian man',
-'Indian_Female': 'a photo of an indian woman',
-'Middle Eastern_Male': 'a photo of a middle eastern man',
-'Middle Eastern_Female': 'a photo of a middle eastern woman',
-
-'...crime related labels...': '...',
+original_clip_labels = {
+	'White_Male': 'a photo of a white man',
+	'White_Female': 'a photo of a white woman',
+	'Black_Male': 'a photo of a black man',
+	'Black_Female': 'a photo of a black woman',
+	'Latino_Hispanic_Male': 'a photo of a latino man',
+	'Latino_Hispanic_Female': 'a photo of a latino woman',
+	'East Asian_Male': 'a photo of an east asian man',
+	'East Asian_Female': 'a photo of an east asian woman',
+	'Southeast Asian_Male': 'a photo of a southeast asian man',
+	'Southeast Asian_Female': 'a photo of a southeast asian woman',
+	'Indian_Male': 'a photo of an indian man',
+	'Indian_Female': 'a photo of an indian woman',
+	'Middle Eastern_Male': 'a photo of a middle eastern man',
+	'Middle Eastern_Female': 'a photo of a middle eastern woman',
+}
 ```
 
 ## What does the FairFace paper says

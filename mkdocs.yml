@@ -1,6 +1,6 @@
 site_name: Memory Cached by LucasMC
 
 theme:
-  name: gitbook
+  name: mkdocs
 
 plugins: []

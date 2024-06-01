@@ -2,7 +2,7 @@
 
 ## General Process
 
-In order to improve CLIP classification of genders "Male" or "Female" in the FairFace dataset, we are trying to combine age, race and gender in a single prompt, later grouping it by the original gender labels. This process involves saving both image and text embeddings, later applying the softmax as classification and selecting the most prominent result. The steps required for this outcome are as follows:
+In order to improve CLIP classification of genders "Male" or "Female" in the FairFace dataset, we propose an ensemble of age, race and gender in a single prompt, later grouping it by the original gender labels. This process involves saving both image and text embeddings, later applying the softmax as classification and selecting the most prominent result. The steps required for this outcome are as follows:
 
 1. Generate a list of prompts
 2. Save image and prompts embeddings
@@ -56,7 +56,7 @@ General accuracy is measured comparing the ground truth "gender" column with the
 
 ## About the available labels
 
-There are 3 available sets of labels that we can choose from. The first and simplest one is the `raw_gender_labels`, with only Male and Female prompts, the second one is the `original_clip_labels` where we try to replicate the labels supposedly used by the authors, and finally there is the set presented here, called `age_race_gender_labels`.
+There are 3 available sets of labels that we can choose from. The first and simplest one is the `raw_gender_labels`, with only Male and Female prompts, the second one is the `original_clip_labels` where we try to replicate the labels used by the authors, and finally there is the set presented here, called `age_race_gender_labels`.
 
 
 ## About Top K prediction
