@@ -55,23 +55,19 @@ In order to improve CLIP gender classification in our target dataset, we propose
 
 By combining a list of age, race and gender words, the list of prompts was generated from all their possible combinations. The prompt was built based on aforementioned prefix "a photo of a/an" and a combination of (race + gender), (age + gender) and (age + race + gender). We also added prompts with only the gender classes for the leveraging of the original prompt.
 
-Based on the prompts created above, and a list of image filepaths, the embeddings for the CLIP model were generated and saved. 
+Based on the prompts created above, and a list of image file paths, the embeddings for the CLIP model were generated and saved.
 
 Images were loaded using python Pillow library, later sent to target device (cuda if available) and processed by calling the corresponding CLIP model encode image function, while inside a loop statement with no gradient optimization. The resulting embedding was passed along with its corresponding filename to a pandas DataFrame structure, later saved to a pickle file to preserve the embeddings in numpy arrays.
 
 For the text prompts, a JSON file was read and later tokenized. These tokenized inputs were encoded using the corresponding CLIP model encode text function and normalized while keeping its dimensions (the same process was also applied to the images).
 
-With images and text embeddings saved to disc, we were able to compare similarities between every image to all available prompts by calculating 100.0 * image_features @ text_features.T, where @ is matrix multiplication and .T is the transposed form of the vector. The result of this operation is a list with a similarity score between the target image and each of the available text prompts.
-
-The list of similarities is then evaluated based on two functions, an average sum function and a sotmax top[k] function. The average function sums up all the Male prompts similarities vs all the Female prompts similarities in order to choose the bigger. The top[k] selects the k-th highest scores of each class and sum them up into the final score. The output of both functions is considered the final classification label for the current image.
+With images and text embeddings saved to disc, we were able to compare similarities between every image to all available prompts by calculating 100.0 * image\_features @ text\_features.T, where @ is matrix multiplication and .T is the transposed form of the vector. The result of this operation is a list with a similarity score between the target image and each of the available text prompts.
 
 The prediction for each image is saved as a new column in the original dataset file. This allows us to compare between both columns in order to measure the accuracy of the predictions, while also extracting some insights about the classification performance.
 
 General accuracy is measured comparing the ground truth "gender" column with the predictions. Based on this general approach, we are able to measure the performance over more specific samples of the data, such as accuracy by gender, age and race.
 
-There are 3 available sets of labels that we can choose from. The first and simplest one is the raw_gender_labels, with only Male and Female prompts, the second one is the original_clip_labels where we try to replicate the labels used by the authors, and finally there is the set presented here, called age_race_gender_labels.
-
-The original OpenAI CLIP paper does not says anything about their prediction method, and as such we assume that they employ a simple argmax to retrieve the most similar prompt from the list. This is equal to our method of Top K with k = 1, and as such this is the used method when we try to replicate the original paper results. Beyond that, we also experimented with different k values, where the logic is that it sorts the similarity scores from highest to lowest, and sum up the first k samples, each for every category (male and female).
+There are 3 available sets of labels that we can choose from. The first and simplest one is the raw\_gender\_labels, with only Male and Female prompts, the second one is the original\_clip\_labels where we try to replicate the labels used by the authors of the original CLIP paper, and finally there is the set presented here, called age\_race\_gender.
 ## 3. Experiments
 
 - The effect of model and data scaling
@@ -100,3 +96,10 @@ For data scaling we chose a constant model architecture and scaled the data-sour
 (Here we could also grab all filtering techniques of datacomp and explore their impact for gender classification, but maybe too out of scope)
 
 
+## Aggregation techniques
+
+To further explore aggregation techniques, the list of similarities is evaluated based on two functions, an average sum function and a softmax top[k] function. The average function sums up all the Male prompts similarities vs all the Female prompts similarities in order to choose the bigger. The top[k] selects the k-th highest scores of each class and sum them up into the final score. The output of both functions is considered the final classification label for the current image.
+
+The original OpenAI CLIP paper does not says anything about their prediction method, and as such we assume that they employ a simple argmax to retrieve the most similar prompt from the list. This is equal to our method of Top K with k = 1, and so this is the used method when we try to replicate the original paper results. Beyond that, we also experimented with different k values, where the logic is that it sorts the similarity scores from highest to lowest, and sum up the first k samples, each for every category (male and female).
+
+Both model and data scaling experiments will be replicated with the addition of the aggregation techniques, selecting the best method for each model and data-source, where it can be any from the average aggregator to the top-k aggregator, with 20 levels of K being explored.
