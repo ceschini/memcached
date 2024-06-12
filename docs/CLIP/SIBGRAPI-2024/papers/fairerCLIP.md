@@ -9,3 +9,6 @@ The authors claim that debiasing methods are commonly focused on the spurious co
 They developed a method to learn the biases from text and image embeddings of CLIP and deploy their model as a post-processing stage after CLIP encoding and prior to cosine similarity classifiers.
 
 For performance evaluation they use Average Accuracy, Worst-Group Accuracy and Gap, the difference between average and worst-group. Also, for spurious correlation they used MaxSkew and for intrinsic dependency they used Equal Opportunity Difference (EOD).
+
+>For performance evaluation, we use three metrics: 1) Average accuracy (Avg.), 2) Worst-Group accuracy (WG), i.e., the lowest accuracy of all subgroups, and 3) Gap, which is the difference between average and worst-group accuracy.
+
