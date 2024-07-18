@@ -1,3 +1,0 @@
-# Mini-currículo
-
-Formado em Ciência da Computação pela Unisinos, atualmente é aluno do curso de Mestrado em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS), onde pesquisa sobre visão computacional e aprendizado de máquina. Já foi bolsista de iniciação científica em um projeto sobre smart cities e IoHT, com mais de dois anos atuando em projetos de P&D na startup PixForce, atualmente é pesquisador e desenvolvedor de visão computacional no Laboratório de Inteligência Computacional Aplicada (ICA) da PUC-Rio.
