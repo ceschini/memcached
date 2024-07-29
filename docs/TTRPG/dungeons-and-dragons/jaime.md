@@ -7,3 +7,8 @@ Filho de um ingenuo joalheiro local que acreditava na lei e na bondade das pesso
 Depois de uma noite de bebedeiras na taverna local, e tendo lucrado dois dragões de ouro no jogo de dados, Jaime sai cambaleante da taverna com o seu mais novo amigo e alvo, um humano fanfarrão que havia passado a noite se vangloriando sobre como havia trocado um livro de segredos arcanos por um par de frascos de poção de cura que na verdade não passavam de água do mar enfeitiçadas.
 
 Ao passarem por uma viela mal iluminada, Jaime se aproveita de uma já esperada distração por parte de um casal de pequeninos que passam as noites discutindo e brigando na varanda do seu prédio para afanar o livro de segredos, que em um instante passa do bolso do casaco do comerciante para um compartimento secreto da sua bolsa de couro.
+
+https://forgottenrealms.fandom.com/wiki/Xanathar_(original)
+https://forgottenrealms.fandom.com/wiki/Waterdeep?
+https://forgottenrealms.fandom.com/wiki/Zhentarim
+https://forgottenrealms.fandom.com/wiki/Cyric
