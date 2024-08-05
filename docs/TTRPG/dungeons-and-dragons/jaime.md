@@ -30,3 +30,6 @@ https://forgottenrealms.fandom.com/wiki/Waterdeep?
 https://forgottenrealms.fandom.com/wiki/Zhentarim
 https://forgottenrealms.fandom.com/wiki/Cyric
 https://forgottenrealms.fandom.com/wiki/Lords%27_Alliance
+https://forgottenrealms.fandom.com/wiki/Halaster_Blackcloak
+https://forgottenrealms.fandom.com/wiki/Ibbalar_Thrul
+https://forgottenrealms.fandom.com/wiki/Undermountain
