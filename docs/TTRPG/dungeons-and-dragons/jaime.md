@@ -20,10 +20,31 @@ Cada vez mais absorto na leitura do diário, o jovem ladino então começa a ser
 
 Sonhos estranhos tormentam a sua mente, visões de um opulento castelo encravado na rocha desponta de um teto escuro e húmido. Chuva cai desse céu de pedra, e o clarão dos trovões destaca silhuetas antropomórficas que desafiam a lógica e a razão, fazendo com que cada célula do corpo de Jaime estremeça de pavor.
 
-Depois de uma noite de bebedeira, Jaime se dirige trôpego para os seus aposentos, mas ao dobrar uma esquina percebe que não está mais pisando na calçada de pedras lisas da ala comercial, mas sim em um intricado calabouço de rochas negras, com brilhantes estalactites e estalagmites de obsidiana. O silêncio é gutural e ao tentar acender uma tocha ou evocar alguma fonte de luz, nada acontecia. Jaime dá um passo exitante, tenta chamar por alguém mas nada chega aos seus ouvidos.
+Depois de uma noite de bebedeira, Jaime se dirige trôpego para os seus aposentos, mas ao dobrar uma esquina percebe que não está mais pisando na calçada de pedras lisas da ala comercial, mas sim em um intricado calabouço, com paredes iluminadas pelos mais complexos mecanismos, vertendo essência arcana. 
 
-Ele então reconhece aqueles corredores como sendo os salões subterrâneos da cidade, o lugar de morada do mago louco Halaster e de seu aprendiz Ibbalar, a Undermountain. Se guiando por um conhecimento compartilhado como que por mágica, ele avança no calabouço labiríntico com passos vacilantes até que se vê de frente para um vasto salão, com grossos pilares de pedra talhada, iluminados por gigantescos lustres e que centralizam sua luz para um trono elevado, onde uma figura humana está sentada de forma relaxada e despretenciosa.
+Jaime tem a sensação de que já esteve naqueles corredores, e memórias muito antigas parecem vir a sua mente, de tempos em que ele perambulava os salões subterrâneos da cidade, o lugar de morada do mago louco Halaster e de seu aprendiz Ibbalar, a Undermountain. Se guiando por esse conhecimento primitivo, ele avança no calabouço labiríntico com passos vacilantes até que se vê de frente para um vasto salão, com grossos pilares de pedra talhada, iluminados por gigantescos lustres e que centralizam sua luz para o meio do salão, onde um globo negro flutua em cima de pedestal elevado. O pedestal é coroado pelos ossos de aventureiros que fracassaram em desvendar os segredos do círculo mágico que protege o artefato.
 
+Jaime sabe que um passo em falso nesse lugar seria a sua ruína, mas mesmo assim ele avança confiante, se aproxima do pedestal com passos firmes, evitando aqueles blocos do piso em que ele parecia conhecer de forma instintiva como sendo armadilhas.
+
+O globo negro parecia um olho, encarando Jaime com sua pupila branca e com o símbolo do infinito girando no seu interior. Em todas as suas andanças, Jaime nunca tinha visto um tesouro dessa magnitude, ainda assim percebeu uma certa familiaridade com o artefato.
+
+Logo abaixo do pedestal uma plaqueta podia ser lida em uma língua antiga, que Jaime leu com facilidade: "Faça a pergunta certa, e a verdade o libertará".
+
+Jaime já tinha lido essa passagem antes, e ao consultar o diário do aprendiz arcano se deparou com a passagem que ele buscava. "Qual o sentido da vida, do universo, e tudo o mais?", ele perguntou ao Orbe, naquele mesmo dialeto antigo que ele nunca havia ouvido antes. Uma vibração começou a ser sentida ao redor do pedestal, e onde antes havia uma distorção da luz ao redor do globo agora começava a se dissipar, enquanto o Orbe girava para mostrar o seu outro lado, onde um outro círculo branco como se fosse pupílas podia ser visto, mas onde antes havia o símbolo do infinito agora apresentava apenas os símbolos de um numeral que não significava nada para Jaime: 42.
+
+Jaime apenas conseguia observar confuso o que estava acontecendo, mas quando percebeu ele estava com orbe nas mãos, sentindo sem nem precisar tentar detectar a magia intrínseca e anciã do objeto de superfície lisa e cósmica que ele agora segurava.
+
+Ele mal teve tempo de apreciar o objeto em suas mãos quando passos apressados começaram a ecoar do túnel às suas costas. Assustado e com um pressentimento de perigo, Jaime guarda o Orbe na sua bolsa antes de se camuflar nas sombras de um dos cantos do salão.
+
+Duas figuras encapuzadas adentram o salão sorrateiramente, e se dirigem para o pedestal agora desativado e dormente. A figura da esquerda parece um pé maior que a outra, e os chifres que escapam para fora do seu capuz traiem a sua raça: Era um tiefling, e parecia o líder da dupla. 
+
+Ele estica o braço e trava o avanço do seu ansioso companheiro, e com uma voz imperiosa e grave diz em comum: "Espere, Sylvannus disse que o Orbe do Conhecimento estaria flutuando em um pedestal no centro do salão e, a não ser que o mapa do calabouço esteja errado, era para ser aqui".
+
+Num tom um nível acima do seu companheiro, e com uma voz esganiçada, o outro responde irritado: "Hummnnha! Eu paguei muito caro nesse maldito mapa pra ele tá errado. Não, não, ele tá certo, tem que estar certo, era pra ser aqui". 
+
+O tiefling então solta um grunhido e avança em direção ao pedestal, olhando o mapa e se certificando de que estava pisando exatamente nos blocos do piso livre de armadilhas, com o outro capanga o seguindo meio encurvado logo atrás.
+
+Jaime sabia que havia pouco tempo antes que uma busca mais minusciosa do salão o descobrisse, então decide agir, usando sua mão mágica e invisível ele pressiona o mecanismo próximo do teto de pedra, e a luz mágica dos lustres estoura em um brilho ofuscante antes de se apagar completamente. Se aproveitando do breve momento de surpresa e confusão da dupla encapuzada, Jaime dispara em direção do túnel, sem se importar em ser sorrateiro. Ele ouve o tiefling gritar um "Ei!... Atrás dele Grock!" e se impressiona com a velocidade com que a forma antes apenas curvada agora avança em sua direção galopando sobre quatro patas.
 
 https://forgottenrealms.fandom.com/wiki/Xanathar_(original)
 https://forgottenrealms.fandom.com/wiki/Waterdeep?
