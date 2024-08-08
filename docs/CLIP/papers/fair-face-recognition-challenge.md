@@ -22,11 +22,11 @@ The authors divide bias mitigation methods based on the area of model deployment
 
 For the final ranking evaluation, besides accuracy, the lowest positive pairs and highest negative pairs were evaluated with the bias metrics.
 
-![fairface challenge image examples](fairface-challenge-image-examples.png)
+![[fairface-challenge-image-examples.png]]
 
 The best methods leveraged ensemble models, external data, bias aware loss functions and most importantly, **post-processing bias mitigation techniques**.
 
-![general information about top-3 winning approaches](fairface-challenge-general-info.png)
+![[fairface-challenge-general-info.png]]
 
 ## References
 

@@ -1,13 +1,44 @@
-site_name: Memory Cached by LucasMC
+site_name: Memory Cached
+site_description: Dumping random accessed knowledge
 site_url: https://ceschini.github.io/memcached
 
 theme:
   name: material
+  icon:
+    logo: material/memory
+  favicon: img/memory.svg
   font:
     text: Roboto
     code: Roboto Mono
-  plugins:
-    - blog:
-      enabled: true
-      blog_dir: blog
-    - social
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+      primary: white
+      accent: red
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+      primary: black
+      accent: light blue
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+
+plugins:
+  - blog
+  - social
+  - search
+
+markdown_extensions: 
+  - toc:
+      permalink: true
