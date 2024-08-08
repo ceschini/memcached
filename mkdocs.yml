@@ -1,6 +1,13 @@
 site_name: Memory Cached by LucasMC
+site_url: https://ceschini.github.io/memcached
 
 theme:
-  name: mkdocs
-
-plugins: []
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  plugins:
+    - blog:
+      enabled: true
+      blog_dir: blog
+    - social
