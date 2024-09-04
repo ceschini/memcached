@@ -28,7 +28,7 @@ Jaime sabe que um passo em falso nesse lugar seria a sua ruína, mas mesmo assim
 
 O globo negro parecia um olho, encarando Jaime com sua pupila branca e com o símbolo do infinito girando no seu interior. Em todas as suas andanças, Jaime nunca tinha visto um tesouro dessa magnitude, ainda assim percebeu uma certa familiaridade com o artefato.
 
-Logo abaixo do pedestal uma plaqueta podia ser lida em uma língua antiga, que Jaime leu com facilidade: "Faça a pergunta certa, e a verdade o libertará".
+Logo abaixo do pedestal uma plaqueta podia ser lida em uma língua antiga, que Jaime leu com facilidade: "Faça a pergunta certa, e a resposta o libertará".
 
 Jaime já tinha lido essa passagem antes, e ao consultar o diário do aprendiz arcano se deparou com a passagem que ele buscava. "Qual o sentido da vida, do universo, e tudo o mais?", ele perguntou ao Orbe, naquele mesmo dialeto antigo que ele nunca havia ouvido antes. Uma vibração começou a ser sentida ao redor do pedestal, e onde antes havia uma distorção da luz ao redor do globo agora começava a se dissipar, enquanto o Orbe girava para mostrar o seu outro lado, onde um outro círculo branco como se fosse pupílas podia ser visto, mas onde antes havia o símbolo do infinito agora apresentava apenas os símbolos de um numeral que não significava nada para Jaime: 42.
 
@@ -46,11 +46,36 @@ O tiefling então solta um grunhido e avança em direção ao pedestal, olhando 
 
 Jaime sabia que havia pouco tempo antes que uma busca mais minusciosa do salão o descobrisse, então decide agir, usando sua mão mágica e invisível ele pressiona o mecanismo próximo do teto de pedra, e a luz mágica dos lustres estoura em um brilho ofuscante antes de se apagar completamente. Se aproveitando do breve momento de surpresa e confusão da dupla encapuzada, Jaime dispara em direção do túnel, sem se importar em ser sorrateiro. Ele ouve o tiefling gritar um "Ei!... Atrás dele Grock!" e se impressiona com a velocidade com que a forma antes apenas curvada agora avança em sua direção galopando sobre quatro patas.
 
-https://forgottenrealms.fandom.com/wiki/Xanathar_(original)
-https://forgottenrealms.fandom.com/wiki/Waterdeep?
-https://forgottenrealms.fandom.com/wiki/Zhentarim
-https://forgottenrealms.fandom.com/wiki/Cyric
-https://forgottenrealms.fandom.com/wiki/Lords%27_Alliance
-https://forgottenrealms.fandom.com/wiki/Halaster_Blackcloak
-https://forgottenrealms.fandom.com/wiki/Ibbalar_Thrul
-https://forgottenrealms.fandom.com/wiki/Undermountain
+Jaime vê aquele vulto se aproximando e sabe que logo será alcançado, ele ouve um pigarrear vindo da criatura e ao olhar de relance vê um jato verde sendo disparado do que parece ser a bocarra de Grock. O jato de ácido passa raspando e faz um furo na parede de pedra, sugerindo que se aquilo continuar por muito tempo ele logo terá um buraco parecido no seu corpo.
+
+Como se ouvisse o apelo do ladino, o caminho a sua frente é bifurcado em dois corredores, que ele aproveita para criar uma ilusão sua e assim confundir o humanóide serpentino que o persegue. Mas não é o suficiente, pois depois de um instante de confusão Grock parece decidido e escolhe o lado correto, para o desespero de Jaime.
+
+Sendo incapaz de confundir os sentidos aguçados do Yuan-ti assasino, Jaime apela para um jogo de esperteza, tentando imitar a voz do chefe tiefling e chamando Grock de volta. A voz partindo do fundo do corredor parece ter surgido efeito, pois os segundos de indecisão de Grock são o suficiente para aumentar a distância dentre eles e assim Jaime consegue identificar um mecanismo próximo a uma saliência e que ele se recorda de algum lugar como sendo uma entrada de serviço para os antigos servos de Ibbalar. Com isso Jaime consegue escapar por aquele corredor e decide passar alguns dias baixado no seu esconderijo.
+
+Jaime ainda estava se recuperando da sua fuga contra Grock quando seu irmão irrompe para dentro do seu esconderijo. Desde quando Carlos sabia do seu esconderijo? E como? Carlos diz que não há tempo para essas explicações, diz apenas que Jaime se meteu em uma trama complexa e perigosa, e que agora deve apenas ouvir e fazer como lhe é dito.
+
+O orbe que ele tem nas mãos é o Orbe do Conhecimento, um artefato mágico e extremamente raro, que se tornou objeto de obsessão do chefe da maior organização do submundo de Waterdeep, Sylvannus.
+
+Sylvannus é um beholder que se auto-proclama descendente de Xanathar e é o atual Líder Obscuro da Rede Sombria, uma organização do submundo do crime responsável por todo o tipo de operações ilegais. Especialistas em contrabando, espionagem, chantagem e assassinato, a Rede é a escolha principal dos figurões de Waterdeep quando decidem jogar sujo. Além das volumosas quantias de ouro, seus contratantes acabam pagando indiretamente com capital político, que resultou em um crescente controle de Sylvannus sobre a guarda da cidade, os comerciantes dos pórticos e até alguns altos magistrados.
+
+Os magísteres de Waterdeep estavam divididos entre aqueles pegos pelas garras de Sylvannus, aqueles que foram corrompidos por ele e aqueles que ainda se mantiam firmes contra o movimento obscuro que tomava conta da ordem da cidade.
+
+Ninguém além do próprio beholder sabe seus planos para tomar o controle da cidade, mas seu interesse obsessivo sobre o Orbe do Conhecimento sugere que o artefato seja a chave para o seu sucesso.
+
+Não demora muito para Sylvannus descobrir quem era o ladrão arcano que fugiu com o seu tesouro, o infame astro do crime que tomou as ruas de supetão com a sua insanidade carismática e seu talento nato para ilusões e encantamentos: Saulo Boaventura.
+
+Com essas informações Carlos traçou seu plano com os magísteres e a Aliança dos Lordes, e quando Jaime foi atraído para Undermountain pelo livro de magias de Ibbalar, esse plano foi posto em movimento. Os agentes do reino atacaram as bases da Rede de forma coordenada e sob grandes perdas, mas conseguiram atrasar os movimentos de Sylvannus o suficiente para Jaime destravar os segredos e as armadilhas que circundavam o Orbe do Conhecimento. Agora que ele o tinha em mãos, deveria entregar para seu irmão e assim fugir em exílio, apenas com a esperança de que a fúria do beholder se arrefeça o suficiente para ele voltar para casa.
+
+O turbilhão de informações atordoa os pensamentos de Jaime, e antes que ele possa entregar o artefato para seu irmão uma fumaça espessa começa a subir a partir das fissuras do chão de madeira do esconderijo. O cheiro característico de pólvora é sentido pelos irmãos momentos antes da explosão, que abre um rombo no canto oposto do recinto, acompanhado por um enxame de figuras encapuzadas que escalam as paredes e tomam conta de todo o perímetro, lideradas por uma voz estridente que Jaime reconhece como pertencendo à Grock, o humanóide serpentino líder do esquadrão de assassinos Yuan-ti.
+
+Os irmãos são varados por disparos de dardos envenenados e sprays de veneno, mas são poupados dos impactos pelo surgimento de uma barreira mágica. Jaime se vê estupefato pelo autor do feitiço, era Carlos, que agora deixa aparecer de dentro dos seus robes um bracelete dourado e com intricados símbolos esquisitos, que pulsam com uma luz arroxeada.
+
+"É maninho, parece que o interesse pelo arcano vem de família", Carlos diz com um sorriso triste no rosto, "E não é só você que aprendeu alguns novos truques ultimamente". Com isso ele toma uma posição de poder, abrindo um pouco mais as pernas, flexionando elas levemente e firmando os pés no chão, abre as duas mãos como se tivesse segurando algo nas palmas e faz um movimento circular, como que canalizando algo de baixo para cima. Um tremor começa a ser sentido nas tábuas do chão de madeira, e um borbulhar vermelho aparece logo na frente de Carlos, quando uma parede de fogo irrompe, tostando os assassinos mais próximos e jogando os outros para trás.
+
+"Não temos mais tempo, pegue o Orbe e leve para bem longe daqui, Sylvannus não pode pôr as mãos nele de jeito nenhum." Jaime não quer ouvir, diz que não vai deixá-lo para trás, que eles podem vencê-los juntos, mas Carlos o interrompe, diz que depois dessa explosão toda a guarda da cidade vai vir ao encontro deles, e que Jaime e o Orbe não podem ser pegos, pois muitos dos guardas já estavam submissos a Sylvannus.
+
+Jaime ainda tenta teimosamente argumentar, mas ambos sabem que isso deve ser feito e que não há outra alternativa, o olhar mareado dos irmãos é ao mesmo tempo uma despedida e um voto de confiança de que tudo vai ficar bem.
+
+Grock amaldiçoa o humano arrogante que o fez de bobo nos corresdores, e o seu irmão de robes pomposos com seus truques mágicos. Ele faz sinal para que o resto do bando ataque. "Vamos rapazes, pela luzinha fraca daquele treco mágico, ele tá ficando sem suco, ataquem! Agora! Cuidado com os truques daquele ali, não o deixem escapar!" Mas já era tarde demais, Carlos canaliza o restante de energia arcana presente no seu bracelete para conjurar um raio de luz colorida que desintegra um dos capangas ao lado de Grock, cegando-o e atordoando todos ao redor. Depois disso não há mais sinais do ladino arcano nem do artefato lendário que eles vieram pegar.
+
+"Que bagunça, e bem no meio da rua dos Joalheiros.", resmunga Dresden Ironfist, o chefe da guarda da cidade. Ele odeia aquele lugar, aquela cidade, aquele brasão e todo o peso que vem com ele, mas acima de tudo ele odeia a si mesmo e a sua fraqueza perante os dados, que lhe rendeu uma dívida estratosférica e toda a sua família refém de criminosos. Ele olha para o seus colegas, todos homens de honra, com família, filhos, e interesses sombrios sendo explorados pela Rede. Só resta a Dresden suspirar, mandar eles limparem aquela bagunça e ir reportar a situação ao Rei.
