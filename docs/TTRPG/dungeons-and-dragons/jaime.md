@@ -1,4 +1,10 @@
-# Jaime Vilanova, O Trapaceiro Arcano
+# Jaime Vilanova
+
+## Intro
+
+Jaime é um ladino arcano que ficou conhecido em Waterdeep como seu alter-ego Saulo Boaventura. Jaime aprendeu tudo sobre ladinagem nas ruas da cidade dos lordes, e era perito em jogos de azar e golpes elaborados para lucrar nas costas dos nobres e comerciantes. Sua vida mudou completamente quando ele afanou um diário criptografado de Ibbalar Thrul, o arcanista aprendiz do grande mago louco Halaster Blackcloak. Ao ler os segredos contidos no diário, Jaime foi aprendendo feitiços de encantamento e ilusão que ele atrelava aos seus golpes, porém não foi só isso que mudou, ele também foi absorvendo a personalidade do antigo mago, e quanto mais ele mergulhava dentro do submundo do crime, mais tomava forma seu alter-ego, Saulo Boaventura. A crise de identidade parece ter sido demais para o jovem ladino, pois pesadelos lúcidos começaram a atormentar o rapaz, que ia cada vez mais se perdendo entre as duas personalidades e as duas realidades das suas vidas. Em uma noite de bebedeira Jaime acaba acordando em um labirintico calabouço, onde ele encontra o Orbe do Conhecimento, utilizando lembranças ancestrais para desbloquear as armadilhar que protegiam o artefato, mas ele nem tem tempo para examinar o globo negro, pois seres encapuzados surgem no salão e o forçam a fugir. Finalmente no seu esconderijo ele acaba sendo surpreendido por seu irmão Carlos Boaventura, um magíster de alto escalão que diz já saber os passos de Jaime, e que o Chefe Obscuro da Rede Sombria, Sylvannus, está obcedado pelo artefato e não vai descansar até que ele o tenha nas mãos. Só resta a Jaime fugir da cidade e levar consigo o artefato.
+
+## Ascenção e Queda do Trapaceiro Arcano
 
 Jaime Vilanova começou sua notória carreira no distrito comercial de Waterdeep, enganando e roubando todos aqueles tolos o bastante em menosprezá-lo. Usando técnicas de ladino e charlatanismo que ele aprendeu nas ruas da cidade dos lordes, Jaime teve uma infância feliz e conturbada, sempre se metendo em encrencas com a Guarda da Cidade, apenas para ser salvo pelo seu irmão mais velho, Carlos Vilanova, um intelectual brilhante que estudava para se tornar um Juiz de Manto Negro. 
 
@@ -56,7 +62,7 @@ Jaime ainda estava se recuperando da sua fuga contra Grock quando seu irmão irr
 
 O orbe que ele tem nas mãos é o Orbe do Conhecimento, um artefato mágico e extremamente raro, que se tornou objeto de obsessão do chefe da maior organização do submundo de Waterdeep, Sylvannus.
 
-Sylvannus é um beholder que se auto-proclama descendente de Xanathar e é o atual Líder Obscuro da Rede Sombria, uma organização do submundo do crime responsável por todo o tipo de operações ilegais. Especialistas em contrabando, espionagem, chantagem e assassinato, a Rede é a escolha principal dos figurões de Waterdeep quando decidem jogar sujo. Além das volumosas quantias de ouro, seus contratantes acabam pagando indiretamente com capital político, que resultou em um crescente controle de Sylvannus sobre a guarda da cidade, os comerciantes dos pórticos e até alguns altos magistrados.
+Sylvannus é um beholder que se auto-proclama descendente de Xanathar e é o atual Chefe Obscuro da Rede Sombria, uma organização do submundo do crime responsável por todo o tipo de operações ilegais. Especialistas em contrabando, espionagem, chantagem e assassinato, a Rede é a escolha principal dos figurões de Waterdeep quando decidem jogar sujo. Além das volumosas quantias de ouro, seus contratantes acabam pagando indiretamente com capital político, que resultou em um crescente controle de Sylvannus sobre a guarda da cidade, os comerciantes dos pórticos e até alguns altos magistrados.
 
 Os magísteres de Waterdeep estavam divididos entre aqueles pegos pelas garras de Sylvannus, aqueles que foram corrompidos por ele e aqueles que ainda se mantiam firmes contra o movimento obscuro que tomava conta da ordem da cidade.
 
