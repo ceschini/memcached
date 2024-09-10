@@ -5,12 +5,15 @@
 ### Crônicas da Guerra em Azeroth
 
 Um tratado dos eventos que levaram a guerra entre a Humanidade e as Hordas Órquicas, _como relatadas_ por Sir Lothar, Cavaleiro do Reino.
+
 #### 559
 
-Tudo estava em paz por gerações sob o reinado do Rei Wrynn III. A criança feiticeira **Medhiv** nasce de uma relação entre o Conjurador da corte e uma misteriosa viajante. Depois da criança nascer, a mulher desaparece, e o bebê é levado para os cuidados da corte. 
+Tudo estava em paz por gerações sob o reinado do Rei Wrynn III. A criança feiticeira **Medhiv** nasce de uma relação entre o Conjurador da corte e uma misteriosa viajante. Depois da criança nascer, a mulher desaparece, e o bebê é levado para os cuidados da corte.
+
 #### 564
 
 O Rei Wrynn e Lady Varia tem seu primeiro e único filho, Príncipe Llane. O dia do seu nascimento é marcado com grande celebração, e o Rei distribui uma peça de ouro para todas as pessoas do reino.
+
 #### 571
 
 Medhiv alcança o seu 12.º aniversário, e como tal marca a Era da Ascensão da vida infantil para a vida adulta, e em breve o mesmo receberá o título de Aprendiz Conjurador da Corte. Porém, na véspera de tal ocasião, o garoto acorda no meio da noite com estranhos sonhos de criaturas viz. em perseguição em um abismo acidentado. Assim que seu pai toca a febril testa do garoto, uma explosão mágica começa a verter pelo jovem feiticeiro, mandando ondas de energia arcana longe o bastante para alertar os clérigos de Northsire Abbey. É necessário mais de 100 clérigos, em conjunto com o Conjurador, para salvar Medhiv, fazendo-o dormir em um sono profundo e um estado de coma. Seu pai, porém, não sobrevive ao embate e cai morto, sugado de toda sua energia vital.
@@ -47,11 +50,11 @@ Ela diz que ambos sairam exauridos do combate, mas ele conseguiu bani-la da sua 
 
 ### O Destino das Hordas Órquicas
 
-A história e lendas sobre a invasão e o domínio das terras dos Homens, *escrito por* Garona do Conselho Sombrio (Shadow Council).
+A história e lendas sobre a invasão e o domínio das terras dos Homens, _escrito por_ Garona do Conselho Sombrio (Shadow Council).
 
 As estórias de batalhas e vitórias sempre foram contadas, e no passado, era responsabilidade dos líderes de cada assalto documentar o passado. Ainda que bons líderes na guerra, esses chefes não tinham habilidade para colocar os escritos em palavras escritas. Eu apresento um exemplo:
 
-**"Thok vai por buraco brilhante. Aí eu caio, mas eu bem. Eu acho muitas coisas boas para comer. Nós achamos vilarejo. Nós esmagamos eles e comemos a sua comida. Thok vai parar agora. Cabeça dói de escrever"**
+> **"Thok vai por buraco brilhante. Aí eu caio, mas eu bem. Eu acho muitas coisas boas para comer. Nós achamos vilarejo. Nós esmagamos eles e comemos a sua comida. Thok vai parar agora. Cabeça dói de escrever"**
 
 O fato de que sou de linhagem tanto Órquica como Humana, combinado com as habilidades e o aprendizado que adquiri das minhas jornadas, me elevou para a posição que agora ocupo. Como chefe intérprete para o Shadow Council, o dever de preservar os acontecimentos de nossa conquista deste mundo, e a eventual cruzada para a terra da Humanidade, caiu sob meus ombros. Eu, Garona, agora humildemente apresento aquela história...
 

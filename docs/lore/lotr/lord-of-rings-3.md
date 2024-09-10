@@ -1,4 +1,4 @@
-# Lord of the Rings - O retorno do rei
+# O Senhor dos Anéis - O Retorno do Rei
 
 Gandalf e Pippin cavalgam em Scadufax rumo a cidade de Minas Tirith, avisando os guardas de Gondor que a tempestade está vindo. Eles chegam nas muralhas da cidade e sobem seus sete anéis até a torre do rei.
 

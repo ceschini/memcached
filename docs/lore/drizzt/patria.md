@@ -51,4 +51,3 @@ Drizzt retorna e tem um embate mortal com seu mestre de armas, zaknafein. Depois
 Zaknafein é pego pelas sacerdotisas Do’Urden, e descobre que elas haviam ouvido tudo, e que precisam matar Drizzt para voltar às graças de Lolth. Zak então se sacrifica no lugar. Enquanto isso Drizzt e Guenhwyvar entram em combate contra Masoj e Anton Sem Rosto. Anton tem uma varinha mágica dada a ele por matriarca Hunet, mas ao usar uma vez a varinha se quebra e explode numa grande bola de fogo. Drizzt mata Masoj, mas não antes de sofrer danos críticos, com braço e mão quebrados, se movendo apenas pela força do seu ódio contra aqueles que talvez tenham matado sua amiga pantera.
 
 Drizzt retorna para casa e descobre que Zak foi sacrificado para aplacar a fúria da Rainha Aranha. Ele decide confrontar Matriarca Malícia e foge com uma bomba de luz de Zak.
-

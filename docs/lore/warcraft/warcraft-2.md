@@ -31,4 +31,3 @@ Com a chegada dos refugiados azerothianos, o Rei Therenas convoca um conselho co
 Em Lordaeron, o bispo do agora destruído Northshire Abbey, Alonsus Faol, conclama os padres a pegarem em armas contra os demônios.
 
 Os estóicos anões das profundezas anciãs de Khaz Modan reportam que já tem orcs no seu reino montanhoso, e proporciona guerreiros e suas ferramentas de engenharia, com a promessa de que os orcs serão varridos de suas terras.
-

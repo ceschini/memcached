@@ -6,7 +6,7 @@ Jaime é um ladino arcano que ficou conhecido em Waterdeep como seu alter-ego Sa
 
 ## Ascenção e Queda do Trapaceiro Arcano
 
-Jaime Vilanova começou sua notória carreira no distrito comercial de Waterdeep, enganando e roubando todos aqueles tolos o bastante em menosprezá-lo. Usando técnicas de ladino e charlatanismo que ele aprendeu nas ruas da cidade dos lordes, Jaime teve uma infância feliz e conturbada, sempre se metendo em encrencas com a Guarda da Cidade, apenas para ser salvo pelo seu irmão mais velho, Carlos Vilanova, um intelectual brilhante que estudava para se tornar um Juiz de Manto Negro. 
+Jaime Vilanova começou sua notória carreira no distrito comercial de Waterdeep, enganando e roubando todos aqueles tolos o bastante em menosprezá-lo. Usando técnicas de ladino e charlatanismo que ele aprendeu nas ruas da cidade dos lordes, Jaime teve uma infância feliz e conturbada, sempre se metendo em encrencas com a Guarda da Cidade, apenas para ser salvo pelo seu irmão mais velho, Carlos Vilanova, um intelectual brilhante que estudava para se tornar um Juiz de Manto Negro.
 
 Filho de um ingenuo joalheiro local que confiava na lei e acreditava na bondade das pessoas, ele aprendeu desde muito cedo que, na Cidade dos Lordes, há apenas dois tipos de pessoas, wargs e rothés. E, vendo seu querido pai ser enganado e humilhado constantemente devido ao seu caráter gentil e humilde, decidiu que ele não seria apenas mais um rothé, se era para viver ali, que seja como um warg.
 
@@ -16,7 +16,7 @@ Depois de uma noite de trapaças na taverna local, e tendo lucrado dois dragões
 
 Ao passarem por uma viela mal iluminada, Jaime se aproveita de uma já esperada distração por parte de um casal de pequeninos que passam as noites discutindo e brigando na varanda do seu prédio para afanar o livro de segredos, que em um instante passa do bolso do casaco do comerciante para um compartimento secreto da sua bolsa de couro.
 
-Finalmente sozinho no seu esconderijo preferido, Jaime examina o livro que emana a magia na sua mão. Ele descobre que é o diário de um jovem arcanista chamado Ibbalar Thrul, um aprendiz do notório feiticeiro maluco Halaster Blackcloak, e nele estão contidos toda forma de experimentos e fórmulas mágicas para os mais variados feitiços. Um interesse incomum toma conta do jovem ladino, que sempre se interessou mais com os movimentos das ruas do que com as lições da escola de magísteres que a sua família tanto insistia em matriculá-lo. Tudo naquele livro parecia fantástico e extenuante, e ele rapidamente aprendeu os conhecimentos ali contidos, aplicando e aperfeiçoando seus truques e se tornando um perito em feitiços de ilusão e encantamento. Ele aplicava cada novo aprendizado nos seus truques e lucrava cada vez mais com isso, construindo uma notória carreira no submundo do crime. 
+Finalmente sozinho no seu esconderijo preferido, Jaime examina o livro que emana a magia na sua mão. Ele descobre que é o diário de um jovem arcanista chamado Ibbalar Thrul, um aprendiz do notório feiticeiro maluco Halaster Blackcloak, e nele estão contidos toda forma de experimentos e fórmulas mágicas para os mais variados feitiços. Um interesse incomum toma conta do jovem ladino, que sempre se interessou mais com os movimentos das ruas do que com as lições da escola de magísteres que a sua família tanto insistia em matriculá-lo. Tudo naquele livro parecia fantástico e extenuante, e ele rapidamente aprendeu os conhecimentos ali contidos, aplicando e aperfeiçoando seus truques e se tornando um perito em feitiços de ilusão e encantamento. Ele aplicava cada novo aprendizado nos seus truques e lucrava cada vez mais com isso, construindo uma notória carreira no submundo do crime.
 
 A partir das passagens e os pensamentos privados contidos no diário, Jaime foi absorvendo a personalidade do aprendiz Ibbalar, internalizando seu ego imenso e sua impressionante arrogância, com um crescente sentimento de superioridade perante todos a não ser ele mesmo, Ibbalar e o seu mestre, Halaster. As mudanças foram acontecendo como que por mágica, e o jovial brincalhão Jaime foi se tornando sedento por poder, cruel e vaidoso, culminando em seu alter-ego, Saulo Boaventura.
 
@@ -26,7 +26,7 @@ Cada vez mais absorto na leitura do diário, o jovem ladino então começa a ser
 
 Sonhos estranhos tormentam a sua mente, visões de um opulento castelo encravado na rocha desponta de um teto escuro e húmido. Chuva cai desse céu de pedra, e o clarão dos trovões destaca silhuetas antropomórficas que desafiam a lógica e a razão, fazendo com que cada célula do corpo de Jaime estremeça de pavor.
 
-Depois de uma noite de bebedeira, Jaime se dirige trôpego para os seus aposentos, mas ao dobrar uma esquina percebe que não está mais pisando na calçada de pedras lisas da ala comercial, mas sim em um intricado calabouço, com paredes iluminadas pelos mais complexos mecanismos, vertendo essência arcana. 
+Depois de uma noite de bebedeira, Jaime se dirige trôpego para os seus aposentos, mas ao dobrar uma esquina percebe que não está mais pisando na calçada de pedras lisas da ala comercial, mas sim em um intricado calabouço, com paredes iluminadas pelos mais complexos mecanismos, vertendo essência arcana.
 
 Jaime tem a sensação de que já esteve naqueles corredores, e memórias muito antigas parecem vir a sua mente, de tempos em que ele perambulava os salões subterrâneos da cidade, o lugar de morada do mago louco Halaster e de seu aprendiz Ibbalar, a Undermountain. Se guiando por esse conhecimento primitivo, ele avança no calabouço labiríntico com passos vacilantes até que se vê de frente para um vasto salão, com grossos pilares de pedra talhada, iluminados por gigantescos lustres e que centralizam sua luz para o meio do salão, onde um globo negro flutua em cima de pedestal elevado. O pedestal é coroado pelos ossos de aventureiros que fracassaram em desvendar os segredos do círculo mágico que protege o artefato.
 
@@ -42,11 +42,11 @@ Jaime apenas conseguia observar confuso o que estava acontecendo, mas quando per
 
 Ele mal teve tempo de apreciar o objeto em suas mãos quando passos apressados começaram a ecoar do túnel às suas costas. Assustado e com um pressentimento de perigo, Jaime guarda o Orbe na sua bolsa antes de se camuflar nas sombras de um dos cantos do salão.
 
-Duas figuras encapuzadas adentram o salão sorrateiramente, e se dirigem para o pedestal agora desativado e dormente. A figura da esquerda parece um pé maior que a outra, e os chifres que escapam para fora do seu capuz traiem a sua raça: Era um tiefling, e parecia o líder da dupla. 
+Duas figuras encapuzadas adentram o salão sorrateiramente, e se dirigem para o pedestal agora desativado e dormente. A figura da esquerda parece um pé maior que a outra, e os chifres que escapam para fora do seu capuz traiem a sua raça: Era um tiefling, e parecia o líder da dupla.
 
 Ele estica o braço e trava o avanço do seu ansioso companheiro, e com uma voz imperiosa e grave diz em comum: "Espere, Sylvannus disse que o Orbe do Conhecimento estaria flutuando em um pedestal no centro do salão e, a não ser que o mapa do calabouço esteja errado, era para ser aqui".
 
-Num tom um nível acima do seu companheiro, e com uma voz esganiçada, o outro responde irritado: "Hummnnha! Eu paguei muito caro nesse maldito mapa pra ele tá errado. Não, não, ele tá certo, tem que estar certo, era pra ser aqui". 
+Num tom um nível acima do seu companheiro, e com uma voz esganiçada, o outro responde irritado: "Hummnnha! Eu paguei muito caro nesse maldito mapa pra ele tá errado. Não, não, ele tá certo, tem que estar certo, era pra ser aqui".
 
 O tiefling então solta um grunhido e avança em direção ao pedestal, olhando o mapa e se certificando de que estava pisando exatamente nos blocos do piso livre de armadilhas, com o outro capanga o seguindo meio encurvado logo atrás.
 
