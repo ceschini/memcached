@@ -1,4 +1,4 @@
-# Processo de Predição com CLIP
+# Processo de Classificação com CLIP
 
 ## 1. Gerando Embeddings
 
