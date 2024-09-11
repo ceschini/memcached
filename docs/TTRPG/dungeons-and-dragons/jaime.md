@@ -87,3 +87,7 @@ Jaime ainda tentou teimosamente argumentar, mas ambos sabiam o que tinha de ser 
 Grock amaldiçoava o humano arrogante que o tinha feito de bobo nos corresdores, e o seu irmão de robes pomposos com seus truques mágicos. Fez um sinal para que o resto do bando atacasse. "Vamos rapazes, pela luzinha fraca daquele treco mágico, ele tá ficando sem suco, ataquem! Agora! Cuidado com os truques daquele ali, não o deixem escapar!" Mas já era tarde demais, Carlos canalizava o restante de energia arcana presente no seu bracelete para conjurar um raio de luz colorida que desintegrou um dos capangas ao lado de Grock, cegando-o e atordoando todos os demais ao seu redor. Depois disso não havia mais sinais do ladino arcano nem do artefato lendário que os Yuan-ti haviam vindo pegar.
 
 "Que bagunça, e bem no meio da rua dos Joalheiros.", resmunga Dresden Punho de Ferro, chefe da guarda da cidade. Ele odiava aquele lugar, aquela cidade, aquele brasão e todo o peso que vinha com aquilo, mas acima de tudo ele odiava a si mesmo e a sua fraqueza perante os dados, que lhe rendeu uma dívida estratosférica capaz de manter toda a sua família refém de criminosos. Ele olha para o seus colegas, todos homens de honra, com família, filhos, e interesses sombrios sendo explorados pela Rede. Só restava a Dresden suspirar, mandar eles limparem aquela bagunça e ir reportar a situação ao Conselho.
+
+---
+
+Revisão: Kayder
