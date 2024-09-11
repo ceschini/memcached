@@ -90,4 +90,4 @@ Grock amaldiçoava o humano arrogante que o tinha feito de bobo nos corresdores,
 
 ---
 
-Revisão: Kayder
+Obrigado Mestre Kayder pela revisão!
