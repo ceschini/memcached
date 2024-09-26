@@ -6,7 +6,7 @@ Target: structured output problems, where the observed target is composed of mul
 
 Machine translation: automatically translate a sentence from the *source language* to the *target language*.
 
-Alignment: where should I look in the input to generate the desired output? Not only to map the input to the correct ouput, but also to model the structure within the output sequence.
+Alignment: where should I look in the input to generate the desired output? Not only to map the input to the correct output, but also to model the structure within the output sequence.
 
 Attention mechanisms: Components of prediction systems that allow the system to sequentially focus on different subsets of the input.
 
