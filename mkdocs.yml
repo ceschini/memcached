@@ -38,7 +38,9 @@ plugins:
   - blog
   - social
   - search
+  - ezlinks:
+      wikilinks: true
 
-markdown_extensions: 
+markdown_extensions:
   - toc:
       permalink: true
