@@ -1,0 +1,9 @@
+# Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation
+
+Motivated by Swin Transformer's success, the authors propose Swin-Unet to leverage the power of Transformer for 2D medical image segmentation. Swin-Unet is a pure Transformer-based U-shaped architecture that consists of encoder, bottleneck, decoder and skip connections.
+
+Swin-Unet consists of encoder, bottleneck, decoder and skip connections. The basic unit of Swin-Unet is the [[5_swin-transformer |Swin Transformer block]]. The input image is split into patches of fixed size, later embedded using a linear embedding layer. These transformed patch tokens are fed into the encoder, which consists of several Swin Transformer blocks and *patch merging layers* to generate the hierarchical feature representations. **Patch merging layers are responsible for down-sampling and increasing dimension**, while the Swin Transformer blocks are responsible for feature representation learning.
+
+Inspired by U-net, a symmetrical transformer-based decoder is designed. The extracted context features are fused with multiscale features from encoder via skip connections *to complement the loss of spatial information caused by down-sampling*. In contrast to patch merging layer, a **patch expanding layer is specially designed to perform up-sampling**. The patch expanding layer reshapes feature maps of adjacent dimensions into a large feature map with 2x up-sampling of resolution. After up-sampling a final linear projection layer is applied to output the pixel-level segmentation predictions.
+
+![[swin-unet-architecture.png]]

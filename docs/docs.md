@@ -3,7 +3,6 @@
 -  [[docs/CLIP/CLIP|CLIP]]
 -  [[docs/comuna/comuna|comuna]]
 -  [[docs/h264-handbook/h264-handbook|h264-handbook]]
--  [[docs/img/img|img]]
 -  [[docs/index|index]]
 -  [[docs/lore/lore|lore]]
 -  [[docs/programming/programming|programming]]

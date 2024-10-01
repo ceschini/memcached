@@ -18,6 +18,6 @@ So for each value, computes its weight based on its corresponding key and the ta
 
 Transformers attention function is called "Scaled Dot-Product Attention", and is a dot-product (multiplicative) attention computed on a set of queries and key-values packed together into matrices.
 
-This attention function is the basis for the Multi-Head Attention, a parallel attention operation based on the linear projections of the queries, keys and values. Allowing the model to jointly attend to information from different representation subspaces at different positions.
+This attention function is the basis for the **Multi-Head Attention**, a parallel attention operation based on the linear projections of the queries, keys and values. Allowing the model to jointly attend to information from different representation subspaces at different positions.
 
 ![[scaled-attention-and-multi-head.png]]
