@@ -53,7 +53,7 @@ $$P_X(1) = P(X = 1) = P (\{HT,TH\}) = \frac{1}{4} + \frac{1}{4} = \frac{1}{2},$$
 $$ P_X(2) = P(X = 2) = P (HH) = \frac{1}{4}.$$
 As we can see, the random variable can take three possible values $0$, $1$ and $2$. The event $X = 1$ is twice as likely as the other two possible values. We can plot the PMF to better visualize it.
 
-![[pmf-plot.png | PMF for random Variable $X$.]]
+![[docs/img/pmf-plot.png | PMF for random Variable $X$.]]
 
 The figure can be interpreted in the following way: If we repeat the random experiment (tossing a coin twice) many times, then about half of the times we observe $X = 1$, about a quarter of times we observe $X = 0$, and about a quarter of times we observe $X = 2$.
 

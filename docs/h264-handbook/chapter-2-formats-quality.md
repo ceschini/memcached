@@ -20,7 +20,7 @@ A natural visual scene is spatially and temporally continuous. Digital video is 
 
 To obtain a 2-D sampled image, a camera focuses a 2-D projection of the video scene onto a sensor, such as an array of _Charged Coupled Devices (CCDs)_.
 
-![[spatial-temporal-sampling.png]]
+![[docs/img/spatial-temporal-sampling.png]]
 
 #### 2.3.1 Spatial sampling
 
@@ -34,7 +34,7 @@ A moving video image is formed by taking a rectangular snapshot of the signal at
 
 A video signal may be sampled as a series of complete frames, **progressive** sampling, or as a sequence of interlaced fields, **interlaced** sampling. In an interlaced sampled video sequence, each frame contains only half of the horizontal sampled points, interchanging between the even and odd lines, in such a way that it can produce the same or even better perceived motion using only half of the information. Interlaced frames can be converted to progressive frames.
 
-![[interlaced-video-sequence.png]]
+![[docs/img/interlaced-video-sequence.png]]
 
 ### 2.4 Color space
 
@@ -90,7 +90,7 @@ There are three sampling patterns for Y, Cr and Cb that are supported by H.264/A
 
 In 4:2:2 sampling, sometimes referred to as YUY2, the chrominance components have the same vertical resolution as the luma but half the horizontal resolution. The numbers 4:2:2 mean that for every 4 luminance samples in the horizontal direction, there are 2 Cr and 2 Cb samples. This pattern is used for high-quality color representation.
 
-![[ycrcb-samplings.png]]
+![[docs/img/ycrcb-samplings.png]]
 
 In the popular 4:2:0 sampling format ('YV12'), Cr and Cb each have half the horizontal and vertical resolution of Y. This pattern is widely used for consumer applications such as video conferencing, digital television and digital versatile disk (DVD) storage. Because each color difference component contains 1/4 of the number of samples in the Y component, 4:2:0 Y:Cr:Cb video requires exactly 1/2 as many samples as 4:4:4 or R:G:B video.
 
@@ -107,7 +107,7 @@ Video compression algorithms can be applied to a variety of frame formats, and a
 | CIF | 352 x 288 | 1216512 |
 | 4CIF | 704 x 576 | 4866048 |
 
-![[cif-resolutions.png]]
+![[docs/img/cif-resolutions.png]]
 
 #### 2.5.2 Standard Definition
 
@@ -117,9 +117,9 @@ A widely-used format for digitally coding video signals for television productio
 
 Several High Definition (HD) video formats exist. The most widely used television display formats are listed in Table 2.3 and shown graphically in Figure 2.14. It is clear that HD formats require an even larger uncompressed storage and transmission rate than SD formats, showing how essential it is to compress video for practical applications.
 
-![[hd-formats-table.png]]
+![[docs/img/hd-formats-table.png]]
 
-![[hd-resolution-displays.png]]
+![[docs/img/hd-resolution-displays.png]]
 
 ### 2.6 Quality
 

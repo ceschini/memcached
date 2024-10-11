@@ -10,5 +10,5 @@ First, the current frame and the *previously compressed frame* are compared in o
 
 The **RAE** is responsible to generate latent representations of the motion and the residual frame, while **RPM** is responsible to compress them into a bit stream by recurrently predicting the temporally conditional PMF.
 
-![[rlvc-framework.png| RLVC framework]]
+![[docs/img/rlvc-framework.png| RLVC framework]]
 

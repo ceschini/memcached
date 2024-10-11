@@ -30,7 +30,7 @@ Finally, these coefficients together with the set of parameters from the predict
 
 Over at the decoder part, the received encoded bitstream is decoded by an entropy decoder, after which the spatial model is decoded to reconstruct the residual frame. The decoder uses the prediction parameters, _together with previously decoded image pixels_, to create a prediction of the current frame, and the frame itself is reconstructed by adding the residual frame to this prediction.
 
-![[encoder-drawing.jpg]]
+![[docs/img/encoder-drawing.jpg]]
 
 ## 3.3 Prediction model
 
@@ -76,7 +76,7 @@ Motion estimation of a macroblock involves finding a 16 x 16 sample region in a 
 
 The lume and chroma samples of the selected 'best' matching region in the reference frame are subtracted from the current macroblock to produce a residual macroblock that is encoded and transmitted together with a _motion vector describing the position of the best matching region relative to the current macroblock position_.
 
-![[motion-estimation.png]]
+![[docs/img/motion-estimation.png]]
 
 There are a lot of variations of the motion estimation and motion compensation (MEMC) explained above. For example, future frames might be more meaningful to the prediction of a macroblock, and then should be encoded before the current one, giving an out-of-order transmission. Sometimes there is a significant change in motion between two frames, and as such there is no gain in using motion compensation, in such cases the CODEC might use intra coding instead. Not every moving object will be encompassed in a 16 x 16 pixel size block, and dynamic sizes might be applied to better envelop objects on different scenes. 
 
@@ -90,7 +90,7 @@ Objects might not always move by integer valued pixels. And as such, sometimes i
 
 On the example below, the first stage of the motion estimation is to find the best match on the integer pixel grid (circles). The encoder searches the half-pixel positions immediately next to this best match (squares) to see whether the match can be improved and, if required, the quarter-pixel positions next to the best half-pixel position (triangles) are then search. The final match, at an integer, half-pixel or quarter-pixel position, is subtracted from the current block or macroblock.
 
-![[sub-pixel-motion-estim.png]]
+![[docs/img/sub-pixel-motion-estim.png]]
 
 In general, 'finer' interpolation provides better motion compensation performance, producing a smaller residual at the expense of increased complexity. The performance gain tends to diminish as the interpolation steps increase.
 
@@ -100,9 +100,9 @@ There is a trade-off in compression efficiency associated with more complex moti
 
 In the intra prediction mode, macroblocks of the current frame are predicted based on the already encoded macroblocks within the same frame. By doing so, it guarantees that only information already available for the decoder is used. This approach leverages the assumption that neighboring pixels are commonly correlated, and as such it will use this neighboring blocks of pixels in order to perform the prediction. Once the prediction has been generated, it is subtracted from the current block, similarly of that of inter prediction. The residual is transformed and encoded, together with an indication of how the intra coding was performed.
 
-![[intra-preds-available-samples.png]]
+![[docs/img/intra-preds-available-samples.png]]
 
-![[intra-preds-process.png]]
+![[docs/img/intra-preds-process.png]]
 
 ## 3.4 Image model
 
@@ -144,17 +144,17 @@ $X = A^TYA$
 
 Where $X$ is a matrix of samples, $Y$ is a matrix of coefficients and $A$ is an N x N transform matrix. The elements of $A$ are:
 
-![[dct-A-matrix.png]]
+![[docs/img/dct-A-matrix.png]]
 
 **_Example: N = 4_**
 
 The transform matrix $A$ for a 4 x 4 DCT is:
 
-![[dct-A-4x4-matrix.png]]
+![[docs/img/dct-A-4x4-matrix.png]]
 
 The cosine function is symmetrical and repeats after 2$\pi$ radians, and hence $A$ can be simplified to:
 
-![[simplified-dct-a-matrix.png]]
+![[docs/img/simplified-dct-a-matrix.png]]
 
 **The output of a 2-dimensional FDCT is a set of N x N coefficients representing the image block data in the DCT domain, which can be considered as 'weights' of a set of standard _basis patterns_.**
 
@@ -164,19 +164,19 @@ Any image block may be reconstructed by combining all N x N basis patterns, with
 
 Let $X$ be a 4 x 4 block of samples from an image:
 
-![[dct-example-x-block.png]]
+![[docs/img/dct-example-x-block.png]]
 
 The Forward DCT of $X$ is given by: $Y = AXA^T$. The first matrix multiplication, $Y'=AX$, corresponds to calculating the 1-dimensional DCT of each **column** of $X$. For example, $Y'00$ is calculated as follows:
 
-![[dct-y00-calc.png]]
+![[docs/img/dct-y00-calc.png]]
 
 The complete result of the column calculations is:
 
-![[dct-column-clac.png]]
+![[docs/img/dct-column-clac.png]]
 
 Carrying out the second matrix multiplication, $Y = Y'A^T$, is equivalent to carrying out a 1-D DCT on each **row** of $Y'$.
 
-![[dct-row-calc.png]]
+![[docs/img/dct-row-calc.png]]
 
 Note that the order of the row and column calculations does not affect the final result.
 
@@ -184,9 +184,9 @@ Note that the order of the row and column calculations does not affect the final
 
 Figure 3.30 shows an image with a 4 x 4 block selected, and Figure 3.31 shows the block in close-up, together with the DCT coefficients. The advantage of representing the block in the DCT domain is not immediately obvious, since there is no reduction in the amount of data; instead of 16 pixels values, we need to store 16 DCT coefficients. The usefulness of the DCT becomes clear when the block is reconstructed from a subset of the coefficients.
 
-![[image-with-4x4-block.png]]
+![[docs/img/image-with-4x4-block.png]]
 
-![[img-block-dct-close-up.png]]
+![[docs/img/img-block-dct-close-up.png]]
 
 Setting all the coefficients to zero except the most significant, coefficient (0,0) described as the 'DC' coefficient, and performing the IDCT gives the output block shown in Figure 3.32 (a) below, and it is the mean of the original pixel values. Calculating the IDCT of the two most significant coefficients gives the block shown in Figure 3.32 (b).
 
@@ -198,7 +198,7 @@ The 'wavelet transform' that is popular in image compression is based on sets of
 
 This process can be applied to a 2-D signal such as an intensity image (grayscale). First, the image is filtered on the x dimension by a low-pass and a high-pass filter. The resulting images are then downsampled by a factor of two, followed by another low and high pass filtering, but now on the y dimension. A final downsampling is applied in order to produce four sub-band images: LL, HL, LH, HH.
 
-![[wavelets-process.png]]
+![[docs/img/wavelets-process.png]]
 
 These four 'sub-band' images can be combined to create an output image with the same number of samples as the original. 
 
@@ -206,7 +206,7 @@ LL is the original image, low-pass filtered in horizontal and vertical direction
 
 Between them, the four sub-band images contain all the information present in the original image, but the sparse nature of them makes it amenable to compression.
 
-![[wavelet-sub-bands.png]]
+![[docs/img/wavelet-sub-bands.png]]
 
 In an image compression algorithm, the LL sub-image can be filtered again in order to produce another level of decomposition, and repeated a set number of times. The high-pass filtered images contain information of low impact for the image and can then be dropped in order to further compress the image.
 
@@ -220,7 +220,7 @@ A simple example of scalar quantization is the process of rounding a fractional 
 
 A more general example of a uniform quantizer is:
 
-![[uniform-quantizer.png]]
+![[docs/img/uniform-quantizer.png]]
 
 Where $QP$ is a quantization 'step size'. The quantized output levels are spaced at uniform intervals of $QP$.
 
@@ -251,7 +251,7 @@ The significant DCT coefficients of a block of image or residual samples are typ
 
 The figure below plots the probability of non-zero DCT coefficients at each position in an 8 x 8 block in a QCIF residual frame. The non-zero DCT coefficients are clustered around the top-left (DC) coefficient, and the distribution is roughly symmetrical in the horizontal and vertical directions.
 
-![[dct-coeff-dist.png]]
+![[docs/img/dct-coeff-dist.png]]
 
 **_Scan_**
 
@@ -277,7 +277,7 @@ Many coefficients, in higher sub-bands, are near zero and may be quantized to ze
 
 We may consider a 'tree' of non-zero coefficients, starting with a 'root' in a low-frequency sub-band. A single coefficient in the LL band of layer 1 has one corresponding coefficient in each of the other bands of layer 1, meaning that these four coefficients correspond to the same region in the original image. The layer 1 coefficient maps to four corresponding child coefficients in each sub-band at layer 2, because layer 2 have twice the resolution of layer 1.
 
-![[wavelet-coef-children.png]]
+![[docs/img/wavelet-coef-children.png]]
 
 **_Zerotree encoding_**
 
@@ -307,7 +307,7 @@ Huffman coding assigns a VLC to each symbol based on the probability of occurren
 
 The motion vector difference (MVD) for video sequence 1 must be encoded. The table below lists the probability of the most commonly-occurring motion vectors and their **information content**, $log_2(1/p)$. To achieve optimum compression, _each value should be represented with exactly $log_2(1/p)$ bits_. '0' is the most common value, and the probability drops for larger motion vectors. This distribution is representative of a sequence containing **moderate motion**.
 
-![[probs-mvds-huffman.png]]
+![[docs/img/probs-mvds-huffman.png]]
 
 _1. Generating the Huffman code tree_
 
@@ -319,7 +319,7 @@ To generate a Huffman code table for this set of data, the following iterative p
 
 The procedure is repeated until there is a single 'root' node that contains all other nodes and data items listed 'beneath' it. This procedure is illustrated in the figure below.
 
-![[huffman-tree-ex1.png]]
+![[docs/img/huffman-tree-ex1.png]]
 
 _2. Encoding_
 
@@ -329,7 +329,7 @@ Encoding is achieved by transmitting the appropriate code for each data item. On
 
 High probability data items are assigned short codes, e.g. 1 bit for the most common vector '0'. The lengths of the Huffman codes, each an _integral_ number of bits, do not match the ideal lengths given by $log_2(1/p)$. No code contains any other code as a prefix, which means that, reading from the left-hand bit, each code is uniquely decodable.
 
-![[huff-codes-seq1.png]]
+![[docs/img/huff-codes-seq1.png]]
 
 _3. Decoding_
 
@@ -359,9 +359,9 @@ For each symbol present in a sequence, a slice of the range of fractional number
 
 After assigning a sub-range to each vector, the total range 0-1.0 has been divided amongst the data symbols (the vectors) according to their probabilities.
 
-![[mv-probs-subrange.png]]
+![[docs/img/mv-probs-subrange.png]]
 
-![[sub-range-example.png]]
+![[docs/img/sub-range-example.png]]
 
 _Encoding procedure_ for vector sequence (0, -1, 0, 2).
 
@@ -385,7 +385,7 @@ _Encoding procedure_ for vector sequence (0, -1, 0, 2).
 
 After finding the final sub-range, any number that falls between it can be chosen as the final symbol transmitted. It can be represented as a fixed-point fractional number using 9 bits, so our data sequence (0, -1, 0, 2) is compressed to a 9-bit quantity.
 
-![[arith-coding-sub-range-example.png]]
+![[docs/img/arith-coding-sub-range-example.png]]
 
 _Decoding procedure_
 
@@ -432,7 +432,7 @@ The major video coding standards released since the early 1990s have been based 
 
 The figure below shows the basic DPCM/DCT hybrid encoder and decoder. In the encoder, the video frame n ($F_n$) is processed to produce a coded or compressed bitstream. In the decoder, the compressed bitstream is decoded to produce a reconstructed video frame $F'_n$. The reconstructed output frame is not usually identical to the source frame. Most of the functions of the decoder are actually contained within the encoder, the reason for which will be explained later.
 
-![[dpcm-dct-encoder.png]]
+![[docs/img/dpcm-dct-encoder.png]]
 
 ***Encoder data flow***
 

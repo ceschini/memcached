@@ -10,7 +10,7 @@ Control parameters are stored as separate syntax sections such as Parameter Sets
 
 The following syntax examples will follow this format:
 
-![[syntax-example-format.png]]
+![[docs/img/syntax-example-format.png]]
 
 ## 5.2 H.264 syntax
 
@@ -18,7 +18,7 @@ The hierarchical organization of the H.264/AVC syntax can be seen in the figure 
 
 A **coded video sequence** begins with an Instantaneous Decoder Refresher (**IDR**) Access Unit, made up of one or more IDR slices, a special type of Intra coded slice. Subsequent video frames or fields, described as Access Units, are coded as slices. The video sequence ends when a new IDR slice is received, signalling a new coded sequence, or when the transmission is complete.
 
-![[syntax-overview.png]]
+![[docs/img/syntax-overview.png]]
 
 Each coded macroblock contains the following syntax elements:
 
@@ -38,7 +38,7 @@ An H.264 encoder converts video frames into compressed or coded pictures. H.264/
 
 Frames or fields are encoded to form coded pictures, each of which is composed of one or more slices. Slices are decoded to produce decoded pictures, which are stored in a Decoded Picture Buffer (DPB). Pictures in the DPB may be used for inter prediction of further coded pictures and/or output for display.
 
-![[picture-handling-h264.png]]
+![[docs/img/picture-handling-h264.png]]
 
 It is important to distinguish between three different orders of pictures: decoding order, the order in which pictures are decoded from the bitstream, display order, the order in which pictures are output for display, and reference order, the order in which pictures are arranged for inter prediction of other pictures.
 
@@ -48,7 +48,7 @@ The **display order** of pictures is determined by the parameters *TopFieldOrder
 
 The **reference order** of pictures is determined by one or two lists, each of which is an *ordered list of all the available decoded pictures*. A P slice uses a single list, **list0**, and a B slice uses two lists, **list0** and **list1**, each containing available reference pictures in different orders.
 
-![[decoded-picure-buffer.png]]
+![[docs/img/decoded-picure-buffer.png]]
 
 ### 5.3.4 Frame and field coding
 
@@ -70,7 +70,7 @@ $^1$ When decoding a field, there are effectively twice as many reference pictur
 
 For an interlaced video sequence, *field coding tends to be more efficient when there is significant motion* in the scene which tends to give larger changes between successive fields, whereas *frame coding tends to be more efficient in more static areas of the scene* where there is less change between successive fields. Switching between frame and field coding at the picture level is known as **Picture Adaptive Frame Field Coding (PAFF).**
 
-![[paff.png]]
+![[docs/img/paff.png]]
 
 #### 5.3.4.2 Coding macroblocks in frame or field mode (MBAFF)
 
@@ -106,7 +106,7 @@ Parameter Sets remain inactive until second order, and as such it is not used by
 
 There are different slice types with different sizes. The encoder may choose between one slice per picture, many slices per picture with many blocks per slice, or many slices per picture with a fixed number of macroblocks. Each type will be better for different scenarios and depending on the content of the sequence. See table below for slice types.
 
-![[slice_types.png]]
+![[docs/img/slice_types.png]]
 
 ### 5.6.2 Slice Header
 

@@ -4,7 +4,7 @@ Object detection is the task to compute bounding boxes on objects in a scene. Th
 
 The authors propose DEtection TRansformer (DETR), an object detection model that leverages CNNs and transformers to directly predicts in parallel the final set of detections using a bipartite matching, that uniquely assigns predictions with ground truth boxes.
 
-![[Pasted image 20240927105416.png]]
+![[docs/img/Pasted image 20240927105416.png]]
 
 Their approach simplifies the detection pipeline by dropping multiple hand-designed components that encode prior knowledge, like spatial anchors or non-maximal suppresion.
 
