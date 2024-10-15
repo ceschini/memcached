@@ -6,7 +6,7 @@ By [vcodex.com](https://www.vcodex.com/an-overview-of-h264-advanced-video-coding
 
 H.264 is an industry standard for video compression. It defines a format or syntax for compressed video and a method for decoding this syntax to produce a displayable video sequence. The document does not actually specify how to encode (compress) digital video, this is left for the manufacturer of the video encoder.
 
-![[h264_intro_1.png]]
+![[docs/img/h264_intro_1.png]]
 
 ## 2 How does an H.264 codec work?
 
@@ -20,11 +20,11 @@ The encoder processes a frame of video in units of a **Macroblock** (16x16 displ
 
 **Intra** prediction uses 16x16 and 4x4 block sizes to predict the macroblock from surrounding, previously-coded pixels within the same frame.
 
-![[intra-preds.png]]
+![[docs/img/intra-preds.png]]
 
 **Inter** prediction uses a range of block sizes (from 16x16 down to 4x4) to predict pixels in the current frame from similar regions in previously-coded frames.
 
-![[inter-preds.png]]
+![[docs/img/inter-preds.png]]
 
 ¹ Finding a suitable inter prediction is often described as **motion estimation**. Subtracting an inter prediction from the current macroblock is **motion compensation**.
 
@@ -32,7 +32,7 @@ The encoder processes a frame of video in units of a **Macroblock** (16x16 displ
 
 A block of residual samples is transformed using a 4x4 or 8x8 **integer transform**, an approximate form of the Discrete Cosine Transform (DCT). The transform outputs a set of **coefficients**, each of which is a weighting value for a standard basis pattern. When combined, the weighted basis patterns re-create the block of residual samples.
 
-![[dct-transform.png]]
+![[docs/img/dct-transform.png]]
 
 The output of the transform, a block of transform coefficients, is **quantized**, i.e. each coefficient is divided by an integer value. Quantization reduces the precision of the transform coefficients according to a quantization parameter (QP). The result is a block in which most or all of the coefficients are zero, with a few non-zero coefficients. The bigger the QP value is, the more coefficients are set to zero, resulting in a higher compression rate at the expense of image quality. The lower the QP, the better the quality of the decompressed image, at the expense of compression ratio.
 
@@ -71,19 +71,19 @@ Inter prediction creates a prediction model from one or more previously encoded 
 
 This is a two-level splitting mode that firstly partitions the macro block into block sizes ranging from 16x16 to 4x4 luminance samples. The luminance component of each macroblock may be split up in 4 ways: 16x16, 16x8, 8x16 or 8x8. Each of these sub-regions is a macroblock partition. If the 8x8 mode is chosen, each of the four 8x8 macroblock partitions within the macroblock may be split in a further 4 ways: 8x8, 8x4, 4x8, 4x4 (known as macroblock sub-partitions). These splits into partitions of variable size gives the possibility of a variety of combinations within each macroblock. This method of partitioning macroblocks into motion compensated sub-blocks of varying size is known as **tree structured motion compensation**.
 
-![[macroblocks.png]]
+![[docs/img/macroblocks.png]]
 
 A separate motion vector is required for each partition or sub-partition. Each motion vector must be coded and transmitted. In addition, the choice of partition(s) must be encoded in the compressed bitstream. The choice of partition size has a significant impact on compression performance. In general, a large partition size is appropriate for homogeneous areas of the frame, due to its need for few bits to signal the choice, and a small partition size may be beneficial for detailed regions, which may give a lower-energy residual after motion compensation.
 
 **Example**: The figure below shows a residual frame (without motion compensation). The AVC reference encoder selects the "best" partition size for each part of the frame, i.e. the partition size that minimizes the coded residual and motion vectors. The macroblock partitions chosen for each area are shown superimposed on the residual frame. In areas with little change between frames (in grey) a 16x16 partition is chosen; in areas of detailed motion (residual in black or white), smaller partitions are chosen.
 
-![[residual-partitions.png]]
+![[docs/img/residual-partitions.png]]
 
 ### 3.2 Sub-pixel motion vectors
 
 Each partition in an inter-coded macroblock is predicted from an area of the same size in a reference picture. The offset between the two areas (the motion vector) has 1/4-pixel resolution (for the luma component). The luma and chroma samples at sub-pixel positions do not exist in the reference picture, and so it is necessary to create them using interpolation from nearby image samples.
 
-![[sub-pixel-prediction.png]]
+![[docs/img/sub-pixel-prediction.png]]
 
 In the figure above, a macroblock must be predicted in the current frame (a). **The black arrow represents the motion vector**. If the horizontal and vertical components of the motion vector are integers (b), then the relevant samples in the reference block actually exist (grey dots). But if the motion vector have fractional values, then there is no match with the reference pixels, and the prediction samples are generated by interpolation between adjacent samples in the reference frame (white dots).
 
@@ -103,17 +103,17 @@ If a block or macroblock is encoded in intra mode, a prediction block is formed 
 
 Based on the available previously encoded and reconstructed samples, the encoder can choose between 9 modes for the prediction of the current luma block. The encoder may select the prediction mode for each block that minimizes the residual between P and the block to be encoded.
 
-![[luma-predict-modes.png]]
+![[docs/img/luma-predict-modes.png]]
 
 In this example, both upper and left blocks are available, and as such they will be used to predict the current luma block.
 
-![[luma-modes-direction.png]]
+![[docs/img/luma-modes-direction.png]]
 
 The arrows in Figure 3 indicate the direction of prediction in each mode. For modes 3-8, the predicted samples are formed from a weighted average of the prediction samples A-Q.
 
 The Sum of Absolute Errors (SAE) for each prediction indicates the magnitude of the prediction error. The smallest SAE indicates the best match to the actual current block. In the case of Figure 4, that is mode 7 (vertical-right).
 
-![[luma-pred-blocks.png]]
+![[docs/img/luma-pred-blocks.png]]
 
 ### 4.3 16x16 luma prediction modes
 
@@ -121,7 +121,7 @@ As an alternative to the 4x4 luma modes described above, the entire 16x16 luma c
 
 Mode 0 (vertical): extrapolation from upper samples (H). Mode 1 (horizontal): extrapolation from left samples (V). Mode 2 (DC): mean of upper and left-hand samples (H+V). Mode 3 (plane): a linear "plane" function is fitted to the upper and left-hand samples H and V. This works well in areas of smoothly-varying luminance.
 
-![[intra-16x16-prediction-modes.png]]
+![[docs/img/intra-16x16-prediction-modes.png]]
 
 This mode works best in homogeneous areas of an image.
 
@@ -139,5 +139,5 @@ For each current block C, the encoder and decoder calculate the `most_probable_m
 
 The encoder sends a flag for each 4x4 block, `use_most_probable_mode`. If the flag is `1`, the parameter `most_probable_mode` is used. If the flag is `0`, another parameter `remaining_mode_selector` is sent to indicate a change of mode.
 
-![[adjacent-blocks.png]]
+![[docs/img/adjacent-blocks.png]]
 

@@ -10,4 +10,4 @@ When trained on mid-sized datasets, their performance is sub-optimal, due to a l
 
 The standard Transformer receives as input a 1D sequence of tokens embeddings. To handle 2D images, the image is reshaped into a sequence of flattened 2D patches, that are flattened and mapped to the transformer dimensions with a *trainable linear projection*. A class token is prepended to the sequence of embeddings, this is a learnable embedding whose state at the output of the Transformer encoder serves as the representation of image features. Along with each patch embedding is a standard learnable 1D position embedding to retain positional information.
 
-![[Pasted image 20240927160816.png]]
+![[docs/img/Pasted image 20240927160816.png]]

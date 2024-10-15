@@ -8,7 +8,7 @@ Treinar classificadores de imagem requer normalmente exemplos muito bem anotados
 
 **\* Data-efficient image recognition with contrastive predictive coding**
 
-![[convirt-framework.png]]
+![[docs/img/convirt-framework.png]]
 
 The blue and green shades represent the image and text encoding pipelines, respectively. **Our method relies on maximizing the agreement between the true image-text representation pairs with bidirectional losses $l(v-->u)$ and $l(u --> v)$.**
 

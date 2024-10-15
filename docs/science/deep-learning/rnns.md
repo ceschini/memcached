@@ -6,11 +6,11 @@ A Recurrent Neural Network (RNN) is a type of neural network where the output fr
 
 ## The Architecture of an RNN
 
-![[rnn-feedback-loop.jpg | A simple RNN feedback loop]]
+![[docs/img/rnn-feedback-loop.jpg | A simple RNN feedback loop]]
 
 The feedback loop can be unrolled K times in order to reproduce time steps, as seen below.
 
-![[rnn-unfolding-loop.jpg]]
+![[docs/img/rnn-unfolding-loop.jpg]]
 
 In the above figures, the following notation is used:
 

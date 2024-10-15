@@ -6,4 +6,4 @@ Swin-Unet consists of encoder, bottleneck, decoder and skip connections. The bas
 
 Inspired by U-net, a symmetrical transformer-based decoder is designed. The extracted context features are fused with multiscale features from encoder via skip connections *to complement the loss of spatial information caused by down-sampling*. In contrast to patch merging layer, a **patch expanding layer is specially designed to perform up-sampling**. The patch expanding layer reshapes feature maps of adjacent dimensions into a large feature map with 2x up-sampling of resolution. After up-sampling a final linear projection layer is applied to output the pixel-level segmentation predictions.
 
-![[swin-unet-architecture.png]]
+![[docs/img/swin-unet-architecture.png]]

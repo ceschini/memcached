@@ -6,7 +6,7 @@ Contexts here resembles the feature kernels or filter maps of convolutional netw
 
 The idea of the authors is to improve contexts of *Neural Video Compression (NVC)* algorithms while keeping computational cost at low. They propose improvements both in temporal space as in spatial space.
 
-![[dcvc-dc-framework.png]]
+![[docs/img/dcvc-dc-framework.png]]
 
 **Nomenclature**:
 

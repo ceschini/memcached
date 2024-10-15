@@ -6,15 +6,15 @@ MPEG is actually an acronym for the Moving Pictures Experts Group, formed by the
 
 Compression is the event where a data source is transmitted from a *compressor*  to an *expander*, using a transmission channel. The goal here is to reduce the source data rate. The ratio between the source data rate and the channel data rate is called the *compression factor*, or *coding gain*. A compressor and expander in series is called a *compander*. They may as well be referred to *coder* and *decoder*, in which case the tandem pair may be called a *codec*.
 
-![[mpeg-1-compression.png | Compression pipeline]]
+![[docs/img/mpeg-1-compression.png | Compression pipeline]]
 
 Where the encoder is more complex than the decoder, the system is said to be asymmetrical. MPEG works in this way. The encoder is algorithmic or adaptive, whereas the decoder is 'dumb' and carries out fixed actions. This is advantageous in applications such as broadcasting, where there are a few data sources with encoders, and a lot of receivers with decoders.
 
-![[mpeg-2-compression.png | Smart encoder, 'dumb' decoder]]
+![[docs/img/mpeg-2-compression.png | Smart encoder, 'dumb' decoder]]
 
 MPEG does not standardize the encoder, but instead define how decoders must interpret the bitstream, in order to be *compliant*. The decoder have to be able to interpret allowable bitstream, but encoders can still be compliant even if it produces a sub-set of possible bitstreams.
 
-![[mpeg-3-compression.png | MPEG defines the bitstream, not the encoder]]
+![[docs/img/mpeg-3-compression.png | MPEG defines the bitstream, not the encoder]]
 
 MPEG goes beyond the bitstream definition, it also describes the protocol for multiplexing audio and video information, much like a television program.
 

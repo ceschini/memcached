@@ -24,7 +24,7 @@ Also, the scaling and inverse transform processes carried out by the decoder are
 
 The inverse transform and re-scaling or 'inverse quantization' processes are defined in the H.264/AVC standard and must be followed by every compliant decoder. The corresponding forward transform and quantization is not standardized, but can be derived from them.
 
-![[inverse-transform-quantization.png]]
+![[docs/img/inverse-transform-quantization.png]]
 
 In an H.264 encoder, a block of residual coefficients is transformed and quantized. The basic transform, 'core transform', is a 4 x 4 or 8 x 8 **integer transform**, a scaled approximation to the Discrete Cosine Transform, DCT. In certain cases, part of the output of this integer transform is further transformed, 'DC transform', using a Hadamard Transform. The transform coefficients are scaled and quantized.
 
@@ -34,7 +34,7 @@ A block of transform coefficients are scanned, i.e. converted to a linear array,
 
 However, in an interlaced field or a field of a progressive frame converted from interlaced content, vertical frequencies in each block tend to dominate because the field is vertically subsampled from the original scene. This means that non-zero coefficients tend to occur at the top and towards the left side of the block. A block in a field macroblock is therefore scanned in a modified field scan order.
 
-![[zig-zag-scan.png]]
+![[docs/img/zig-zag-scan.png]]
 
 ## 7.4 Coding
 
@@ -57,7 +57,7 @@ CAVLC is used to encode residual, scan ordered blocks of transform coefficients.
 
 The figure below shows a simplified overview of the CAVLC encoding process. A block of coefficients is scanned using zigzag or field scan and converted into a series of variable length codes (VLCs). Certain VLC tables are chosen based on local statistics, such as the number of non-zero coefficients in neighboring blocks and the magnitude of recently-coded coefficients.
 
-![[cavlc.png]]
+![[docs/img/cavlc.png]]
 
 CAVLC encoding of a 4 x 4 block of transform coefficients proceeds as follows.
 

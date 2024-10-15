@@ -10,7 +10,7 @@ In tasks such as semantic segmentation, that require dense prediction at the pix
 
 To overcome this issues the authors propose a general-purpose Transformer backbone called Swin Transformer, which constructs hierarchical feature maps and has linear computational complexity to image size.
 
-![[swin-transformer-hierarchical.png]]
+![[docs/img/swin-transformer-hierarchical.png]]
 
 Swin Transformer constructs a hierarchical representation by starting from small-sized patches and gradually merging neighboring patches in deeper Transformer layers. With these hierarchical feature maps, the Swin Transformer model can conveniently leverage advanced techniques for dense prediction.
 
@@ -26,13 +26,13 @@ Swin Transformer first splits an input RGB image into non-overlapping patches by
 
 To produce a hierarchical representation, the number of tokens is reduced by patch merging layers as the network gets deeper. The first patch merging layer concatenates the features of each group of 2 x 2 neighboring patches, and applies a linear layer on the 4C-dimensional concatenated features. **This reduces the number of tokens by a multiple of 2 x 2 = 4 (2x downsampling of resolution)**, and the output dimension is set to 2C.
 
-![[swin-transformer-architecture.png]]
+![[docs/img/swin-transformer-architecture.png]]
 
 ### Swin Transformer block
 
 Swin Transformer is built by replacing the standard multi-head self attention (MSA) module in a Transformer block by a module based on shifted windows, with other layers kept the same. A Swin Transformer block consists of a shifted window based MSA module, followed by a 2-layer MLP with GELU non-linearity in between. A LayerNorm (LN) layer is applied before each MSA and MLP module, and a residual connection is applied after each one of those.
 
-![[swin-transformer-blocks.png]]
+![[docs/img/swin-transformer-blocks.png]]
 
 Two successive Swin Transformer Blocks. W-MSA and SW-MSA are multi-head self attention modules with regular and shifted windowing (SW) configurations, respectively.
 
@@ -44,4 +44,4 @@ For efficient modeling, the authors propose to compute **self-attention within l
 
 To introduce cross-window connections while maintaining the efficient computation of non-overlapping windows, the authors propose a **shifted window partinioning approach** which alternates between two partinioning configurations in consecutive Swin Transformer blocks.
 
-![[shifted-window-approach.png]]
+![[docs/img/shifted-window-approach.png]]

@@ -10,7 +10,7 @@ The baseline models for Transformers were the competitive neural sequence transd
 
 Both encoder and decoder stacks are composed of a fixed number of identical layers. Each layer have two sub-layers, a multi-head self-attention mechanism and a simple position-wise fully connected feed-forward network. The decoder have a third sub-layer with a multi-head attention mechanism responsible to process the output of the encoder stack.
 
-![[transformers-architecture.png]]
+![[docs/img/transformers-architecture.png]]
 
 An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values and output are all vectors. The output is computed based on a weighted sum of the values, where the weight assigned to each value is computed by a *compatibility function* of the query with the corresponding key.
 
@@ -20,4 +20,4 @@ Transformers attention function is called "Scaled Dot-Product Attention", and is
 
 This attention function is the basis for the **Multi-Head Attention**, a parallel attention operation based on the linear projections of the queries, keys and values. Allowing the model to jointly attend to information from different representation subspaces at different positions.
 
-![[scaled-attention-and-multi-head.png]]
+![[docs/img/scaled-attention-and-multi-head.png]]

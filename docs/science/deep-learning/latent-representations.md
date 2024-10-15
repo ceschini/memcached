@@ -4,4 +4,4 @@ Latent representations are the summary of features that could fully describe an 
 
 "Considering an auto-encoder, the central layer of this network (after training) will contain a simplified representation of the input data (i.e. a summary of key features), which can be used to reconstruct the output."
 
-![[latent-representation-example.png | Latent representation example]]
+![[docs/img/latent-representation-example.png | Latent representation example]]

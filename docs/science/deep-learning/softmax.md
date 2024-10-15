@@ -8,7 +8,7 @@ The input values can be positive, negative, zero or greater than one, but the so
 
 Mathematically, Softmax is defined as follows:
 
-![[softmax-formula.png]]
+![[docs/img/softmax-formula.png]]
 This function takes a vector as input and calculates the exponential of each of it’s elements, followed by a normalization term to ensure that the output values are rounded up between 0 and 1.
 
 ## References

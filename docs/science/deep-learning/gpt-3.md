@@ -10,7 +10,7 @@ One possible route towards addressing these issues is **_meta-learning_** - whic
 
 It is as if the model recalls seeing something similar, and then by studying some examples or the text input, it can recover the correct samples for that specific task.
 
-![[meta-learning.png]]
+![[docs/img/meta-learning.png]]
 
 GPT-3 is basically a transformer language model trained with 175 billion parameters and then measured by its in-context learning abilities.
 

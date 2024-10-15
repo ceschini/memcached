@@ -16,7 +16,7 @@ The main contribution of this paper is the new approach for video compression, t
 
 _Maybe this suggests that it can better learn series of movements, which in case are not very interesting to our videos._
 
-![[dcvc-paradigm-shift.png]]
+![[docs/img/dcvc-paradigm-shift.png]]
 
 > For entropy modeling, we design a model which utilizes spatial-temporal correlation for higher compression ratio or only utilizes temporal correlation for fast speed.
 
@@ -28,7 +28,7 @@ Instead of using the previous predicted frame to encode the current one, they tr
 
 In residue coding, redundancy is subtracted between the predicted and the current frame, and is tied to entropy gains by the level of motion and pixel shifts between frames. Instead of using this approach, the authors propose leveraging a neural network to learn the correlation between the current and the predicted frame, removing redundancy in the process. This approach leverages the learning adaptability of the network to solve this new motions and contexts.
 
-![[dcvc-framework.png]]
+![[docs/img/dcvc-framework.png]]
 
 ## Entropy model
 
@@ -36,7 +36,7 @@ In order to encode the bit stream, the authors apply both hierarchical, spatial 
 
 This model utilizes spatial prior for higher compression ratio, but the instructions of this module are non-parallel, and as such can drastically reduce efficiency. On the other hand, temporal priors are fully parallel, and so a distinct accelerated mode with only this module is also proposed.
 
-![[entropy-model.png]]
+![[docs/img/entropy-model.png]]
 
 ## Context learning
 

@@ -16,7 +16,7 @@ H.264 is a method and a format for video compression, it specifies how the digit
 
 H.264 standard is contained in a document elaborated by two organizations, ITU-T and ISO/IEC. The document specifies what is an H.264 compressed syntax, and what are the required steps to decompressed it. It actually does not limit how this syntax will be made, leaving for the manufacturers of the encoder to develop and improve the best solution. 
 
-![[h264-standard-covered-steps.png]]
+![[docs/img/h264-standard-covered-steps.png]]
 
 ### 4.2.3 A toolkit for video compression
 
@@ -30,11 +30,11 @@ Based on the original video frame, the encoder will process the compressed bitst
 
 Data is processed in units of a **Macroblock**, 16 x 16 squared region of displayed pixels. In the encoder, a prediction macroblock is generated and subtracted, producing a residual that is transformed, quantized and bitstream encoded, ready to be sent to the decoder. Another process is followed along, where the quantized data are re-scaled and inverse transformed and added to the prediction macroblock to reconstruct a coded version of the original frame, which is stored for later predictions. 
 
-![[typical-h264-encoder.png]]
+![[docs/img/typical-h264-encoder.png]]
 
 Over at the decoder, the received bitstream is decoded, re-scaled and inverse transformed in order to form a decoded residual macroblock. The decoder generates the same prediction and adds the residual to form the final reconstructed macroblock.
 
-![[typical-h264-decoder.png]]
+![[docs/img/typical-h264-decoder.png]]
 
 ### 4.3.1 Encoder processes
 
@@ -47,11 +47,11 @@ The prediction methods supported by H.264 are more flexible than those in previo
 ---
 $^1$ Finding a suitable inter prediction is often described as **motion estimation**. Subtracting an inter prediction from the current macroblock is **motion compensation**.
 
-![[pred-flow-diag.png]]
+![[docs/img/pred-flow-diag.png]]
 
-![[intra-preds2.png]]
+![[docs/img/intra-preds2.png]]
 
-![[inter-preds2.png]]
+![[docs/img/inter-preds2.png]]
 
 #### 4.3.1.2 Transform and quantization
 
@@ -59,9 +59,9 @@ A block of residual samples is transformed using a 4 x 4 or 8 x 8 **integer tran
 
 The output of the transform, a block of transform coefficients, is **quantized**, i.e. each coefficient is divided by an integer value. Quantization reduces the precision of the transform coefficients according to a *quantization parameter (QP)*. Typically, the result is a block in which most or all of the coefficients are zero, with a few non-zero coefficients. Setting QP to a high value means that more coefficients are set to zero, resulting in high compression at the expense of poor decoded image quality. Setting QP to a low value means that more non-zero coefficients remain after quantization, resulting in better image quality at the decoder but also in lower compression.
 
-![[forward-transform.png]]
+![[docs/img/forward-transform.png]]
 
-![[quant-example.png]]
+![[docs/img/quant-example.png]]
 
 #### 4.3.1.3 Bitstream encoding
 
@@ -87,7 +87,7 @@ The quantized transform coefficients are **re-scaled**. Each coefficient is mult
 ---
 $^2$ This is often described as **inverse quantization**, but it is important to note that quantization is not a fully reversible process. Information removed during quantization cannot be restored during re-scaling.
 
-![[inverse-transform.png]]
+![[docs/img/inverse-transform.png]]
 
 An inverse transform combines the standard basis patterns, weighted by the re-scaled coefficients, to re-create each block of residual data. These blocks are combined to form a residual macroblock.
 
@@ -109,7 +109,7 @@ The Main Profile is perhaps the most widely used at the present time, with tools
 
 A second constraint is the amount of data that a decoder can handle, which is likely to be limited by the processing speed, memory capacity and display size at the decoder. An H.264/AVC **level** specifies an upper limit on the frame size, processing rate (number of frames or blocks that can be decoded per second) and working memory required to decode a video sequence. A particular decoder can only decode H.264 bitstreams up to a certain combination of Profile and Level.
 
-![[profiles-and-levels.png]]
+![[docs/img/profiles-and-levels.png]]
 
 The Profile and Level of an H.264 bitstream are signalled in the Sequence Parameter Set (Chapters 5 and 8).
 
@@ -117,7 +117,7 @@ The Profile and Level of an H.264 bitstream are signalled in the Sequence Parame
 
 H.264 provides a clearly defined format or **syntax** for representing compressed video and related information.
 
-![[h264-syntax.png]]
+![[docs/img/h264-syntax.png]]
 
 At the top level, an H.264 **sequence** consists of a series of 'packets' or Network Adaptation Layer Units, NAL Units or NALUs. These can include **parameter sets** containing key parameters that are used by the decoder to correctly decode the video data and **slices**, which are coded video frames or parts of video frames.
 
@@ -133,11 +133,11 @@ An H.264 decoder receives the following series of bits, describing an inter-code
 
 The header elements, the first eight bits and six syntax elements, indicate the macroblock type (P, one motion vector), the prediction parameters, in this case the x and y components of the motion vector, coded differentially from previously-received vectors, the coded block pattern which indicates that only one of the 4 x 4 blocks in the MB actually contains residual data and the quantization parameter, coded differentially from the previous macroblock.
 
-![[header-elements.png]]
+![[docs/img/header-elements.png]]
 
 The next 16 bits represent 5 syntax elements that specify the contents of the first and only non-zero coefficient block.
 
-![[coef-block-info.png]]
+![[docs/img/coef-block-info.png]]
 
 Decoding the macroblock proceeds as follows:
 
@@ -149,7 +149,7 @@ Decoding the macroblock proceeds as follows:
 - Add the prediction macroblock to the residual samples to reconstruct the decoded macroblock
 - Store as part of the decoded frame for display and/or for further prediction.
 
-![[p-macroblock-decoding.png]]
+![[docs/img/p-macroblock-decoding.png]]
 
 ## 4.7 H.264 in practice
 
@@ -162,7 +162,7 @@ Perhaps the biggest advantage of H.264 over previous standards is its compressio
 
 For example, a single-layer DVD can store a movie of around two hours' length in MPEG-2 format. Using H.264, it should be possible to store four hours or more of movie-quality video on the same disk, i.e. a lower bitrate for the same quality. Alternatively, H.264 compression format can deliver better quality at the same bitrate compared with MPEG-2 and MPEG-4 Visual.
 
-![[visual-comparison-formats.png]]
+![[docs/img/visual-comparison-formats.png]]
 
 The improved compression performance of H.264 comes at the price of greater computational cost. H.264 is more sophisticated than earlier compression methods, and this means that it can take significantly more processing power to compress and decompress H.264 video.
 
