@@ -28,6 +28,10 @@ Presence (PRS) represents force of personality. A creature’s ability to lie to
 
 Each characteristic has a score that runs from −5 to +5. The higher a score, the more impact the creature has with that characteristic. A baby bunny rabbit would have a Might score of −5, while an ancient dragon would have a Might score of 5. The average human has a score of 0 in all their characteristics. Characteristic scores are added to power rolls—the dice rolls you make whenever your character attempts a task with an uncertain outcome (see Power Rolls).
 
+### Resisting Potencies
+
+
+
 ## Dice
 
 This game uses ten-sided dice (also called d10s). Each player and the Director should have two of these. The game also makes occasional use of a six-sided die (called a d6), so it’s helpful if each player has one or two of those as well.
