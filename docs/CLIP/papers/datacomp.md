@@ -1,6 +1,6 @@
 # DataComp: In search of the next generation of multimodal datasets
 
-Datacomp is a testbed for dataset experiments centered around a new candidate pool of 12.8 billion image-text pairs from **Common Crawl**. They state that their best baseline outperformed CLIP's using the same training procedure and compute, *but what about dataset size?*.
+Datacomp is a testbed for dataset experiments centered around a new candidate pool of 12.8 billion image-text pairs from **Common Crawl**. They state that their best baseline outperformed CLIP's using the same training procedure and compute.
 
 They criticize how LAION-2B is unclear on how design choices such as the data source or filtering techniques affect the resulting models. And how there are thousands of ablation studies for algorithmic choices such as loss function and model architecture, but there are none about dataset composition.
 

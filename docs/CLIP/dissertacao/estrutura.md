@@ -1,6 +1,6 @@
 # Estrutura da Dissertação
   
-foco atual: Bias in zero-shot race classification  
+foco atual: Zero-shot race classification  using VLMs
   
 keywords: Facial attributes recognition, data bias, zero-shot, VLMs  
   

@@ -1,6 +1,6 @@
 # Survey
 
-**Subject**: Bias in Facial Attribute Recognition using zero-shot VLMs
+**Subject**: Facial Attribute Recognition using zero-shot VLMs
 
 **Research Questions**: 
 
@@ -31,7 +31,7 @@
 
 - Must include Vision Language Models
 - Must target facial attribute recognition or classification
-- Must also target race or ethnicity
+- Must include race/ethnicity
 - Must address bias
 
 **Exclusion**:
@@ -43,4 +43,4 @@
 
 ## Research Protocol
 
-After establishing a viable search string for a specific database, the results will be collected, further filtered based on 1) title, 2) abstract, and finally, 3) three pass approach. After the collection and filtering of papers, a final filtering of duplicates will be performe
+After establishing a viable search string for a specific database, the results will be collected, further filtered based on 1) title, 2) abstract, and finally, 3) three pass approach. After the collection and filtering of papers, a final filtering of duplicates will be performed
