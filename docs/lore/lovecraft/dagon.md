@@ -1,0 +1,3 @@
+# Dagon
+
+Um homem relata como sua tripulação mercadora foi capturada pelo alemães, durante a primeira guerra mundial. Ele consegue fugir em um pequeno barco e passa dias vagando pela imensidao do pacifico. Um certo dia acorda em um lodaçal negro e viscoso, fedendo a peixe e com cadáveres alienigenas. Ele escala um morro e se depara com um abismo, em uma encosta ele descobre um monolito antigo de adoração. Em alto relevo está contido a história de seres humanoides parecido com peixes e do tamanho de baleias. O homem é surpreendido por um desses seres se arrastando para fora do abismo e escalando o monolito, ele foge e consegue ser resgatado. No fim do seu relato ele é atormentado por barulhos vindo da porta e pela imagem de uma mão, e fatalmente se dirige para a janela.

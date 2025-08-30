@@ -1,0 +1,3 @@
+# FairPIVARA: Reducing and Assessing Biases in CLIP-Based Multimodal Models
+
+The authors of \cite{moreira2024fairpivara} explored how to mitigate bias in a pre-trained CLIP model adapted to Portuguese, called CAPIVARA. They used a multimodal bias dataset composed of images and good/bad concepts and investigated how often the model associates positive/negative terms to specific groups. After computing the embeddings and measuring the distance between each concept they were able to mitigate bias by dimension reduction.
