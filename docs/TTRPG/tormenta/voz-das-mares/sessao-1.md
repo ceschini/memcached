@@ -1,6 +1,8 @@
 # Roteiro - Sessão 1
 
-Pedir desculpas de antemão pelas eventuais pausas pra olhar no livro as coisas
+**Rolar dinheiro inicial**
+**Podem comprar itens com esse din**
+**Dar uma pot aleatoria pra Ana**
 
 ## Início
 
@@ -8,7 +10,7 @@ Sobre Nova Malpetrim. Cidade portuária, no sudoeste do reino de Arton, um ponto
 
 **"Vocês são aventureiros iniciantes que vieram até a cidade atraídos por promessas de oportunidades e aventuras, e acabaram se reunindo na taverna O Polvo Canhoto."**
 
-É uma taverna agitada e animada, cheia de gente bebendo, rindo, e cantando. A Taverneira é uma humana alta e morena chamada Mikhela. Ela tem cabelo preto e curto preso num coque, musculosa e com tatuagens que sugerem uma vida prévia de marinheira. Ela parece mega ocupada, indo pra lá e pra cá com vários pratos de comida, com uma feição meio estressada e ocupada no rosto.
+É uma taverna agitada e animada, cheia de gente bebendo, rindo, e cantando. A Taverneira é uma humana alta e morena chamada **Mikhela**. Ela tem cabelo preto e curto preso num coque, musculosa e com tatuagens que sugerem uma vida prévia de marinheira. Ela parece mega ocupada, indo pra lá e pra cá com vários pratos de comida, com uma feição meio estressada e ocupada no rosto.
 
 **Sugerir pros jogadores se apresentarem e interagirem se quiserem**.
 
