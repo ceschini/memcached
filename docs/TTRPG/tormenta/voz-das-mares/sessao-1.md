@@ -1,7 +1,9 @@
 # Roteiro - Sessão 1
 
 **Rolar dinheiro inicial**
+
 **Podem comprar itens com esse din**
+
 **Dar uma pot aleatoria pra Ana**
 
 ## Início
