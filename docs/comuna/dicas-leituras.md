@@ -53,3 +53,11 @@
 - "A revolução passiva: iberismo e americanismo no Brasil" - Luiz W. Vianna
 - "Dimitrov e a Luta Sindical" - https://www.marxists.org/portugues/dimitrov/livros/luta.htm
 - "Marx e os Sindicatos, A. Losovski" -  https://www.marxists.org/portugues/lozovski/ano/marx/index.htm
+
+## Colonialismo
+
+- "Discurso sobre o colonialismo" - Aimé Césaire
+- "Colonialismo e luta anti-colonial" - Losurdo
+- "Como a Europa subdesenvolveu a África" - Walter Rodney
+- "Peles negras Máscaras Brancas" - Fanon
+- "Os condenados da terra" - Fanon
