@@ -24,4 +24,4 @@ The following works are the heart of the Mythos and will make a good start:
 - At the Mountains of Madness
 - The Shadow Out of Time
 
-24-25
+Not a single mention to his racism, but ok.
