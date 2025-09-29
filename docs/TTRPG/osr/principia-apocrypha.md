@@ -64,3 +64,6 @@ Listen to that capricious muse, the dice. **Relying only on your own imagination
 
 Let them know where the main story is supposed to be, but if you expect them to zig, and they zag, go with it and improvise, *don't constrain or re-route them*. If you don't know what comes next, use random tables. Going with the crazy ideas of your players will let you join the fun and excitement of their chaos.
 
+## Get Them Thinking
+
+![](principia-2.png)
