@@ -1,5 +1,6 @@
-
 # The Cthulhu Mythos
+
+As written in Call of Cthulhu RPG.
 
 Based on the premise that knowledge and sanity are contraditory things. The more the human grasp the true extend of the cosmos the more it will lose his mind.
 
@@ -23,4 +24,3 @@ The Great Old Ones appear to be immensely powerful alien beings with supernatura
 Cthulhu is a Great Old One, and the most important one. With the rest of his race, he sleeps in a vast tomb at the bottom of the Pacific Ocean. Others of different forms exist and they are recorded as being both less powerful and more free than Cthulhu. But all those known on Earth are invoked or worshiped by humans. Some minor Great Old Ones may have no worshipers, but wizards may know spells to summon them.
 
 Other alien species are also important, and sometimes have been able to hold their own against Great Old Ones. Such beings vary in power and some are now extinct. At the dawn of the Cambrian age, beings known only as the elder things flew to the Earth. They inhabited much of the land, warred with other species, and finally were pushed back to Antarctica. The elder things, perhaps mistakenly, bred organisms eventually to evolve into the dinosaurs, mammals, and humanity. They also bred the horrible shoggoths, whose ultimate revolt led to the near-extinction of the elder things.
-

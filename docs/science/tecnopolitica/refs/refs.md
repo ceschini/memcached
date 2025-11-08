@@ -1,0 +1,42 @@
+# Referências
+
+- Pele negra mascaras brancas - fanon
+- Fabricalizacao da cidade e ideologia da circulacao -  terezinha ferrari
+-  O mundo do avesso
+- Tecnologia social: contribuições conceituais e metodológicas
+- Presença africana e teoria crítica da tecnologia: reconhecimento, designer tecnológico e códigos técnicos
+- [Big tech: a ascensao dos dados e a morte da politica](https://www.kobo.com/br/pt/ebook/big-tech?sId=0c40524c-fa4b-4482-a469-8f62c6b06afc&ssId=nnoRYwZU5Ixy2JYPVcUu-) - evgeny morozov
+- Digital Colonialism: The Evolution of us empire - michael kwet
+- [digital sovereingty or digital colonialism?](https://sur.conectas.org/en/digital-sovereignty-or-digital-colonialism/) - renata avila pinto
+- colonialismo digital a vista na guerra fria comercial - patricia mauricio 
+- [fetiche da tecnologia](https://lutasanticapital.com.br/products/o-fetiche-da-tecnologia-a-experiencia-das-fabricas-recuperadas-3a-edicao) - henrique novaes
+- a hipotese do colonialismo de dados - sergio amadeu
+- o que é colonialismo de dados - sergio rodrigo
+- Colonização algorítmica da África - abeba
+- organizacoes que matam - medeiros e silveira
+- [wikileaks e as tecnologias de controle](https://www.passeidireto.com/arquivo/18327665/o-fenomeno-wikileaks-e-as-redes-de-poder-sergio-amadeu-da-silveira?) - sergio amadeu
+- capitalismo gore - sayak valencia
+- reflexoes indigestas sobre a cor da morte - deivison faustino
+- f for fake - ian reilly
+- cibernetica, ciborgues e ciberespaco - joon ho kim
+- [linha do tempo do racismo algoritmico](https://desvelar.org/casos-de-discriminacao-algoritmica/) - tarcizio silva
+- gender shades - joy buolamwini et al.
+- algorithsm of oppression - safiya umoja noble
+- mulheres negras e o espaco virtual - nathaly fernandes
+- manifesto ciborgue - donna haraway
+- sociedade do cansaco - byung-chul han
+- o valor da informacao - marcos dantas
+- the costs of connection - nick e ulises
+- ideologia californiana - barbrook e cameron
+- fanon identitarismo branco - eduardo sombini
+- fanon: sociogenese - deivison faustino
+- interdicao do conhecimento - deivison faustino
+- [big other](https://journals.sagepub.com/doi/epdf/10.1057/jit.2015.5) - shoshana zuboff
+- [Quando Google encontrou Wikileaks](https://z-lib.fm/book/2918515/96de66/quando-o-google-encontrou-o-wikileaks.html) - julian assange
+- perspectiva amefricana - bianca kremer
+- Pillku
+- Tecnodiversidade
+- Favela hacklab
+- Gambiarra e o panoptico
+- Gambiarra como processo
+- 

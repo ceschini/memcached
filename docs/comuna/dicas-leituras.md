@@ -12,8 +12,7 @@
 
 ## Filosofia de Marx
 
-- MARX, Karl. Teses sobre Feuerbach (1845)
-- MARX, Karl; ENGELS, Friedrich. A ideologia alemã (1846) especialmente o 1º segmento com fragmentos de anotações sobre Feuerbach
+ - MARX, Karl; ENGELS, Friedrich. A ideologia alemã (1846) especialmente o 1º segmento com fragmentos de anotações sobre Feuerbach (Teses sobre Feuerbach (1845))
 - ENGELS, Friedrich. Do socialismo utópico ao socialismo científico (1880)
 - MARX, Karl. Carta a Pável V. Annenkov (1846)
 - ENGELS, Friedrich. A origem da família, da propriedade privada e do Estado (1884)

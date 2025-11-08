@@ -30,7 +30,7 @@ Mas esses artesãos acabam tomando o poder do senhor feudal e tornando eles mesm
 
 >A exploração da indústria por singulares tem como consequência necessária a **propriedade privada**. A **propriedade privada** terá, portanto, igualmente de ser abolida e, em seu lugar, estabelecer-se-á a utilização comum de todos os instrumentos de produção e a repartição de todos os produtos segundo acordo comum, ou a chamada **comunidade dos bens**.
 
-(Pelo que entendi a propriedade privada se refere à individualidade dos meios de produção, e ao aboli-la estamos utilizando as fábricas e a indústria de um modo geral para o bem de todos, distribuindo os produtos ao invés de vendê-los, ou distribuindo os lucros provenientes da venda.)
+(Pelo que entendi a propriedade privada se refere à **individualidade dos meios de produção**, e ao aboli-la estamos utilizando as fábricas e a indústria de um modo geral para o bem de todos, distribuindo os produtos ao invés de vendê-los, ou distribuindo os lucros provenientes da venda.)
 
 (Pode-se ler propriedade privada como **capitalismo**.)
 
@@ -89,6 +89,6 @@ Engels descreve três tipos de socialistas: feudais, burgueses e democráticos. 
 
 Depende da situação do país. Nos países onde a burguesia domina, os comunistas devem se aliar aos partidos políticos que mais se aproximarem das pautas em defesa do proletariado. Nos países onde há um regime mais autoritário ou, no caso da Alemanha em 1841, monarquista, os comunistas devem se aliar aos burgueses para levá-los ao poder tão depressa quanto possível, para, por sua vez, os derrubar o mais depressa possível.
 
-> Os comunistas têm, portanto, de continuamente tomar partido pelos burgueses liberais face aos governos [autoritários] e apenas de se **precaver de partilhar as auto-ilusões dos burgueses ou de dar crédito às suas afirmações sedutoras sobre as consequências benéficas da vitória da burguesia para o proletariado**.
+> Os comunistas têm, portanto, de continuamente tomar partido pelos burgueses liberais face aos governos \[autoritários] e apenas de se **precaver de partilhar as auto-ilusões dos burgueses ou de dar crédito às suas afirmações sedutoras sobre as consequências benéficas da vitória da burguesia para o proletariado**.
 
 No momento em que o governo burguês vencer, começa a luta de classes.

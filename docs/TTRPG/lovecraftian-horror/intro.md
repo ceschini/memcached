@@ -1,10 +1,6 @@
-## Call of Cthulhu Core Rulebook
+# Lovecraftian Horror RPGs
 
-Reading online [here](https://online.anyflip.com/sqtpd/mcdg/mobile/index.html) the \[standalone?] CoC RPG Core Rulebook.
-
-## An Overview of the Game
-
-In this game, the GM is called the "Keeper of Arcane Lore" ("Keeper" for short), and the players "Investigators of the Unknown" ("Investigators" for short).
+I'm looking into an RPG game with an OSR vibe. Call of Cthulhu is way too rules-heavy and does not harmonize with the rules-light fantasy OSRs I'm interested right now.
 
 ## Recommended Works
 
@@ -23,5 +19,3 @@ The following works are the heart of the Mythos and will make a good start:
 - The Whisperer in Darkness
 - At the Mountains of Madness
 - The Shadow Out of Time
-
-Not a single mention to his racism, but ok.
