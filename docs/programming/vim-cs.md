@@ -1,0 +1,23 @@
+# Comandos VIM
+
+- **Selecionar todo o texto**: `ggVG`
+- **Selecionar caracteres**: `v` (visual mode)
+- **Selecionar linhas**: `V` (linewise visual mode)
+- **Adicionar e ir para prox linha**: `o`
+- **Add e ir pra linha anterior**: `shift-o`
+- **Cortar (e deletar)**: `dd`
+- **Copiar (yank) toda a linha**: `yy`
+- **Procurar**: indo pra frente `/` , indo pra tras `?`
+- **Desfazer (ctrl-z)**: `u`
+- **Procurar e substituir**: `:[range]s/{pattern}/{string}/[flags] [count]`
+	- i.e, substituir foo por bar, em todas ocorrencias: `:%s/foo/bar/g`
+- **Ir para o fim da linha**: `$`
+- **Identar**: linha atual: `>>`, uma seleção `>`
+- **Ir para linha #**: `#G`
+	- i.e, pra ir pra linha 30: `30G`
+- **Prox palavra**: `w` e `W`
+- **Palavra anterior**: `b` e `B`
+- **Ir pro fim do arquivo**: `G)` ou só `G`?
+- **Ir pro início do arquivo**: `g`
+- **Ir pro fim do arquivo adicionando uma nova linha em edit mode**: `Go`
+- 

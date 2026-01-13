@@ -1,0 +1,3 @@
+# Ideia de Doutorado
+
+Estudar sobre o aplicativo de "Mercado Preditivo" Kalshi, Polymarket e os outros que existem. Basicamente um app onde tu pode apostar em literalmente TUDO. Trump Jr. tá envolvido, tá virando pandemia nos EUA e pode vir pro Brasil rapidinho (se é que já não está aqui). Explorar o papel disso nessa nova etapa do capitalismo, o dano à população pobre, etc. Dizem que isso é a "financeirização de tudo".

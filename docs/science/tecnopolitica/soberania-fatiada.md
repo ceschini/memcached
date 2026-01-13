@@ -20,7 +20,7 @@ O objetivo principal do estudo é comprovar como os serviços de "Nuvem soberana
 - João Francisco Cassino & Sérgio Amadeu da Silveira - **Colonialismo de Dados:  Como Opera a Trincheira Algorítmica na Guerra Neoliberal**
 - CARTA PÚBLICA CONTRA O ATAQUE DAS BIG TECHS À  SOBERANIA DIGITAL
 - Simona Levi - **Digitalización Democrática: soberania digital para las  Personas (2024)**
-- 
+- Fundação Getúlio Vargas - **Relatório de pesquisa:  soberania digital: para quê e para quem? Análise conceitual e política do conceito a  partir do contexto brasileiro.**
 
 **Variantes do tecnofeudalismo**:
 
@@ -30,3 +30,14 @@ O objetivo principal do estudo é comprovar como os serviços de "Nuvem soberana
 - Wolfgang Streeck
 - Michael Hudson
 - Robert  Brenner
+
+## Destaques
+
+### Serpro
+
+“No mundo da computação em nuvem, a mera localização de dados é insuficiente para garantir a soberania porque, a depender da arquitetura da rede que guarda e processa os dados, dos equipamentos selecionados e dos softwares utilizados nessas redes, os fornecedores das soluções podem ter acesso às informações que se pretende proteger.” (Cassino, 2025, p. 112)
+
+“A dependência de fornecedores de nuvem pode levar uma estatal, como o Serpro, a uma irrelevância funcional. Se os serviços oferecidos pela empresa são instâncias de soluções privadas, basta uma decisão de governo para que esses serviços sejam transferidos diretamente para as multinacionais. O pensamento dominante de parte das forças políticas no Brasil é o neoliberalismo, que tem nas privatizações um de seus pilares. Em democracias, quando ocorre alternância de poder, geralmente ocorrem mudanças de orientação governamental. Nesse contexto hipotético, o Serpro poderia ser vendido ou fechado.” (Cassino, 2025, p. 126)
+
+“As tecnologias digitais são aparatos de vigilância nunca antes vistas na História. Para tratarmos de soberania digital, este é o primeiro ponto que precisa ser compreendido pelos gestores públicos responsáveis.” (Cassino, 2025, p. 128)
+

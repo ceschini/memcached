@@ -25,7 +25,7 @@
 
 - MARX, Karl. Trabalho assalariado e Capital (1849)
 - MARX, Karl. Salário, preço e lucro (1865)
-- MARX, Karl. Contribuição para a crítica da economia política (1859)especialmente o prefácio
+- MARX, Karl. Contribuição para a crítica da economia política (1859) especialmente o prefácio
 - MARX, Karl. O capital: crítica da economia política – Livro I: o processo de produção do capital (1867) recomendação primeiramente ao 1º capítulo “A mercadoria”
 - MARX, Karl. Manuscritos econômico-filosóficos (1844)capítulo “Trabalho estranhado e propriedade privada”
 - MARX, Karl. O método da economia política (1857)
@@ -43,6 +43,68 @@
 - MARX, Karl. Crítica do programa de Gotha (1875)
 - MARX, Karl. Sobre a questão judaica (1843)
 - MARX, Karl. 18 de brumário de Luís Bonaparte (1852)
+
+## Marxismo-Leninismo
+
+### Introdução
+
+- STALIN, Josef V. Sobre os fundamentos do leninismo (1924)
+- LENIN, Vladímir I. O Estado (1919)
+- LENIN, Vladímir I. O Estado e revolução (1917) 
+
+### Política econômica
+
+- LENIN, Vladímir I. O imperialismo, etapa superior do capitalismo (1916)
+- LENIN, Vladímir I. A economia e a política na época da ditadura do proletariado (1919)
+- STALIN, Josef V. Problemas econômicos do socialismo na URSS (1952) 
+ 
+### Filosofia
+
+- LENIN, Vladímir I. Sobre a questão da dialética (1915)
+- TSÉ-TUNG, Mao. Sobre a prática (1937)
+- TSÉ-TUNG, Mao. Sobre a contradição (1937)
+- LENIN, Vladímir I. Materialismo e empirocriticismo (1909)
+ 
+### Questão agrária
+
+- LENIN, Vladímir I. O desenvolvimento do capitalismo na Rússia (1899)
+- STALIN, Josef V. A questão agrária (1906)
+
+### Sobre revisionismo e oportunismo
+
+- LENIN, Vladímir I. O oportunismo e a falência da Segunda Internacional (1916)
+- LENIN, Vladímir I. Imperialismo e a cisão do socialismo (1916)
+- LENIN, Vladímir I. O que fazer? (1902)
+
+### Leituras complementares
+
+- LUKÁCS, György. Lênin: um estudo sobre a unidade de seu pensamento (1924)
+- LUKÁCS, György. História e consciência de classe (1923)
+ 
+## Marxismo-Leninismo-Maoísmo
+
+### Introdução
+
+- ZEDONG, Mao. Citações do presidente Mao Tsé-Tung (O livro vermelho) (1964)
+
+### Filosofia
+
+- ZEDONG, Mao. Sobre a prática (1937)
+- ZEDONG, Mao. Sobre a contradição (1937)
+- ZEDONG, Mao. Sobre o tratamento correto das contradições no seio do povo (1957)
+- ZEDONG, Mao. Contra o liberalismo (1937)
+- ZEDONG, Mao. Oposição ao culto de livros (1930)
+- ZEDONG, Mao. De onde vêm as ideias corretas? (1963) 
+
+### Táticas
+
+- ZEDONG, Mao. Sobre a guerra prolongada (1938)
+- ZEDONG, Mao. On guerrilla warfare (1938) \*sem versão em português
+- ZEDONG, Mao. Problemas estratégicos da guerra revolucionária na China (1936)
+
+### Economia política
+
+- ZEDONG, Mao. Sobre os “Problemas econômicos do socialismo na URSS” de Stalin (1958)
 
 ## Achados
 
