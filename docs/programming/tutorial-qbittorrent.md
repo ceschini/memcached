@@ -1,6 +1,6 @@
 # Como instalar e configurar o qBittorrent
 
-Etse passo-a-passo irá demonstrar como instalar o cliente de Bittorrent gratuito chamado qBittorrent, além de como ativar sua poderosa funcionalidade de busca, que permite encontrar o melhor repositório para o arquivo que se deseja baixar, independente de onde ele esteja hospedado.
+Este passo-a-passo irá demonstrar como instalar o cliente de Bittorrent gratuito chamado qBittorrent, além de como ativar sua poderosa funcionalidade de busca, que permite encontrar o melhor repositório para o arquivo que se deseja baixar, independente de onde ele esteja hospedado.
 
 ## Instalando pré-requisitos: Python
 
@@ -14,10 +14,9 @@ desmarque a opção "Iniciar quando pronto", e clique em "Instalar Python".
 
 ![instalando python](docs/img/install-python-manager.png)
 
-
 ## Instalando qBittorrent
 
-Vá para  [o site oficial do qBittorrent](https://qbittorrent.org) e clique na aba Download, desca a página e clique no primeiro link abaixo do Windows 10 / 11, "Download qBittorrent v5.1.4" (a versão pode ter mudado desde a publicação do tutorial).
+Vá para  [o site oficial do qBittorrent](https://qbittorrent.org) e clique na aba Download, desça a página e clique no primeiro link abaixo do Windows 10 / 11, "Download qBittorrent v5.1.4" (a versão pode ter mudado desde a publicação do tutorial).
 
 ![download qbittorrent](docs/img/download-qbittorrent.png)
 
@@ -51,7 +50,7 @@ Desça a página e navegue pela lista de motores de busca. Ao encontrar um que d
 
 ![qbittorrent copiar link](docs/img/qbittorrent-copiar-link.png)
 
-De volta no qBittorrent, clique em "Instalar um novo plugin", e depois em "Link da web", o link que foi copiado terá sido colado automaticamente na janela que abrir, depois disso basta clicar em ok.
+De volta no qBittorrent, clique em "Instalar um novo plugin" \(1\), e depois em "Link da web" \(2\), o link que foi copiado terá sido colado automaticamente na janela que abrir, depois disso basta clicar em Ok \(3\).
 
 ![qbittorrent instalar motor busca](docs/img/qbittorrent-instalar-motor-busca.png)
 
