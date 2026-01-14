@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "2560e5122b89ef76",
+    "type": "split",
+    "children": [
+      {
+        "id": "c95c45f6ef615bc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c31ee1362533bda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/programming/tutorial-qbittorrent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tutorial-qbittorrent"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e2fcde6b12a8bba",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4ee2e747a9b34d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6353e54008de4c13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7f441d08176444cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fd555981fc229688",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.51103591918945,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1f157223cdc6f718",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ac1698ae51afb76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2277b837c4333e43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/science/reviews/latinxai/instagram-credit-score.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for instagram-credit-score"
+            }
+          },
+          {
+            "id": "4ae3ecdfab90f5fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "72ebb5c72e80d39c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ea50d0ad152c4a7d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "5b2f139b2d5b9d51",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9c31ee1362533bda",
+  "lastOpenFiles": [
+    "Pasted image 20260113154439.png",
+    "Pasted image 20260113154214.png",
+    "Pasted image 20260113153923.png",
+    "Pasted image 20260113152524.png",
+    "Pasted image 20260113152355.png",
+    "Pasted image 20260113152029.png",
+    "Pasted image 20260113151617.png",
+    "Pasted image 20260113151528.png",
+    "Pasted image 20260113151040.png",
+    "Pasted image 20260113140005.png",
+    "Pasted image 20260113135928.png",
+    "docs/programming/tutorial-qbittorrent.md",
+    "docs/comuna/declaracao-pcmlv.md",
+    "aurora.md",
+    "docs/comuna/dicas-leituras.md",
+    "docs/science/tecnopolitica/yarvin-vale-silicio-JD-vance.md",
+    "docs/programming/vim-cs.md",
+    "Untitled.md",
+    "docs/science/tecnopolitica/soberania-fatiada.md",
+    "docs/science/tecnopolitica/corrida-tecno-imperialista.md",
+    "docs/science/tecnopolitica/kalshi-bets-financeirizar-tudo.md",
+    "docs/science/tecnopolitica/colonialismo-digital/refs.md",
+    "docs/science/tecnopolitica/empire-of-ai.md",
+    "docs/science/tecnopolitica/silveira-big-techs-militar.md",
+    "docs/TTRPG/pathfinder/outlaws_of_alkenstar/lobo-comboio.md",
+    "docs/science/tecnopolitica/big-tech-morozov/notas.md",
+    "docs/science/tecnopolitica/colonialismo-digital/notas.md",
+    "docs/science/tecnopolitica/big-other.md",
+    "docs/science/tecnopolitica/soberania-digital.md",
+    "docs/TTRPG/lovecraftian-horror/rats-in-the-wall/horror-na-cb.md",
+    "docs/science/oil-spill/eyesea-revision.md",
+    "docs/TTRPG/lovecraftian-horror/rats-in-the-wall/about.md",
+    "docs/TTRPG/lovecraftian-horror/rats-in-the-wall",
+    "docs/science/oil-spill/oil-spill-sat-img-deep-learning.md",
+    "docs/science/tecnopolitica/refs",
+    "docs/comuna/discurso-colonialismo.md",
+    "docs/science/oil-spill",
+    "docs/science/doutorado/intro.md",
+    "docs/TTRPG/osr/principia-apocrypha.md",
+    "docs/science/tecnopolitica/big-tech-morozov",
+    "docs/science/tecnopolitica",
+    "docs/TTRPG/shadowdark",
+    "site/search/search_index.json",
+    "site/search",
+    "site/blog/index.html",
+    "site/blog"
+  ]
+}
