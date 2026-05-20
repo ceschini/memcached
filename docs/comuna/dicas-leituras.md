@@ -27,7 +27,7 @@
 - MARX, Karl. Salário, preço e lucro (1865)
 - MARX, Karl. Contribuição para a crítica da economia política (1859) especialmente o prefácio
 - MARX, Karl. O capital: crítica da economia política – Livro I: o processo de produção do capital (1867) recomendação primeiramente ao 1º capítulo “A mercadoria”
-- MARX, Karl. Manuscritos econômico-filosóficos (1844)capítulo “Trabalho estranhado e propriedade privada”
+- MARX, Karl. Manuscritos econômico-filosóficos (1844) capítulo “Trabalho estranhado e propriedade privada”
 - MARX, Karl. O método da economia política (1857)
 - MARX, Karl. Grundrisse (1858)
 - MARX, Karl. O capital: crítica da economia política – Livro I: o processo de produção do capital (1867)

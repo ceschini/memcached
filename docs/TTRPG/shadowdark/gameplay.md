@@ -10,7 +10,7 @@ If there's a random chance for an outcome, such as whether a dropped torch goes 
 
 Sometimes the GM awards a **luck token** to a player for exceptional roleplaying, heroism or just plain coolness. Each player can only have one luck token at a time. They can give out to each other.
 
-Player can cash in a luck  token to reroll any roll they just made. Must use the new result.
+Player can cash in a luck token to reroll any roll they just made. Must use the new result.
 
 ## Difficulty Class
 
@@ -52,7 +52,7 @@ Characters are in **crawling rounds** while not in combat.
 
 ### The Shadowdark
 
-The Shadowdark is any place where darkness,  danger, and myth reign supreme. It could be among the  crumbling ruins buried inside a  forgotten mountain stronghold.  It could be within the  spellwrought castle of an  undead sorcerer who probes the  universe for arcane secrets.  It could be beneath the  cursed trees where squirming  abominations boil out of a black  pit, pulping all in their path.
+The Shadowdark is any place where darkness, danger, and myth reign supreme. It could be among the crumbling ruins buried inside a forgotten mountain stronghold. It could be within the spellwrought castle of an undead sorcerer who probes the universe for arcane secrets. It could be beneath the cursed trees where squirming abominations boil out of a black pit, pulping all in their path.
 
 ### Vision
 

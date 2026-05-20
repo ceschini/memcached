@@ -17,7 +17,17 @@
 	- i.e, pra ir pra linha 30: `30G`
 - **Prox palavra**: `w` e `W`
 - **Palavra anterior**: `b` e `B`
-- **Ir pro fim do arquivo**: `G)` ou só `G`?
-- **Ir pro início do arquivo**: `g`
-- **Ir pro fim do arquivo adicionando uma nova linha em edit mode**: `Go`
+- **Ir pro fim do arquivo**: `G`
+- **Ir pro início do arquivo**: `gg`
+- **Mudar Case**: `gu`(minúsculas), `gU` (maúsculas)
+- **substituir todas ocorrências de uma palavra**: 
+	- vai em cima da palavra
+	- `*cgn`
+	- escreve o substituto
+	- `<esc>` 
+	- `.` pra ir substituindo as próximas ocorrências
+- **Ir pra próxima ocorrência da palavra sob cursor**: \*
+- **Ir pra ocorrência anterior da palavra sob cursor**: \#
+- **Descer uma página**: `ctrl+f`
+- **Subir uma página**: `ctrl+b`
 - 
