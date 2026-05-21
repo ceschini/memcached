@@ -76,3 +76,17 @@ Três **viborianos** dançam, batucam tambores, e balançam seus rabos de chocal
 ## 11. Câmara do Gorgoroth
 
 Um quarto bagunçado cheio de livros. Um magro, homem cobra em vestes vermelhas (**viperian wizard**) se debruça sobre a mesa lendo um tomo, franzindo a testa. Ele sibila e resmunga para si.
+
+- **Bruxo Viboriano.** Gorgoroth. Ele tem uma estaca de madeira enfiada numa faixa na cintura, e lê projeções astrológicas sobre a melhor hora de atacar Shanti. Ele **oferece** aos PCs que ajudarem ele o *Cálice da Rainha Sangrenta* (se eles conseguirem achá-lo).
+
+## 12. Estátua da Deusa Serpente
+
+Uma **estátua** enorme de uma mulher cobra com múltiplos braços sentada numa base circular. Ela segura um **cajado** dourado com uma cabeça curvada de cobra, com olhos cravejados de rubis (*Staff of the Cobra*, livro pg 317). Pegar o cajado faz a estátua acordar e se tornar hostil por 1d4 turnos.
+
+## 13. Fonte da Piscina
+
+Uma **piscina** borbulhante de água flui de uma alcova para um canal no solo. Suspenso sobre ela por correntes está uma **estátua de pedra** de uma homem lagarto. Sangue escorre lentamente da sua boca para a água.
+
+- **Piscina.** 3 metros de profundidade. PCs que olharem na água verão seus reflexos distorcidos e seus rostos com aparência de cobra. DC 12 CHA ou serão hipnotizados por 1d4 turnos.
+- **Vampirodilo.** Animal de estimação da Shanti. Ele esgueira de baixo da água e salta pra fora para atacar criaturas na borda da piscina.
+- **Estátua.** Brask, um guerreiro do **povo lagarto** parcialmente petrificado e condenado ao sofrimento eterno. Shanti pôs ele ali para nutrir seu vampirodilo.
